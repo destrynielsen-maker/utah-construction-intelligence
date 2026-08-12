@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Utah Construction Intelligence</title>
+  <style>
+    :root { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; background: #f5f7fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: #172033; color: white; padding: 28px max(20px, calc((100vw - 1500px)/2)); }
+    header h1 { margin: 0 0 6px; font-size: 28px; }
+    header p { margin: 0; opacity: .8; }
+    main { max-width: 1500px; margin: 0 auto; padding: 22px; }
+    .cards { display: grid; grid-template-columns: repeat(5, minmax(150px, 1fr)); gap: 12px; margin-bottom: 18px; }
+    .card, .panel { background: white; border: 1px solid #e1e6ef; border-radius: 12px; box-shadow: 0 1px 2px rgba(0,0,0,.03); }
+    .card { padding: 16px; }
+    .card .label { color: #667085; font-size: 13px; }
+    .card .value { font-size: 25px; font-weight: 700; margin-top: 6px; }
+    .panel { padding: 16px; margin-bottom: 16px; }
+    .filters { display: grid; grid-template-columns: 1.3fr repeat(4, minmax(130px, .7fr)); gap: 10px; }
+    input, select { width: 100%; padding: 9px 10px; border: 1px solid #cfd6e2; border-radius: 8px; background: white; }
+    .feeds { display: flex; flex-wrap: wrap; gap: 8px; }
+    .feeds a { text-decoration: none; border: 1px solid #cfd6e2; border-radius: 999px; padding: 7px 11px; color: #172033; background: white; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { text-align: left; color: #667085; border-bottom: 1px solid #dfe5ee; padding: 10px 8px; white-space: nowrap; }
+    td { padding: 10px 8px; border-bottom: 1px solid #edf0f5; vertical-align: top; }
+    td.money, td.score, td.units, td.date { white-space: nowrap; }
+    .badge { display:inline-block; padding:3px 7px; border-radius:999px; background:#eef2f7; font-size:11px; font-weight:600; white-space:nowrap; }
+    .muted { color:#667085; }
+    .source-ok { font-weight: 600; }
+    .source-error { font-weight: 600; color: #9b2c2c; }
+    a { color: #175cd3; }
+    @media(max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .filters { grid-template-columns: 1fr 1fr; } }
+    @media(max-width: 560px) { .cards, .filters { grid-template-columns: 1fr; } main { padding: 12px; } }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Utah Construction Intelligence</h1>
+  <p>New single-family, multifamily and commercial building-permit leads</p>
+</header>
+<main>
+  <section class="cards">
+    <div class="card"><div class="label">Qualifying permits</div><div class="value" id="total">—</div></div>
+    <div class="card"><div class="label">Single family</div><div class="value" id="single">—</div></div>
+    <div class="card"><div class="label">Multifamily</div><div class="value" id="multi">—</div></div>
+    <div class="card"><div class="label">Commercial</div><div class="value" id="commercial">—</div></div>
+    <div class="card"><div class="label">Known valuation</div><div class="value" id="valuation">—</div></div>
+  </section>
+
+  <section class="panel">
+    <strong>RSS feeds</strong>
+    <div class="feeds" style="margin-top:10px">
+      <a href="feeds/new-construction.xml">All new construction</a>
+      <a href="feeds/multifamily.xml">Multifamily</a>
+      <a href="feeds/single-family.xml">Single family</a>
+      <a href="feeds/commercial.xml">Commercial</a>
+      <a href="feeds/top-opportunities.xml">Top opportunities</a>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="filters">
+      <input id="search" placeholder="Search address, builder, project, permit…">
+      <select id="classification"><option value="">All types</option><option>MULTIFAMILY</option><option>SINGLE_FAMILY</option><option>COMMERCIAL</option></select>
+      <select id="jurisdiction"><option value="">All jurisdictions</option></select>
+      <select id="days"><option value="0">All dates</option><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">Last year</option></select>
+      <select id="minScore"><option value="0">Any score</option><option value="20">Score 20+</option><option value="30" selected>Score 30+</option><option value="40">Score 40+</option><option value="50">Score 50+</option></select>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div style="display:flex;justify-content:space-between;gap:16px;align-items:end;flex-wrap:wrap;margin-bottom:8px">
+      <div><strong>Construction opportunities</strong><div class="muted" id="updated"></div></div>
+      <div class="muted" id="count"></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Score</th><th>Issued</th><th>Type</th><th>Jurisdiction</th><th>Project / Address</th><th>Builder / GC</th><th>Units</th><th>Valuation</th><th>Permit</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <strong>Source health</strong>
+    <div id="sources" style="margin-top:8px"></div>
+  </section>
+</main>
+<script>
+const money = n => n == null ? '—' : new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let permits=[];
+let generatedAt='';
+
+function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
+function render(){
+  const q=document.querySelector('#search').value.toLowerCase();
+  const cls=document.querySelector('#classification').value;
+  const jur=document.querySelector('#jurisdiction').value;
+  const days=Number(document.querySelector('#days').value);
+  const score=Number(document.querySelector('#minScore').value);
+  const cutoff=dateCutoff(days);
+  const rows=permits.filter(p => {
+    const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type].join(' ').toLowerCase();
+    return (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || p.issued_date>=cutoff) && (p.score>=score);
+  }).sort((a,b) => (b.score-a.score) || b.issued_date.localeCompare(a.issued_date));
+  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching permits`;
+  document.querySelector('#rows').innerHTML=rows.slice(0,1000).map(p=>`<tr>
+    <td class="score"><strong>${p.score}</strong></td>
+    <td class="date">${esc(p.issued_date)}</td>
+    <td><span class="badge">${esc(p.classification.replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></td>
+    <td>${esc(p.jurisdiction)}</td>
+    <td>${p.project_name?`<strong>${esc(p.project_name)}</strong><br>`:''}${esc(p.address||'—')}</td>
+    <td>${esc(p.contractor||'—')}</td>
+    <td class="units">${p.units ?? '—'}</td>
+    <td class="money">${money(p.valuation)}</td>
+    <td><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence)}</span></td>
+  </tr>`).join('');
+}
+
+async function boot(){
+  const permitPayload=await fetch('data/permits.json?'+Date.now()).then(r=>r.json());
+  permits=permitPayload.permits||[]; generatedAt=permitPayload.generated_at||'';
+  const qualified=permits;
+  document.querySelector('#total').textContent=qualified.length.toLocaleString();
+  document.querySelector('#single').textContent=qualified.filter(p=>p.classification==='SINGLE_FAMILY').length.toLocaleString();
+  document.querySelector('#multi').textContent=qualified.filter(p=>p.classification==='MULTIFAMILY').length.toLocaleString();
+  document.querySelector('#commercial').textContent=qualified.filter(p=>p.classification==='COMMERCIAL').length.toLocaleString();
+  document.querySelector('#valuation').textContent=money(qualified.reduce((s,p)=>s+(p.valuation||0),0));
+  document.querySelector('#updated').textContent=generatedAt ? `Data generated ${new Date(generatedAt).toLocaleString()}` : '';
+  [...new Set(permits.map(p=>p.jurisdiction))].sort().forEach(j=>document.querySelector('#jurisdiction').insertAdjacentHTML('beforeend',`<option>${esc(j)}</option>`));
+  ['search','classification','jurisdiction','days','minScore'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
+  render();
+  try {
+    const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
+    document.querySelector('#sources').innerHTML=(status.sources||[]).map(s=>`<div style="margin:5px 0"><span class="source-${s.status}">${esc(s.source)} — ${esc(s.status)}</span> <span class="muted">${s.records_seen||0} records / ${s.qualifying_records||0} qualifying. ${esc(s.note||'')}</span></div>`).join('');
+  } catch(e) { document.querySelector('#sources').textContent='Source status unavailable.'; }
+}
+boot();
+</script>
+</body>
+</html>
