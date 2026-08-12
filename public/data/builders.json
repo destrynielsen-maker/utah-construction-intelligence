@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-08-12T18:49:23+00:00",
+  "builders": [
+    {
+      "contractor": "Tri Pointe Homes Holdings Inc",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2066863.42,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Tri Pointe Homes Holdings",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1425769.28,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Vellinga Custom Homes",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 964457.62,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Zip 2 Construction LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 958142.33,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Searle construction",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 922888.9,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 50
+    },
+    {
+      "contractor": "Brenda Morrison",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 850000.0,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Tri Pointe Homes",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 821242.95,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "David Johnston",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 690876.73,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Patterson Homes",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 603739.14,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Ridgeway Construction",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 547725.45,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Jon Davis Construction Inc",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 495241.26,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "Havenbuilt Development LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 466603.23,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "Strickland Excavation",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 20
+    }
+  ]
+}

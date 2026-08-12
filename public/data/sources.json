@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-08-12T18:49:23+00:00",
+  "sources": [
+    {
+      "source": "Provo",
+      "status": "error",
+      "records_seen": 0,
+      "qualifying_records": 0,
+      "source_url": "https://gispublicweb.provo.gov/ArcGIS/rest/services/DevServ/CurrentProjects/FeatureServer/1",
+      "note": "RuntimeError: Provo ArcGIS error: {'code': 500, 'message': \"Error handling service request :Server object extension 'featureserver' not found.\", 'details': []}"
+    },
+    {
+      "source": "Orem",
+      "status": "ok",
+      "records_seen": 938,
+      "qualifying_records": 40,
+      "source_url": "https://orem.gov/wp-content/uploads/2026/08/Building-Permits-2026-Web-Jan-July-Consecutive.pdf",
+      "note": "Official City of Orem permit statistics PDF"
+    },
+    {
+      "source": "Summit County",
+      "status": "ok",
+      "records_seen": 808,
+      "qualifying_records": 84,
+      "source_url": "https://www.summitcountyutah.gov/558/Issued-Building-Permits",
+      "note": "Official Summit County issued-building-permits PDF"
+    }
+  ]
+}
