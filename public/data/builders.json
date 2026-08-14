@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T19:21:56+00:00",
+  "generated_at": "2026-08-14T02:47:13+00:00",
   "builders": [
     {
       "contractor": "Tri Pointe Homes Holdings Inc",
@@ -80,18 +80,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 821242.95,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "David Johnston",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 690876.73,
       "jurisdictions": [
         "Orem"
       ],
