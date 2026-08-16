@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T01:57:46+00:00",
+  "generated_at": "2026-08-16T06:59:46+00:00",
   "permits": [
     {
       "state": "UT",
@@ -26,7 +26,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "7/30/2026",
         "permit_number": "26-1400",
@@ -62,7 +62,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "7/28/2026",
         "permit_number": "26-1471",
@@ -98,7 +98,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "7/23/2026",
         "permit_number": "26-1515",
@@ -134,7 +134,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "7/21/2026",
         "permit_number": "26-1798",
@@ -170,7 +170,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "7/1/2026",
         "permit_number": "26-1469",
@@ -206,7 +206,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/30/2026",
         "permit_number": "26-1466",
@@ -350,7 +350,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/22/2026",
         "permit_number": "26-1539",
@@ -530,7 +530,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/16/2026",
         "permit_number": "26-1377",
@@ -566,7 +566,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/16/2026",
         "permit_number": "26-1202",
@@ -602,7 +602,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/15/2026",
         "permit_number": "26-1376",
@@ -890,7 +890,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/8/2026",
         "permit_number": "26-2922",
@@ -962,7 +962,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/2/2026",
         "permit_number": "26-1225",
@@ -998,7 +998,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/2/2026",
         "permit_number": "26-1224",
@@ -1034,7 +1034,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "6/1/2026",
         "permit_number": "26-1026",
@@ -1178,7 +1178,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "5/26/2026",
         "permit_number": "26-1675",
@@ -1430,7 +1430,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "5/15/2026",
         "permit_number": "26-1170",
@@ -1610,7 +1610,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "5/11/2026",
         "permit_number": "26-1093",
@@ -1826,7 +1826,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "5/8/2026",
         "permit_number": "26-0817",
@@ -1898,7 +1898,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "5/4/2026",
         "permit_number": "26-1008",
@@ -1934,7 +1934,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "4/30/2026",
         "permit_number": "26-0071",
@@ -2078,7 +2078,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "4/24/2026",
         "permit_number": "26-0782",
@@ -2438,7 +2438,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "4/13/2026",
         "permit_number": "26-0642",
@@ -2474,7 +2474,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "4/10/2026",
         "permit_number": "26-0675",
@@ -2510,7 +2510,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "4/9/2026",
         "permit_number": "26-0347",
@@ -2654,7 +2654,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "4/2/2026",
         "permit_number": "26-0500",
@@ -2690,7 +2690,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "3/30/2026",
         "permit_number": "26-0730",
@@ -2798,7 +2798,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "3/17/2026",
         "permit_number": "26-0565",
@@ -3086,7 +3086,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "3/5/2026",
         "permit_number": "26-0414",
@@ -3122,7 +3122,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "3/4/2026",
         "permit_number": "26-0409",
@@ -3230,7 +3230,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0310",
@@ -3266,7 +3266,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0410",
@@ -3302,7 +3302,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0019",
@@ -3338,7 +3338,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "2/25/2026",
         "permit_number": "26-0372",
@@ -3374,7 +3374,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "2/25/2026",
         "permit_number": "26-0198",
@@ -3950,7 +3950,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "1/26/2026",
         "permit_number": "26-1882",
@@ -3986,7 +3986,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0030",
@@ -4022,7 +4022,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0028",
@@ -4058,7 +4058,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0027",
@@ -4274,7 +4274,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "1/6/2026",
         "permit_number": "26-4142",
@@ -4454,7 +4454,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-08-16T01:57:46+00:00",
+      "last_seen_at": "2026-08-16T06:59:46+00:00",
       "raw": {
         "date": "1/2/2026",
         "permit_number": "26-3539",
