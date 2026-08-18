@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T18:58:11+00:00",
+  "generated_at": "2026-08-18T01:51:31+00:00",
   "sources": [
     {
       "source": "Provo",
@@ -20,8 +20,8 @@
     {
       "source": "Summit County",
       "status": "ok",
-      "records_seen": 808,
-      "qualifying_records": 84,
+      "records_seen": 995,
+      "qualifying_records": 92,
       "source_url": "https://www.summitcountyutah.gov/558/Issued-Building-Permits",
       "note": "Official Summit County issued-building-permits PDF"
     }
