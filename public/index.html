@@ -29,8 +29,15 @@
     td.money, td.score, td.units, td.date { white-space: nowrap; }
     .badge { display:inline-block; padding:3px 7px; border-radius:999px; background:#eef2f7; font-size:11px; font-weight:600; white-space:nowrap; }
     .muted { color:#667085; }
-    .source-ok { font-weight: 600; }
-    .source-error { font-weight: 600; color: #9b2c2c; }
+    .source-healthy { font-weight: 700; color: #067647; }
+    .source-warning { font-weight: 700; color: #b54708; }
+    .source-stale { font-weight: 700; color: #b54708; }
+    .source-degraded { font-weight: 700; color: #b54708; }
+    .source-error, .source-no_data { font-weight: 700; color: #b42318; }
+    .health-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:10px; margin-top:10px; }
+    .health-item { border:1px solid #e1e6ef; border-radius:10px; padding:11px 12px; background:#fbfcfe; }
+    .health-item .meta { color:#667085; font-size:12px; margin-top:4px; line-height:1.45; }
+    .health-summary { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; align-items:center; }
     a { color: #175cd3; }
     @media(max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .filters { grid-template-columns: 1fr 1fr; } }
     @media(max-width: 560px) { .cards, .filters { grid-template-columns: 1fr; } main { padding: 12px; } }
@@ -48,6 +55,14 @@
     <div class="card"><div class="label">Multifamily</div><div class="value" id="multi">—</div></div>
     <div class="card"><div class="label">Commercial</div><div class="value" id="commercial">—</div></div>
     <div class="card"><div class="label">Known valuation</div><div class="value" id="valuation">—</div></div>
+  </section>
+
+  <section class="panel" id="sourceHealthTop">
+    <div class="health-summary">
+      <div><strong>Source coverage</strong><div class="muted" id="coverageSummary">Loading source health…</div></div>
+      <div class="muted" id="coverageFreshness"></div>
+    </div>
+    <div class="health-grid" id="sourceCards"></div>
   </section>
 
   <section class="panel">
@@ -85,7 +100,7 @@
   </section>
 
   <section class="panel">
-    <strong>Source health</strong>
+    <strong>Source health details</strong>
     <div id="sources" style="margin-top:8px"></div>
   </section>
 </main>
@@ -136,8 +151,25 @@ async function boot(){
   render();
   try {
     const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
-    document.querySelector('#sources').innerHTML=(status.sources||[]).map(s=>`<div style="margin:5px 0"><span class="source-${s.status}">${esc(s.source)} — ${esc(s.status)}</span> <span class="muted">${s.records_seen||0} records / ${s.qualifying_records||0} qualifying. ${esc(s.note||'')}</span></div>`).join('');
-  } catch(e) { document.querySelector('#sources').textContent='Source status unavailable.'; }
+    const sources=status.sources||[];
+    const healthy=sources.filter(s=>s.status==='healthy').length;
+    const issues=sources.length-healthy;
+    document.querySelector('#coverageSummary').textContent=`${healthy} healthy / ${sources.length} configured${issues?` — ${issues} need attention`:''}`;
+    const newest=sources.map(s=>s.newest_permit_date).filter(Boolean).sort().pop();
+    document.querySelector('#coverageFreshness').textContent=newest?`Newest permit seen: ${newest}`:'';
+    document.querySelector('#sourceCards').innerHTML=sources.map(s=>{
+      const live=s.records_seen||0;
+      const cached=s.cached_records||0;
+      const countText=s.technical_status==='error' && cached ? `${cached.toLocaleString()} cached records` : `${live.toLocaleString()} records`;
+      const freshness=s.days_since_newest_permit==null ? 'freshness unknown' : `${s.days_since_newest_permit}d since newest permit`;
+      const success=s.last_success_at ? `Last success: ${new Date(s.last_success_at).toLocaleString()}` : 'No successful collection recorded';
+      return `<div class="health-item"><div class="source-${esc(s.status)}">${esc(s.source)} — ${esc(String(s.status).replace('_',' ').toUpperCase())}</div><div class="meta">${countText} · ${s.qualifying_records||s.cached_qualifying_records||0} qualifying<br>${freshness} · threshold ${s.freshness_threshold_days||'—'}d<br>${esc(success)}</div></div>`;
+    }).join('');
+    document.querySelector('#sources').innerHTML=sources.map(s=>`<div style="margin:7px 0"><span class="source-${s.status}">${esc(s.source)} — ${esc(String(s.status).replace('_',' ').toUpperCase())}</span> <span class="muted">technical: ${esc(s.technical_status||'unknown')}; freshness: ${esc(s.freshness_status||'unknown')}; ${s.records_seen||0} live records${s.cached_records?` / ${s.cached_records} cached`:''}; newest: ${esc(s.newest_permit_date||'—')}. ${esc(s.note||'')}</span></div>`).join('');
+  } catch(e) {
+    document.querySelector('#coverageSummary').textContent='Source status unavailable.';
+    document.querySelector('#sources').textContent='Source status unavailable.';
+  }
 }
 boot();
 </script>
