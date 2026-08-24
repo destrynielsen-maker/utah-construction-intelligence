@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:57:42+00:00",
+  "generated_at": "2026-08-24T19:01:16+00:00",
   "sources": [
     {
       "source": "Provo",
@@ -15,8 +15,8 @@
       "freshness_threshold_days": 10,
       "previous_records_seen": 60044,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-08-24T18:57:42+00:00",
-      "last_success_at": "2026-08-24T18:57:42+00:00",
+      "last_attempt_at": "2026-08-24T19:01:16+00:00",
+      "last_success_at": "2026-08-24T19:01:16+00:00",
       "cached_data_available": true,
       "source_url": "https://gispublicweb.provo.org/arcgis/rest/services/DevServ/CurrentProjects/MapServer/1",
       "note": "Official Provo Current Projects MapServer building-permit layer"
@@ -35,8 +35,8 @@
       "freshness_threshold_days": 40,
       "previous_records_seen": 938,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-08-24T18:57:42+00:00",
-      "last_success_at": "2026-08-24T18:57:42+00:00",
+      "last_attempt_at": "2026-08-24T19:01:16+00:00",
+      "last_success_at": "2026-08-24T19:01:16+00:00",
       "cached_data_available": true,
       "source_url": "https://orem.gov/wp-content/uploads/2026/08/Building-Permits-2026-Web-Jan-July-Consecutive.pdf",
       "note": "Official City of Orem permit statistics PDF"
@@ -55,8 +55,8 @@
       "freshness_threshold_days": 21,
       "previous_records_seen": 995,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-08-24T18:57:42+00:00",
-      "last_success_at": "2026-08-24T18:57:42+00:00",
+      "last_attempt_at": "2026-08-24T19:01:16+00:00",
+      "last_success_at": "2026-08-24T19:01:16+00:00",
       "cached_data_available": true,
       "source_url": "https://www.summitcountyutah.gov/558/Issued-Building-Permits",
       "note": "Official Summit County issued-building-permits PDF Newest permit is 24 days old; threshold is 21 days."
