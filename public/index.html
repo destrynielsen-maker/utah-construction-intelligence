@@ -19,12 +19,18 @@
     .card .value { font-size: 25px; font-weight: 700; margin-top: 6px; }
     .panel { padding: 16px; margin-bottom: 16px; }
     .filters { display: grid; grid-template-columns: 1.3fr repeat(4, minmax(130px, .7fr)); gap: 10px; }
-    input, select { width: 100%; padding: 9px 10px; border: 1px solid #cfd6e2; border-radius: 8px; background: white; }
+    .advanced-filters { display:grid; grid-template-columns:repeat(7,minmax(120px,1fr)); gap:10px; margin-top:10px; }
+    input, select, button.filter-action { width: 100%; padding: 9px 10px; border: 1px solid #cfd6e2; border-radius: 8px; background: white; color:#172033; }
+    button.filter-action { cursor:pointer; font-weight:600; }
+    button.filter-action:hover { background:#f4f7fb; }
     .feeds { display: flex; flex-wrap: wrap; gap: 8px; }
     .feeds a { text-decoration: none; border: 1px solid #cfd6e2; border-radius: 999px; padding: 7px 11px; color: #172033; background: white; }
     .table-wrap { overflow-x: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 13px; }
-    th { text-align: left; color: #667085; border-bottom: 1px solid #dfe5ee; padding: 10px 8px; white-space: nowrap; }
+    th { text-align: left; color: #667085; border-bottom: 1px solid #dfe5ee; padding: 0; white-space: nowrap; }
+    th .sort-btn { appearance:none; border:0; background:transparent; color:inherit; font:inherit; font-weight:600; width:100%; text-align:left; padding:10px 8px; cursor:pointer; white-space:nowrap; }
+    th .sort-btn:hover, th .sort-btn:focus-visible { background:#f4f7fb; color:#172033; outline:none; }
+    th .sort-indicator { display:inline-block; min-width:12px; margin-left:3px; color:#175cd3; }
     td { padding: 10px 8px; border-bottom: 1px solid #edf0f5; vertical-align: top; }
     td.money, td.score, td.units, td.date { white-space: nowrap; }
     .badge { display:inline-block; padding:3px 7px; border-radius:999px; background:#eef2f7; font-size:11px; font-weight:600; white-space:nowrap; }
@@ -39,8 +45,9 @@
     .health-item .meta { color:#667085; font-size:12px; margin-top:4px; line-height:1.45; }
     .health-summary { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; align-items:center; }
     a { color: #175cd3; }
-    @media(max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .filters { grid-template-columns: 1fr 1fr; } }
-    @media(max-width: 560px) { .cards, .filters { grid-template-columns: 1fr; } main { padding: 12px; } }
+    @media(max-width: 1100px) { .advanced-filters { grid-template-columns:repeat(4,1fr); } }
+    @media(max-width: 900px) { .cards { grid-template-columns: repeat(2, 1fr); } .filters { grid-template-columns: 1fr 1fr; } .advanced-filters { grid-template-columns:1fr 1fr; } }
+    @media(max-width: 560px) { .cards, .filters, .advanced-filters { grid-template-columns: 1fr; } main { padding: 12px; } }
   </style>
 </head>
 <body>
@@ -78,11 +85,20 @@
 
   <section class="panel">
     <div class="filters">
-      <input id="search" placeholder="Search address, builder, project, permit…">
+      <input id="search" placeholder="Search project, address, builder, permit, type, jurisdiction…">
       <select id="classification"><option value="">All types</option><option>MULTIFAMILY</option><option>SINGLE_FAMILY</option><option>COMMERCIAL</option></select>
       <select id="jurisdiction"><option value="">All jurisdictions</option></select>
       <select id="days"><option value="0">All dates</option><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">Last year</option></select>
       <select id="minScore"><option value="0">Any score</option><option value="20">Score 20+</option><option value="30" selected>Score 30+</option><option value="40">Score 40+</option><option value="50">Score 50+</option></select>
+    </div>
+    <div class="advanced-filters">
+      <input id="issuedFrom" type="date" title="Issued on or after" aria-label="Issued on or after">
+      <input id="issuedTo" type="date" title="Issued on or before" aria-label="Issued on or before">
+      <input id="maxScore" type="number" min="0" max="100" step="1" placeholder="Max score" aria-label="Maximum score">
+      <input id="minUnits" type="number" min="0" step="1" placeholder="Min units" aria-label="Minimum units">
+      <input id="minValuation" type="number" min="0" step="1000" placeholder="Min valuation $" aria-label="Minimum valuation">
+      <input id="maxValuation" type="number" min="0" step="1000" placeholder="Max valuation $" aria-label="Maximum valuation">
+      <button class="filter-action" id="resetFilters" type="button">Reset filters</button>
     </div>
   </section>
 
@@ -93,7 +109,17 @@
     </div>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Score</th><th>Issued</th><th>Type</th><th>Jurisdiction</th><th>Project / Address</th><th>Builder / GC</th><th>Units</th><th>Valuation</th><th>Permit</th></tr></thead>
+        <thead><tr>
+          <th><button class="sort-btn" data-sort="score">Score<span class="sort-indicator"></span></button></th>
+          <th><button class="sort-btn" data-sort="issued">Issued<span class="sort-indicator"></span></button></th>
+          <th><button class="sort-btn" data-sort="type">Type<span class="sort-indicator"></span></button></th>
+          <th><button class="sort-btn" data-sort="jurisdiction">Jurisdiction<span class="sort-indicator"></span></button></th>
+          <th><button class="sort-btn" data-sort="project">Project / Address<span class="sort-indicator"></span></button></th>
+          <th><button class="sort-btn" data-sort="contractor">Builder / GC<span class="sort-indicator"></span></button></th>
+          <th><button class="sort-btn" data-sort="units">Units<span class="sort-indicator"></span></button></th>
+          <th><button class="sort-btn" data-sort="valuation">Valuation<span class="sort-indicator"></span></button></th>
+          <th><button class="sort-btn" data-sort="permit">Permit<span class="sort-indicator"></span></button></th>
+        </tr></thead>
         <tbody id="rows"></tbody>
       </table>
     </div>
@@ -109,24 +135,85 @@ const money = n => n == null ? '—' : new Intl.NumberFormat('en-US',{style:'cur
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let permits=[];
 let generatedAt='';
+let sortState={key:'score',dir:'desc'};
 
 function dateCutoff(days){ if(!days) return null; const d=new Date(); d.setDate(d.getDate()-days); return d.toISOString().slice(0,10); }
+function numberOrNull(value){ if(value===null || value===undefined || value==='') return null; const n=Number(value); return Number.isFinite(n)?n:null; }
+function filterNumber(id){ const value=document.querySelector('#'+id).value; return value===''?null:Number(value); }
+function sortValue(p,key){
+  if(key==='score') return numberOrNull(p.score);
+  if(key==='issued') return p.issued_date||null;
+  if(key==='type') return [p.classification,p.permit_type].filter(Boolean).join(' ').toLowerCase()||null;
+  if(key==='jurisdiction') return (p.jurisdiction||'').toLowerCase()||null;
+  if(key==='project') return [p.project_name,p.address].filter(Boolean).join(' ').toLowerCase()||null;
+  if(key==='contractor') return (p.contractor||'').toLowerCase()||null;
+  if(key==='units') return numberOrNull(p.units);
+  if(key==='valuation') return numberOrNull(p.valuation);
+  if(key==='permit') return (p.permit_number||'').toLowerCase()||null;
+  return null;
+}
+function compareRows(a,b){
+  const av=sortValue(a,sortState.key), bv=sortValue(b,sortState.key);
+  const aMissing=av===null || av==='', bMissing=bv===null || bv==='';
+  if(aMissing && bMissing) return 0;
+  if(aMissing) return 1;
+  if(bMissing) return -1;
+  let result;
+  if(typeof av==='number' && typeof bv==='number') result=av-bv;
+  else result=String(av).localeCompare(String(bv),undefined,{numeric:true,sensitivity:'base'});
+  return sortState.dir==='asc'?result:-result;
+}
+function sortLabel(){
+  const labels={score:'Score',issued:'Issued',type:'Type',jurisdiction:'Jurisdiction',project:'Project / Address',contractor:'Builder / GC',units:'Units',valuation:'Valuation',permit:'Permit'};
+  return `${labels[sortState.key]} ${sortState.dir==='asc'?'↑':'↓'}`;
+}
+function updateSortIndicators(){
+  document.querySelectorAll('.sort-btn').forEach(btn=>{
+    const indicator=btn.querySelector('.sort-indicator');
+    const active=btn.dataset.sort===sortState.key;
+    indicator.textContent=active?(sortState.dir==='asc'?'▲':'▼'):'';
+    btn.setAttribute('aria-sort',active?(sortState.dir==='asc'?'ascending':'descending'):'none');
+  });
+}
 function render(){
-  const q=document.querySelector('#search').value.toLowerCase();
+  const q=document.querySelector('#search').value.trim().toLowerCase();
   const cls=document.querySelector('#classification').value;
   const jur=document.querySelector('#jurisdiction').value;
   const days=Number(document.querySelector('#days').value);
-  const score=Number(document.querySelector('#minScore').value);
+  const minScore=Number(document.querySelector('#minScore').value);
+  const maxScore=filterNumber('maxScore');
+  const issuedFrom=document.querySelector('#issuedFrom').value;
+  const issuedTo=document.querySelector('#issuedTo').value;
+  const minUnits=filterNumber('minUnits');
+  const minValuation=filterNumber('minValuation');
+  const maxValuation=filterNumber('maxValuation');
   const cutoff=dateCutoff(days);
-  const rows=permits.filter(p => {
-    const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type].join(' ').toLowerCase();
-    return (!q || hay.includes(q)) && (!cls || p.classification===cls) && (!jur || p.jurisdiction===jur) && (!cutoff || p.issued_date>=cutoff) && (p.score>=score);
-  }).sort((a,b) => (b.score-a.score) || b.issued_date.localeCompare(a.issued_date));
-  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching permits`;
+
+  const rows=permits.filter(p=>{
+    const hay=[p.address,p.contractor,p.project_name,p.permit_number,p.permit_type,p.classification,p.jurisdiction,p.building_use].join(' ').toLowerCase();
+    const issued=p.issued_date||'';
+    const pScore=numberOrNull(p.score)??0;
+    const pUnits=numberOrNull(p.units);
+    const pValuation=numberOrNull(p.valuation);
+    if(q && !hay.includes(q)) return false;
+    if(cls && p.classification!==cls) return false;
+    if(jur && p.jurisdiction!==jur) return false;
+    if(cutoff && (!issued || issued<cutoff)) return false;
+    if(issuedFrom && (!issued || issued<issuedFrom)) return false;
+    if(issuedTo && (!issued || issued>issuedTo)) return false;
+    if(pScore<minScore) return false;
+    if(maxScore!==null && pScore>maxScore) return false;
+    if(minUnits!==null && (pUnits===null || pUnits<minUnits)) return false;
+    if(minValuation!==null && (pValuation===null || pValuation<minValuation)) return false;
+    if(maxValuation!==null && (pValuation===null || pValuation>maxValuation)) return false;
+    return true;
+  }).sort(compareRows);
+
+  document.querySelector('#count').textContent=`${rows.length.toLocaleString()} matching permits · sorted by ${sortLabel()}`;
   document.querySelector('#rows').innerHTML=rows.slice(0,1000).map(p=>`<tr>
     <td class="score"><strong>${p.score}</strong></td>
     <td class="date">${esc(p.issued_date)}</td>
-    <td><span class="badge">${esc(p.classification.replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></td>
+    <td><span class="badge">${esc(String(p.classification||'').replace('_',' '))}</span><br><span class="muted">${esc(p.permit_type)}</span></td>
     <td>${esc(p.jurisdiction)}</td>
     <td>${p.project_name?`<strong>${esc(p.project_name)}</strong><br>`:''}${esc(p.address||'—')}</td>
     <td>${esc(p.contractor||'—')}</td>
@@ -134,6 +221,17 @@ function render(){
     <td class="money">${money(p.valuation)}</td>
     <td><a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(p.permit_number)}</a><br><span class="muted">${esc(p.new_construction_confidence)}</span></td>
   </tr>`).join('');
+  updateSortIndicators();
+}
+function resetFilters(){
+  document.querySelector('#search').value='';
+  document.querySelector('#classification').value='';
+  document.querySelector('#jurisdiction').value='';
+  document.querySelector('#days').value='0';
+  document.querySelector('#minScore').value='0';
+  ['issuedFrom','issuedTo','maxScore','minUnits','minValuation','maxValuation'].forEach(id=>document.querySelector('#'+id).value='');
+  sortState={key:'score',dir:'desc'};
+  render();
 }
 
 async function boot(){
@@ -147,7 +245,18 @@ async function boot(){
   document.querySelector('#valuation').textContent=money(qualified.reduce((s,p)=>s+(p.valuation||0),0));
   document.querySelector('#updated').textContent=generatedAt ? `Data generated ${new Date(generatedAt).toLocaleString()}` : '';
   [...new Set(permits.map(p=>p.jurisdiction))].sort().forEach(j=>document.querySelector('#jurisdiction').insertAdjacentHTML('beforeend',`<option>${esc(j)}</option>`));
-  ['search','classification','jurisdiction','days','minScore'].forEach(id=>document.querySelector('#'+id).addEventListener(id==='search'?'input':'change',render));
+  ['search','issuedFrom','issuedTo','maxScore','minUnits','minValuation','maxValuation'].forEach(id=>document.querySelector('#'+id).addEventListener('input',render));
+  ['classification','jurisdiction','days','minScore'].forEach(id=>document.querySelector('#'+id).addEventListener('change',render));
+  document.querySelector('#resetFilters').addEventListener('click',resetFilters);
+  document.querySelectorAll('.sort-btn').forEach(btn=>btn.addEventListener('click',()=>{
+    const key=btn.dataset.sort;
+    if(sortState.key===key) sortState.dir=sortState.dir==='asc'?'desc':'asc';
+    else {
+      sortState.key=key;
+      sortState.dir=['score','issued','units','valuation'].includes(key)?'desc':'asc';
+    }
+    render();
+  }));
   render();
   try {
     const status=await fetch('data/sources.json?'+Date.now()).then(r=>r.json());
