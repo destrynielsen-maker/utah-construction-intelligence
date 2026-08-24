@@ -4,6 +4,13 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 */6 * * *"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "data/**"
+      - "public/data/**"
+      - "public/feeds/**"
 
 permissions:
   contents: write
