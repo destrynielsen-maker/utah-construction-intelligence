@@ -10,7 +10,7 @@ from ..models import Permit
 
 class ProvoCollector:
     name = "Provo"
-    layer_url = "https://gispublicweb.provo.gov/ArcGIS/rest/services/DevServ/CurrentProjects/FeatureServer/1"
+    layer_url = "https://gispublicweb.provo.org/arcgis/rest/services/DevServ/CurrentProjects/MapServer/1"
     query_url = layer_url + "/query"
 
     FIELD = {
@@ -84,7 +84,12 @@ class ProvoCollector:
             if offset > 100_000:
                 raise RuntimeError("Provo pagination safety limit exceeded")
 
-        return CollectionResult(self.name, permits, self.layer_url, "Official ArcGIS feature layer")
+        return CollectionResult(
+            self.name,
+            permits,
+            self.layer_url,
+            "Official Provo Current Projects MapServer building-permit layer",
+        )
 
     @staticmethod
     def _epoch_date(value: object) -> str | None:
