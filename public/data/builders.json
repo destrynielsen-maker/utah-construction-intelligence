@@ -1,6 +1,54 @@
 {
-  "generated_at": "2026-08-24T17:29:48+00:00",
+  "generated_at": "2026-08-24T17:48:42+00:00",
   "builders": [
+    {
+      "contractor": "IVORY HOMES",
+      "permits_90d": 10,
+      "single_family": 10,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 4078043.38,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Alpine Homes LLC",
+      "permits_90d": 8,
+      "single_family": 8,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 5188261.88,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Keystone Construction, LLC",
+      "permits_90d": 7,
+      "single_family": 7,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 3308238.2800000003,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Lennar Homes of Utah, LLC",
+      "permits_90d": 7,
+      "single_family": 7,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 3186707.6,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
+    },
     {
       "contractor": "Tri Pointe Homes Holdings Inc",
       "permits_90d": 3,
@@ -14,6 +62,18 @@
       "top_score": 25
     },
     {
+      "contractor": "Okland Construction - Chris Blackham",
+      "permits_90d": 2,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 2,
+      "combined_valuation": 92700000.0,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 55
+    },
+    {
       "contractor": "Tri Pointe Homes Holdings",
       "permits_90d": 2,
       "single_family": 2,
@@ -24,6 +84,54 @@
         "Orem"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "RICHMOND AMERICAN HOMES OF UTAH INC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 966795.3600000001,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "Menlove Development Inc. DBA: Menlove Construction",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 6806445.0,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 45
+    },
+    {
+      "contractor": "Miller General Contractors",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 4448901.5,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 42
+    },
+    {
+      "contractor": "Pinnacle Builders LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1182431.4,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 27
     },
     {
       "contractor": "Vellinga Custom Homes",
@@ -122,6 +230,18 @@
       "top_score": 20
     },
     {
+      "contractor": "Keystone Construction LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 477449.08,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
+    },
+    {
       "contractor": "Havenbuilt Development LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -130,6 +250,42 @@
       "combined_valuation": 466603.23,
       "jurisdictions": [
         "Orem"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "RICHMOND AMERICAN HOMES OF UTAH, INC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 364672.28,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "Scott Hatch Homes, LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 280117.72,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "Davies Design Build, INC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 5925.0,
+      "jurisdictions": [
+        "Provo"
       ],
       "top_score": 20
     },
