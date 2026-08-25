@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:27:43+00:00",
+  "generated_at": "2026-08-25T01:53:06+00:00",
   "builders": [
     {
       "contractor": "IVORY HOMES",
@@ -238,18 +238,6 @@
       "combined_valuation": 477449.08,
       "jurisdictions": [
         "Provo"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "Havenbuilt Development LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 466603.23,
-      "jurisdictions": [
-        "Orem"
       ],
       "top_score": 20
     },
