@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-25T18:57:32+00:00",
+  "generated_at": "2026-08-26T01:59:09+00:00",
   "builders": [
-    {
-      "contractor": "IVORY HOMES",
-      "permits_90d": 10,
-      "single_family": 10,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 4078043.38,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 25
-    },
     {
       "contractor": "Alpine Homes LLC",
       "permits_90d": 9,
@@ -20,6 +8,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 5942330.84,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "IVORY HOMES",
+      "permits_90d": 9,
+      "single_family": 9,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 3751643.12,
       "jurisdictions": [
         "Provo"
       ],
