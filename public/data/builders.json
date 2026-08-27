@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T09:50:18+00:00",
+  "generated_at": "2026-08-27T22:16:31+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -120,6 +120,18 @@
         "Provo"
       ],
       "top_score": 42
+    },
+    {
+      "contractor": "TERRY EUGENE CIRAC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 1303974.88,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 57
     },
     {
       "contractor": "Pinnacle Builders LLC",
