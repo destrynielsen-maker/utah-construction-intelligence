@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:03:41+00:00",
+  "generated_at": "2026-08-27T09:50:18+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -26,24 +26,24 @@
       "top_score": 25
     },
     {
-      "contractor": "Keystone Construction, LLC",
-      "permits_90d": 7,
-      "single_family": 7,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 3308238.2800000003,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 25
-    },
-    {
       "contractor": "Lennar Homes of Utah, LLC",
       "permits_90d": 7,
       "single_family": 7,
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 3186707.6,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Keystone Construction, LLC",
+      "permits_90d": 4,
+      "single_family": 4,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1920690.24,
       "jurisdictions": [
         "Provo"
       ],
