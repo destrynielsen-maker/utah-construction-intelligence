@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T21:07:09+00:00",
+  "generated_at": "2026-08-31T05:36:39+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -286,18 +286,6 @@
       "combined_valuation": 5925.0,
       "jurisdictions": [
         "Provo"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "Strickland Excavation",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Orem"
       ],
       "top_score": 20
     }
