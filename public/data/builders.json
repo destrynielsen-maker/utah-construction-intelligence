@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:51:34+00:00",
+  "generated_at": "2026-09-01T05:10:03+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -50,18 +50,6 @@
       "top_score": 25
     },
     {
-      "contractor": "Tri Pointe Homes Holdings Inc",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2066863.42,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
       "contractor": "Okland Construction - Chris Blackham",
       "permits_90d": 2,
       "single_family": 0,
@@ -96,18 +84,6 @@
         "Provo"
       ],
       "top_score": 20
-    },
-    {
-      "contractor": "Menlove Development Inc. DBA: Menlove Construction",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 6806445.0,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 45
     },
     {
       "contractor": "Miller General Contractors",
@@ -200,6 +176,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 821242.95,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Tri Pointe Homes Holdings Inc",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 764757.96,
       "jurisdictions": [
         "Orem"
       ],
