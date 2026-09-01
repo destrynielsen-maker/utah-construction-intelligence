@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T11:40:24+00:00",
+  "generated_at": "2026-09-01T16:41:11+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -267,6 +267,18 @@
     },
     {
       "contractor": "Davies Design Build, INC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 5925.0,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "JAG Construction",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
