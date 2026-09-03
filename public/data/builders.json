@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T21:04:30+00:00",
+  "generated_at": "2026-09-03T04:34:25+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -108,18 +108,6 @@
         "Provo"
       ],
       "top_score": 57
-    },
-    {
-      "contractor": "Pinnacle Builders LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1182431.4,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 27
     },
     {
       "contractor": "Vellinga Custom Homes",
@@ -267,18 +255,6 @@
     },
     {
       "contractor": "JAG Construction",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 5925.0,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "Davies Design Build, INC",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
