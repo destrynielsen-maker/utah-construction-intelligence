@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-09-06T20:25:14+00:00",
+  "generated_at": "2026-09-07T04:43:12+00:00",
   "builders": [
-    {
-      "contractor": "Alpine Homes LLC",
-      "permits_90d": 9,
-      "single_family": 9,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 5942330.84,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 25
-    },
     {
       "contractor": "IVORY HOMES",
       "permits_90d": 9,
@@ -20,6 +8,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 3751643.12,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Alpine Homes LLC",
+      "permits_90d": 8,
+      "single_family": 8,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 5305489.96,
       "jurisdictions": [
         "Provo"
       ],
@@ -128,18 +128,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 964457.62,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "Zip 2 Construction LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 958142.33,
       "jurisdictions": [
         "Orem"
       ],
