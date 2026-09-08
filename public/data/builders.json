@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:31:45+00:00",
+  "generated_at": "2026-09-08T04:37:59+00:00",
   "builders": [
     {
       "contractor": "IVORY HOMES",
@@ -15,11 +15,11 @@
     },
     {
       "contractor": "Alpine Homes LLC",
-      "permits_90d": 8,
-      "single_family": 8,
+      "permits_90d": 7,
+      "single_family": 7,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 5305489.96,
+      "combined_valuation": 4749486.98,
       "jurisdictions": [
         "Provo"
       ],
