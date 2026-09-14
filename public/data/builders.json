@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T20:51:12+00:00",
+  "generated_at": "2026-09-14T04:57:56+00:00",
   "builders": [
     {
       "contractor": "IVORY HOMES",
@@ -120,18 +120,6 @@
         "Provo"
       ],
       "top_score": 57
-    },
-    {
-      "contractor": "Vellinga Custom Homes",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 964457.62,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
     },
     {
       "contractor": "Searle construction",
