@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:56:00+00:00",
+  "generated_at": "2026-09-15T05:00:23+00:00",
   "sources": [
     {
       "source": "Provo",
@@ -16,8 +16,8 @@
       "freshness_threshold_days": 10,
       "previous_records_seen": 3683,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T04:56:00+00:00",
-      "last_success_at": "2026-09-15T04:56:00+00:00",
+      "last_attempt_at": "2026-09-15T05:00:23+00:00",
+      "last_success_at": "2026-09-15T05:00:23+00:00",
       "cached_data_available": true,
       "source_url": "https://gispublicweb.provo.org/arcgis/rest/services/DevServ/CurrentProjects/MapServer/1",
       "note": "Official Provo Current Projects MapServer building-permit layer; rolling 730-day window; server-side date filter active"
@@ -37,32 +37,32 @@
       "freshness_threshold_days": 40,
       "previous_records_seen": 951,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T04:56:00+00:00",
-      "last_success_at": "2026-09-15T04:56:00+00:00",
+      "last_attempt_at": "2026-09-15T05:00:23+00:00",
+      "last_success_at": "2026-09-15T05:00:23+00:00",
       "cached_data_available": true,
       "source_url": "https://orem.gov/09-14-2026-development-review-committee-agenda/",
       "note": "current-year permit report: 938 rows through 2026-07-31; active-projects sheet: 11 explicit new-build leads; snapshot 2026-08-19; latest DRC agenda: 2026-09-14; 2 planning items"
     },
     {
       "source": "Summit County",
-      "scope_id": null,
-      "status": "stale",
+      "scope_id": "issued-permits+planning-agendas-v1",
+      "status": "healthy",
       "technical_status": "ok",
-      "freshness_status": "stale",
+      "freshness_status": "fresh",
       "volume_status": "normal",
-      "records_seen": 995,
+      "records_seen": 999,
       "qualifying_records": 92,
-      "newest_permit_date": "2026-07-31",
+      "newest_permit_date": "2026-09-08",
       "oldest_permit_date": "2026-01-02",
-      "days_since_newest_permit": 46,
+      "days_since_newest_permit": 7,
       "freshness_threshold_days": 21,
-      "previous_records_seen": 995,
-      "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T04:56:00+00:00",
-      "last_success_at": "2026-09-15T04:56:00+00:00",
+      "previous_records_seen": null,
+      "record_count_change_pct": null,
+      "last_attempt_at": "2026-09-15T05:00:23+00:00",
+      "last_success_at": "2026-09-15T05:00:23+00:00",
       "cached_data_available": true,
-      "source_url": "https://www.summitcountyutah.gov/558/Issued-Building-Permits",
-      "note": "Official Summit County issued-building-permits PDF Newest permit is 46 days old; threshold is 21 days."
+      "source_url": "https://www.summitcountyutah.gov/DocumentCenter/View/27530",
+      "note": "issued-permit report: 995 rows through 2026-07-31; current planning agendas: 2 agenda(s), 4 project item(s), latest 2026-09-08"
     }
   ]
 }
