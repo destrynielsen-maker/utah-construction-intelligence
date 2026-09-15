@@ -21,7 +21,7 @@ AGENDA_DATE_RE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(20\d{2})\b")
 
 class OremCollector:
     name = "Orem"
-    SCOPE_ID = "monthly-permits+active-projects+drc-v1"
+    SCOPE_ID = "ytd-permits+active-projects+drc-v1"
     landing_url = "https://orem.gov/buildingsafety/"
     active_projects_page = "https://orem.gov/apb/"
     active_projects_csv = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZGOL7drAPewGqBm9rRrxUs-CtmzaCR27pmPJoakGPhdJxZ1gVrUGVsbyyrpO-aFNprorxWaz953y9/pub?output=csv"
@@ -34,20 +34,21 @@ class OremCollector:
         successful_sources = 0
         primary_url = self.landing_url
 
-        # 1) Latest monthly issued-permit report. This is much smaller than the
-        # cumulative year-to-date PDF and persistent storage keeps prior months.
+        # 1) Orem's current-year cumulative permit report. It is modest in size,
+        # has a stable layout, and gives us authoritative permit history while the
+        # weekly/project feeds below provide the fresher prospecting signals.
         try:
             pdf_url = self.discover_pdf_url(session)
             response = session.get(pdf_url, timeout=60)
             response.raise_for_status()
-            monthly = self.parse_pdf(response.content, pdf_url)
-            permits.extend(monthly)
+            issued = self.parse_pdf(response.content, pdf_url)
+            permits.extend(issued)
             primary_url = pdf_url
-            latest_month = max((p.issued_date for p in monthly), default="unknown")
-            notes.append(f"latest monthly permit report: {len(monthly)} rows through {latest_month}")
+            latest_issued = max((p.issued_date for p in issued), default="unknown")
+            notes.append(f"current-year permit report: {len(issued)} rows through {latest_issued}")
             successful_sources += 1
         except Exception as exc:
-            notes.append(f"monthly permit report unavailable ({type(exc).__name__}: {exc})")
+            notes.append(f"current-year permit report unavailable ({type(exc).__name__}: {exc})")
 
         # 2) Orem's published Active Projects Being Built sheet. Orem says this
         # list is updated weekly. Only explicit ground-up/new-construction rows
@@ -101,12 +102,10 @@ class OremCollector:
             href = urljoin(self.landing_url, anchor["href"])
             lower = f"{text} {href}".lower()
             score = 0
-            # Orem's "Monthly Building Permit Reports" link points directly at
-            # the latest monthly report and is preferable to the cumulative YTD PDF.
-            if "monthly building permit reports" in lower:
-                score += 250
+            # Prefer the cumulative current-year report. Orem's separate monthly
+            # report can lag and has not always used the same PDF column geometry.
             if f"building permits {year}" in lower:
-                score += 100
+                score += 250
             if "building-permits" in lower or "building permits" in lower:
                 score += 20
             if ".pdf" in lower:
@@ -128,10 +127,11 @@ class OremCollector:
         headers = [cell.strip() for cell in rows[0]]
         if len(headers) < 4:
             raise RuntimeError(f"Unexpected Orem active-projects columns: {headers}")
+        snapshot_header = headers[3].strip()
         try:
-            snapshot = datetime.strptime(headers[3].strip(), "%B %d, %Y").date().isoformat()
+            snapshot = datetime.strptime(snapshot_header, "%B %d, %Y").date().isoformat()
         except ValueError as exc:
-            raise RuntimeError(f"Could not parse Orem active-projects snapshot date: {headers[3]!r}") from exc
+            raise RuntimeError(f"Could not parse Orem active-projects snapshot date: {snapshot_header!r}") from exc
 
         permits: list[Permit] = []
         for row in rows[1:]:
