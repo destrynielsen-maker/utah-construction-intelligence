@@ -1,0 +1,51 @@
+name: American Fork source audit
+
+on:
+  push:
+    branches:
+      - utah-american-fork-source-audit
+    paths:
+      - '.github/workflows/american-fork-source-audit.yml'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests==2.32.5 pdfplumber==0.11.7 beautifulsoup4==4.13.5
+      - name: Inspect American Fork active projects and planning sources
+        shell: python
+        run: |
+          import io
+          import requests
+          import pdfplumber
+          from bs4 import BeautifulSoup
+
+          headers={'User-Agent':'UtahConstructionIntelligence/0.6 public-source-audit'}
+          report='https://www.americanfork.gov/DocumentCenter/View/18060/American-Fork-City-Community-Development-Active-and-Pending-Projects'
+          agenda='https://www.americanfork.gov/AgendaCenter/Planning-Commission-3'
+
+          r=requests.get(report,headers=headers,timeout=45,allow_redirects=True)
+          print('REPORT',r.status_code,r.url,r.headers.get('content-type'),len(r.content))
+          r.raise_for_status()
+          if r.content[:4] == b'%PDF':
+              with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+                  print('PAGES',len(pdf.pages))
+                  text='\n'.join((p.extract_text() or '') for p in pdf.pages)
+              print('REPORT_TEXT_BEGIN')
+              print(text[:18000])
+              print('REPORT_TEXT_END')
+          else:
+              print(r.text[:8000])
+
+          a=requests.get(agenda,headers=headers,timeout=45)
+          print('AGENDA',a.status_code,a.url,a.headers.get('content-type'),len(a.content))
+          a.raise_for_status()
+          soup=BeautifulSoup(a.text,'html.parser')
+          text='\n'.join(x.strip() for x in soup.stripped_strings if x.strip())
+          print('AGENDA_TEXT_BEGIN')
+          print(text[:12000])
+          print('AGENDA_TEXT_END')
