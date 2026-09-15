@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import requests
 
@@ -12,6 +12,8 @@ class ProvoCollector:
     name = "Provo"
     layer_url = "https://gispublicweb.provo.org/arcgis/rest/services/DevServ/CurrentProjects/MapServer/1"
     query_url = layer_url + "/query"
+    LOOKBACK_DAYS = 730
+    SCOPE_ID = "rolling-730d-v1"
 
     FIELD = {
         "issued": "xxClient_BP_Applications_View_dateIssued",
@@ -28,14 +30,53 @@ class ProvoCollector:
 
     def collect(self, session: requests.Session | None = None) -> CollectionResult:
         session = session or new_session()
+        cutoff = date.today() - timedelta(days=self.LOOKBACK_DAYS)
+        cutoff_iso = cutoff.isoformat()
+        filtered_where = (
+            f"{self.FIELD['issued']} >= TIMESTAMP '{cutoff_iso} 00:00:00'"
+        )
+
+        permits, used_server_filter = self._collect_pages(session, filtered_where, cutoff_iso)
+        if permits is None:
+            # Some ArcGIS deployments are picky about date SQL. Fail open to the
+            # established query shape, while still enforcing the exact cutoff locally.
+            permits, _ = self._collect_pages(
+                session,
+                f"{self.FIELD['issued']} IS NOT NULL",
+                cutoff_iso,
+                allow_arcgis_error=False,
+            )
+            used_server_filter = False
+
+        note = (
+            "Official Provo Current Projects MapServer building-permit layer; "
+            f"rolling {self.LOOKBACK_DAYS}-day window; "
+            + ("server-side date filter active" if used_server_filter else "client-side date fallback active")
+        )
+        return CollectionResult(
+            self.name,
+            permits or [],
+            self.layer_url,
+            note,
+            scope_id=self.SCOPE_ID,
+        )
+
+    def _collect_pages(
+        self,
+        session: requests.Session,
+        where: str,
+        cutoff_iso: str,
+        *,
+        allow_arcgis_error: bool = True,
+    ) -> tuple[list[Permit] | None, bool]:
         fields = ",".join(self.FIELD.values())
         permits: list[Permit] = []
         offset = 0
-        page_size = 2000
+        page_size = 5000
 
         while True:
             params = {
-                "where": f"{self.FIELD['issued']} IS NOT NULL",
+                "where": where,
                 "outFields": fields,
                 "returnGeometry": "false",
                 "orderByFields": f"{self.FIELD['issued']} DESC",
@@ -47,6 +88,8 @@ class ProvoCollector:
             response.raise_for_status()
             payload = response.json()
             if "error" in payload:
+                if allow_arcgis_error and offset == 0:
+                    return None, False
                 raise RuntimeError(f"Provo ArcGIS error: {payload['error']}")
             features = payload.get("features", [])
             if not features:
@@ -56,7 +99,7 @@ class ProvoCollector:
                 a = feature.get("attributes", {})
                 issued = self._epoch_date(a.get(self.FIELD["issued"]))
                 number = str(a.get(self.FIELD["number"]) or "").strip()
-                if not issued or not number:
+                if not issued or not number or issued < cutoff_iso:
                     continue
                 permits.append(
                     Permit(
@@ -84,12 +127,7 @@ class ProvoCollector:
             if offset > 100_000:
                 raise RuntimeError("Provo pagination safety limit exceeded")
 
-        return CollectionResult(
-            self.name,
-            permits,
-            self.layer_url,
-            "Official Provo Current Projects MapServer building-permit layer",
-        )
+        return permits, True
 
     @staticmethod
     def _epoch_date(value: object) -> str | None:
