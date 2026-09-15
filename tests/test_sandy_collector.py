@@ -18,7 +18,7 @@ class SandyCollectorTests(unittest.TestCase):
         Notice of Special Accommodations
         </body></html>
         """
-        permits = SandyCollector.parse_notice_page(html, "https://www.utah.gov/pmn/sitemap/notice/1109991.html")
+        permits = SandyCollector.parse_notice_page(html, "https://www.utah.gov/pmn/sitemap/noticehistory/345489.html")
         self.assertEqual(1, len(permits))
         permit = permits[0]
         self.assertEqual("830 E 9400 S Final Subdivision Amendment", permit.project_name)
@@ -52,7 +52,7 @@ class SandyCollectorTests(unittest.TestCase):
         self.assertEqual("348 E 8000 S", permit.address)
         self.assertEqual("2026-07-16", permit.issued_date)
 
-    def test_policy_notice_is_excluded_and_discovery_is_bounded(self) -> None:
+    def test_policy_notice_is_excluded_and_discovery_accepts_revisions(self) -> None:
         policy_html = """
         <html><body>
         Notice of Public Hearing - Proposed Code Amendment
@@ -64,7 +64,7 @@ class SandyCollectorTests(unittest.TestCase):
         self.assertEqual([], SandyCollector.parse_notice_page(policy_html, "https://www.utah.gov/pmn/sitemap/notice/1102128.html"))
 
         body = """
-        <a href="/pmn/sitemap/notice/1110001.html">Notice of Public Meeting - Subdivision Amend</a>
+        <a href="/pmn/sitemap/noticehistory/345489.html">Notice of Public Meeting - Subdivision Amend</a>
         <a href="/pmn/sitemap/notice/1103000.html">Planning Commission</a>
         <a href="/pmn/sitemap/notice/1102128.html">Notice of Public Hearing - Proposed Code Amendment</a>
         <a href="/pmn/sitemap/notice/1093717.html">Notice of Public Meeting - Indigo Subdivision</a>
@@ -73,7 +73,7 @@ class SandyCollectorTests(unittest.TestCase):
         urls = SandyCollector.discover_notice_urls(body, SandyCollector.public_body_url)
         self.assertEqual(
             [
-                "https://www.utah.gov/pmn/sitemap/notice/1110001.html",
+                "https://www.utah.gov/pmn/sitemap/noticehistory/345489.html",
                 "https://www.utah.gov/pmn/sitemap/notice/1093717.html",
             ],
             urls,
