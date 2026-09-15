@@ -12,6 +12,7 @@ from .collectors.lehi import LehiCollector
 from .collectors.orem import OremCollector
 from .collectors.provo import ProvoCollector
 from .collectors.saratoga_springs import SaratogaSpringsCollector
+from .collectors.spanish_fork import SpanishForkCollector
 from .collectors.summit_county import SummitCountyCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
@@ -27,6 +28,7 @@ COLLECTORS = [
     SaratogaSpringsCollector(),
     EagleMountainCollector(),
     AmericanForkCollector(),
+    SpanishForkCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -37,6 +39,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Saratoga Springs": 45,
     "Eagle Mountain": 30,
     "American Fork": 30,
+    "Spanish Fork": 14,
 }
 
 VOLUME_WARNING_DROP = 0.50
