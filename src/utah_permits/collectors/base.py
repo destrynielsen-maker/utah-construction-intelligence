@@ -21,6 +21,9 @@ class CollectionResult:
     permits: list[Permit]
     source_url: str
     note: str = ""
+    # Identifies a material change in what a collector intentionally returns.
+    # Source-health volume comparisons are only meaningful inside the same scope.
+    scope_id: str | None = None
 
 
 class Collector(Protocol):
