@@ -8,6 +8,7 @@ from pathlib import Path
 from .classify import classify_permit
 from .collectors.alpine import AlpineCollector
 from .collectors.american_fork import AmericanForkCollector
+from .collectors.cedar_hills import CedarHillsCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.highland import HighlandCollector
 from .collectors.lehi import LehiCollector
@@ -47,6 +48,7 @@ COLLECTORS = [
     SantaquinCollector(),
     HighlandCollector(),
     AlpineCollector(),
+    CedarHillsCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -67,6 +69,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Santaquin": 30,
     "Highland": 45,
     "Alpine": 30,
+    "Cedar Hills": 45,
 }
 
 VOLUME_WARNING_DROP = 0.50
