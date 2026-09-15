@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:27:39+00:00",
+  "generated_at": "2026-09-15T21:49:31+00:00",
   "sources": [
     {
       "source": "Provo",
@@ -16,8 +16,8 @@
       "freshness_threshold_days": 10,
       "previous_records_seen": 3690,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://gispublicweb.provo.org/arcgis/rest/services/DevServ/CurrentProjects/MapServer/1",
       "note": "Official Provo Current Projects MapServer building-permit layer; rolling 730-day window; server-side date filter active"
@@ -37,8 +37,8 @@
       "freshness_threshold_days": 40,
       "previous_records_seen": 949,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://orem.gov/apb/",
       "note": "current-year permit report: 938 rows through 2026-07-31; active-projects sheet: 11 explicit new-build leads; snapshot 2026-08-19; DRC agenda unavailable (RuntimeError: Could not discover latest Orem DRC agenda)"
@@ -58,8 +58,8 @@
       "freshness_threshold_days": 21,
       "previous_records_seen": 999,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://www.summitcountyutah.gov/DocumentCenter/View/27530",
       "note": "issued-permit report: 995 rows through 2026-07-31; current planning agendas: 2 agenda(s), 4 project item(s), latest 2026-09-08"
@@ -79,8 +79,8 @@
       "freshness_threshold_days": 21,
       "previous_records_seen": 27,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://www.lehi-ut.gov/news/posts/planning-commission-public-hearing-items-for-september-24-2026/",
       "note": "Official Lehi Planning Commission public-hearing notices; 6 notice(s), 27 development item(s), latest hearing 2026-09-24; building portal is public lookup-only"
@@ -100,8 +100,8 @@
       "freshness_threshold_days": 45,
       "previous_records_seen": 56,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://www.saratogasprings-ut.gov/229/Applications-Pending-Recently-Approved",
       "note": "Official Saratoga Springs Applications Pending & Recently Approved page; 56 pending development application(s), newest update 2026-09-01; planning-stage intelligence only"
@@ -121,8 +121,8 @@
       "freshness_threshold_days": 30,
       "previous_records_seen": 2,
       "record_count_change_pct": null,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://eaglemountain.gov/government/city-recorder/",
       "note": "Official Eagle Mountain Recorder current public notices; 2 development hearing item(s), latest hearing 2026-09-22; planning-stage intelligence only; OpenGov is treated as a submission portal, not a bulk feed"
@@ -142,8 +142,8 @@
       "freshness_threshold_days": 30,
       "previous_records_seen": 72,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://www.americanfork.gov/1128/Public-Meetings-Notices",
       "note": "Official American Fork Community Development active/pending project report plus public development notices; 70 active permit/project row(s), 2 planning notice(s), newest activity 2026-09-14. Only under-construction new/multifamily/commercial-new rows qualify as construction leads."
@@ -163,8 +163,8 @@
       "freshness_threshold_days": 14,
       "previous_records_seen": 25,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://cms.spanishfork.org/revize/spanishforkut/departments/community_development/current_projects.php",
       "note": "Official Spanish Fork Current Projects list; 25 active development application(s) observed 2026-09-15; planning/development-stage intelligence only; growth statistics as of July 1, 2026, 607 total 2026 building permits, 94 single-family, 132 multi-unit"
@@ -184,8 +184,8 @@
       "freshness_threshold_days": 30,
       "previous_records_seen": 80,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://maps.springville.org/server/rest/services/New_Development_Points/FeatureServer/0",
       "note": "Official Springville New Development Points ArcGIS layer; 80 development record(s) (Approved Residential Subdivision: 7, Commercial Development: 60, Multifamily Development: 4, Other: 3, Proposed Residential Subdivision: 6); source has no per-record date field, so freshness is intentionally unknown; development-stage intelligence only"
@@ -205,8 +205,8 @@
       "freshness_threshold_days": 30,
       "previous_records_seen": 7,
       "record_count_change_pct": null,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://www.utah.gov/pmn/sitemap/publicbody/1404.html",
       "note": "Official Utah Public Notice Pleasant Grove Planning Commission hearing notices; 7 project-specific planning item(s), latest hearing 2026-08-27; citywide code-text amendments excluded; planning-stage intelligence only"
@@ -226,8 +226,8 @@
       "freshness_threshold_days": 30,
       "previous_records_seen": 8,
       "record_count_change_pct": null,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://www.utah.gov/pmn/sitemap/publicbody/531.html",
       "note": "Official Utah Public Notice Vineyard Planning Commission agendas; 8 project-specific planning item(s), latest meeting 2026-09-02; cancellations and policy-only ordinance items excluded; planning-stage intelligence only"
@@ -247,8 +247,8 @@
       "freshness_threshold_days": 30,
       "previous_records_seen": 4,
       "record_count_change_pct": null,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://www.utah.gov/pmn/sitemap/publicbody/668.html",
       "note": "Official Utah Public Notice Payson Planning Commission notices; 4 project-specific hearing item(s), latest hearing 2026-09-23; cancelled meetings and generic agenda notices excluded; planning-stage intelligence only; the City-linked Applications Currently Under Review StoryMap is retained only as historical context because its ArcGIS item was last modified in 2024"
@@ -266,13 +266,34 @@
       "oldest_permit_date": "2026-04-23",
       "days_since_newest_permit": 96,
       "freshness_threshold_days": 45,
-      "previous_records_seen": null,
+      "previous_records_seen": 4,
       "record_count_change_pct": null,
-      "last_attempt_at": "2026-09-15T21:27:39+00:00",
-      "last_success_at": "2026-09-15T21:27:39+00:00",
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
       "cached_data_available": true,
       "source_url": "https://www.utah.gov/pmn/sitemap/publicbody/583.html",
       "note": "Official Utah Public Notice Mapleton Planning Commission agendas; 4 project-specific planning item(s), latest substantive project hearing 2026-06-11; cancelled meetings, home occupations, policy-only code changes, parks and cemetery items excluded; planning-stage intelligence only Newest permit is 96 days old; threshold is 45 days."
+    },
+    {
+      "source": "Salem",
+      "scope_id": "pmn-drc-project-decisions-v1",
+      "status": "healthy",
+      "technical_status": "ok",
+      "freshness_status": "fresh",
+      "volume_status": "normal",
+      "records_seen": 26,
+      "qualifying_records": 0,
+      "newest_permit_date": "2026-09-02",
+      "oldest_permit_date": "2026-05-13",
+      "days_since_newest_permit": 13,
+      "freshness_threshold_days": 45,
+      "previous_records_seen": null,
+      "record_count_change_pct": null,
+      "last_attempt_at": "2026-09-15T21:49:31+00:00",
+      "last_success_at": "2026-09-15T21:49:31+00:00",
+      "cached_data_available": true,
+      "source_url": "https://www.utah.gov/pmn/sitemap/publicbody/7083.html",
+      "note": "Official Utah Public Notice Salem Development Review Committee agendas; 26 project-specific development item(s), latest project meeting 2026-09-02; minutes and general-plan-only items excluded; planning/development-stage intelligence only"
     }
   ]
 }
