@@ -170,6 +170,17 @@ class LindonCollector:
 
     @staticmethod
     def _event_date(text: str) -> str | None:
+        meeting_match = re.search(
+            r"\bmeeting\s+on\s+(?:(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+)?([A-Za-z]+\s+\d{1,2},\s+\d{4})",
+            text,
+            flags=re.I,
+        )
+        if meeting_match:
+            try:
+                return datetime.strptime(meeting_match.group(1), "%B %d, %Y").date().isoformat()
+            except ValueError:
+                pass
+
         match = re.search(
             r"Event Start Date & Time\s+([A-Za-z]+\s+\d{1,2},\s+\d{4})",
             text,
