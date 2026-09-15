@@ -1,7 +1,7 @@
 name: Collect Utah permits and publish
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
     - cron: "17 */6 * * *"
   push:
@@ -24,6 +24,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -54,7 +55,9 @@ jobs:
           git add -- data/permits.json public/data public/feeds
           if ! git diff --cached --quiet; then
             git commit -m "Update Utah permit intelligence"
-            git push
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
 
       - name: Configure GitHub Pages
@@ -70,6 +73,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: collect
     steps:
       - name: Deploy GitHub Pages
