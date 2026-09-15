@@ -19,11 +19,10 @@ def _source_specific_classification(p: Permit) -> tuple[str, bool, str] | None:
     permit_type = _norm(p.permit_type)
     building_use = (p.building_use or "").strip().upper()
 
-    if source == "lehi":
-        # Lehi is currently an early-stage Planning Commission source only.
-        # Keep these observations useful in storage/source health without
-        # allowing project words such as "commercial" or "new" to inflate
-        # issued-permit totals.
+    if source in {"lehi", "saratoga springs"}:
+        # These jurisdictions are currently early-stage planning sources only.
+        # Keep observations useful in storage/source health without allowing
+        # project words such as "commercial" or "new" to inflate issued-permit totals.
         return "OTHER", False, "HIGH"
 
     if source == "orem":
