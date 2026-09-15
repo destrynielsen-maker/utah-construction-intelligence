@@ -229,4 +229,25 @@ class MapletonCollector:
     @staticmethod
     def _units(item: str) -> int | None:
         match = re.search(r"\b(\d{1,4})\s+(?:lots|units)\b", item, flags=re.I)
-        return int(match.group(1)) if match else None
+        if match:
+            return int(match.group(1))
+        number_words = {
+            "one": 1,
+            "two": 2,
+            "three": 3,
+            "four": 4,
+            "five": 5,
+            "six": 6,
+            "seven": 7,
+            "eight": 8,
+            "nine": 9,
+            "ten": 10,
+            "eleven": 11,
+            "twelve": 12,
+        }
+        word_match = re.search(
+            r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\s+(?:lots|units)\b",
+            item,
+            flags=re.I,
+        )
+        return number_words.get(word_match.group(1).lower()) if word_match else None
