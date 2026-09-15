@@ -102,7 +102,7 @@ class SandyCollector:
         seen: set[str] = set()
         for anchor in soup.find_all("a", href=True):
             href = anchor.get("href", "")
-            if "/pmn/sitemap/notice/" not in href:
+            if "/pmn/sitemap/notice/" not in href and "/pmn/sitemap/noticehistory/" not in href:
                 continue
             text = cls._clean(" ".join(anchor.stripped_strings)).lower()
             if not any(signal in text for signal in PROJECT_NOTICE_SIGNALS):
