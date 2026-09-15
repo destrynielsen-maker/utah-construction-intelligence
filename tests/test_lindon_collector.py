@@ -7,11 +7,12 @@ from utah_permits.collectors.lindon import LindonCollector
 
 
 class LindonCollectorTests(unittest.TestCase):
-    def test_september_agenda_keeps_cottonwood_and_filters_adu_policy(self) -> None:
+    def test_september_agenda_prefers_actual_meeting_date_and_filters_adu_policy(self) -> None:
         html = """
         <html><body>
-        Event Start Date &amp; Time September 15, 2026 06:00 PM
-        Description/Agenda Agenda Invocation: By Invitation Pledge of Allegiance: By Invitation
+        Event Start Date &amp; Time September 11, 2026 05:00 PM
+        Description/Agenda The Lindon City Planning Commission will hold a regularly scheduled meeting on Tuesday, September 15, 2026, in the Council Room of Lindon City Hall.
+        Agenda Invocation: By Invitation Pledge of Allegiance: By Invitation
         1. Call to Order
         2. Approval of minutes - Planning Commission 08/25/2026
         3. Public Comment
