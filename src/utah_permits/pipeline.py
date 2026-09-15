@@ -16,6 +16,7 @@ from .collectors.saratoga_springs import SaratogaSpringsCollector
 from .collectors.spanish_fork import SpanishForkCollector
 from .collectors.springville import SpringvilleCollector
 from .collectors.summit_county import SummitCountyCollector
+from .collectors.vineyard import VineyardCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
 from .models import Permit
@@ -33,6 +34,7 @@ COLLECTORS = [
     SpanishForkCollector(),
     SpringvilleCollector(),
     PleasantGroveCollector(),
+    VineyardCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -46,6 +48,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Spanish Fork": 14,
     "Springville": 30,
     "Pleasant Grove": 30,
+    "Vineyard": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
