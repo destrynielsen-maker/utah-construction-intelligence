@@ -53,7 +53,10 @@ class SandyCollector:
         response.raise_for_status()
         notice_urls = self.discover_notice_urls(response.text, response.url)
 
-        permits: list[Permit] = []
+        # PMN sometimes renders a revised current notice in the body index without
+        # exposing a normal detail href to requests clients. Preserve project-specific
+        # dated rows from that official index as a bounded fallback.
+        permits: list[Permit] = self.parse_body_project_index(response.text, response.url)
         errors: list[str] = []
         for notice_url in notice_urls[: self.MAX_NOTICE_PAGES]:
             try:
@@ -79,9 +82,11 @@ class SandyCollector:
             raise RuntimeError(f"Sandy planning source returned no usable records: {detail}")
 
         newest = max(p.issued_date for p in permits)
+        index_count = sum(1 for p in permits if p.raw.get("source_kind") == "public_body_index")
         note = (
             "Official Utah Public Notice Sandy Planning Commission project notices; "
             f"{len(permits)} project-specific planning/development item(s), latest meeting {newest}; "
+            f"{index_count} current project row(s) retained from the PMN body index when detail links are hidden by revisions; "
             "generic meetings and ADU/code-amendment notices excluded; planning/development-stage intelligence only"
         )
         if errors:
@@ -114,6 +119,61 @@ class SandyCollector:
                 seen.add(url)
                 found.append(url)
         return found
+
+    @classmethod
+    def parse_body_project_index(cls, html: str, source_url: str) -> list[Permit]:
+        soup = BeautifulSoup(html, "html.parser")
+        permits: list[Permit] = []
+        for tr in soup.find_all("tr"):
+            cells = [cls._clean(cell.get_text(" ", strip=True)) for cell in tr.find_all(["td", "th"])]
+            if len(cells) < 2:
+                continue
+            raw_title, raw_date = cells[0], cells[1]
+            normalized = raw_title.lower()
+            if not any(signal in normalized for signal in PROJECT_NOTICE_SIGNALS):
+                continue
+            if "cancel" in normalized or any(signal in normalized for signal in POLICY_ONLY_SIGNALS):
+                continue
+            if not any(signal in normalized for signal in DEVELOPMENT_SIGNALS):
+                continue
+            event_date = cls._index_date(raw_date)
+            if not event_date:
+                continue
+
+            short_title = re.sub(
+                r"^Notice of Public (?:Meeting|Hearing)\s*-\s*",
+                "",
+                raw_title,
+                flags=re.I,
+            )
+            if "subdivision amend" in short_title.lower():
+                project_name = "Sandy Subdivision Amendment"
+            else:
+                project_name = cls._clean(short_title)
+            digest = hashlib.sha1(
+                f"{project_name}|{event_date}|body-index".lower().encode("utf-8")
+            ).hexdigest()[:12].upper()
+            permits.append(
+                Permit(
+                    state="UT",
+                    jurisdiction=cls.name,
+                    permit_number=f"SAN-IDX-{digest}",
+                    issued_date=event_date,
+                    permit_type=cls._permit_type(raw_title),
+                    project_name=project_name,
+                    status="Public Notice Index",
+                    source_name="Utah Public Notice - Sandy Planning Commission",
+                    source_url=source_url,
+                    raw={
+                        "lead_stage": "PLANNING",
+                        "source_kind": "public_body_index",
+                        "meeting_date": event_date,
+                        "date_semantics": "scheduled_public_meeting_date_from_body_index",
+                        "notice_title": raw_title,
+                    },
+                )
+            )
+        return permits
 
     @classmethod
     def parse_notice_page(cls, html: str, source_url: str) -> list[Permit]:
@@ -155,6 +215,7 @@ class SandyCollector:
                 source_url=source_url,
                 raw={
                     "lead_stage": "PLANNING",
+                    "source_kind": "notice_detail",
                     "meeting_date": event_date,
                     "date_semantics": "scheduled_public_meeting_or_hearing_date",
                     "application_number": application_number,
@@ -178,6 +239,16 @@ class SandyCollector:
             return None
         try:
             return datetime.strptime(match.group(1), "%B %d, %Y").date().isoformat()
+        except ValueError:
+            return None
+
+    @staticmethod
+    def _index_date(value: str) -> str | None:
+        match = re.search(r"\b(20\d{2})/(\d{1,2})/(\d{1,2})\b", value or "")
+        if not match:
+            return None
+        try:
+            return datetime(int(match.group(1)), int(match.group(2)), int(match.group(3))).date().isoformat()
         except ValueError:
             return None
 
