@@ -10,6 +10,7 @@ from .collectors.american_fork import AmericanForkCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.lehi import LehiCollector
 from .collectors.orem import OremCollector
+from .collectors.payson import PaysonCollector
 from .collectors.pleasant_grove import PleasantGroveCollector
 from .collectors.provo import ProvoCollector
 from .collectors.saratoga_springs import SaratogaSpringsCollector
@@ -35,6 +36,7 @@ COLLECTORS = [
     SpringvilleCollector(),
     PleasantGroveCollector(),
     VineyardCollector(),
+    PaysonCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -49,6 +51,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Springville": 30,
     "Pleasant Grove": 30,
     "Vineyard": 30,
+    "Payson": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
