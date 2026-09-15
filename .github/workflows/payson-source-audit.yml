@@ -1,0 +1,62 @@
+name: Payson source audit
+
+on:
+  push:
+    branches: [utah-payson-source-audit]
+    paths: [.github/workflows/payson-source-audit.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Inspect Payson current-applications StoryMap
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, urllib.request
+          item='63e484295bd74c98ab3c7fead3bc85b5'
+          urls=[
+              f'https://www.arcgis.com/sharing/rest/content/items/{item}?f=json',
+              f'https://www.arcgis.com/sharing/rest/content/items/{item}/data?f=json',
+          ]
+          for url in urls:
+              print('\nURL', url)
+              with urllib.request.urlopen(url, timeout=30) as r:
+                  data=json.load(r)
+              if 'data?' not in url:
+                  keep={k:data.get(k) for k in ('id','title','type','owner','created','modified','url','description','snippet','tags')}
+                  print(json.dumps(keep, indent=2)[:12000])
+                  continue
+              print('top_keys', sorted(data.keys()))
+              text=json.dumps(data, ensure_ascii=False)
+              print('json_bytes', len(text.encode()))
+              needles=['site plan','subdivision','rezone','annex','application','under review','payson']
+              low=text.lower()
+              for needle in needles:
+                  print('needle', needle, 'count', low.count(needle))
+              # Print bounded human-readable strings likely to contain active-project content.
+              strings=[]
+              def walk(v):
+                  if isinstance(v, dict):
+                      for x in v.values(): walk(x)
+                  elif isinstance(v, list):
+                      for x in v: walk(x)
+                  elif isinstance(v, str):
+                      s=' '.join(v.split())
+                      sl=s.lower()
+                      if len(s)>=8 and any(n in sl for n in needles):
+                          strings.append(s)
+              walk(data)
+              seen=[]
+              for s in strings:
+                  if s not in seen:
+                      seen.append(s)
+              print('candidate_strings', len(seen))
+              for s in seen[:120]:
+                  print('STR', s[:700])
+          PY
