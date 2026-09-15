@@ -79,6 +79,29 @@ class SandyCollectorTests(unittest.TestCase):
             urls,
         )
 
+    def test_body_index_keeps_project_row_when_detail_link_is_hidden(self) -> None:
+        html = """
+        <table>
+          <tr><th>Notice Title</th><th>Event Date</th><th>Attachments</th></tr>
+          <tr><td>Notice of Public Meeting - Subdivision Amend</td><td>2026/09/21 01:30 PM</td><td>No associated attachments</td></tr>
+          <tr><td>Planning Commission</td><td>2026/09/03 06:15 PM</td><td>No associated attachments</td></tr>
+          <tr><td>Notice of Public Hearing - Proposed Code Amendment</td><td>2026/08/20 06:15 PM</td><td>No associated attachments</td></tr>
+          <tr><td>Notice of Public Meeting - Liberty Drug</td><td>2026/08/20 06:15 PM</td><td>No associated attachments</td></tr>
+        </table>
+        """
+        rows = SandyCollector.parse_body_project_index(html, SandyCollector.public_body_url)
+        self.assertEqual(1, len(rows))
+        permit = rows[0]
+        self.assertEqual("Sandy Subdivision Amendment", permit.project_name)
+        self.assertEqual("2026-09-21", permit.issued_date)
+        self.assertEqual("public_body_index", permit.raw["source_kind"])
+        self.assertEqual("scheduled_public_meeting_date_from_body_index", permit.raw["date_semantics"])
+
+        classify_permit(permit)
+        self.assertFalse(permit.qualifies)
+        self.assertEqual("OTHER", permit.classification)
+        self.assertEqual(0, permit.score)
+
 
 if __name__ == "__main__":
     unittest.main()
