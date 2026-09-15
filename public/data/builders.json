@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:50:20+00:00",
+  "generated_at": "2026-09-15T02:10:18+00:00",
   "builders": [
     {
       "contractor": "IVORY HOMES",
@@ -60,18 +60,6 @@
         "Provo"
       ],
       "top_score": 55
-    },
-    {
-      "contractor": "Tri Pointe Homes Holdings",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1425769.28,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
     },
     {
       "contractor": "RICHMOND AMERICAN HOMES OF UTAH INC",
@@ -170,24 +158,24 @@
       "top_score": 25
     },
     {
-      "contractor": "Patterson Homes",
+      "contractor": "Tri Pointe Homes Holdings",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 603739.14,
+      "combined_valuation": 651715.16,
       "jurisdictions": [
         "Orem"
       ],
       "top_score": 25
     },
     {
-      "contractor": "Ridgeway Construction",
+      "contractor": "Patterson Homes",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 547725.45,
+      "combined_valuation": 603739.14,
       "jurisdictions": [
         "Orem"
       ],
