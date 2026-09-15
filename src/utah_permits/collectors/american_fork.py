@@ -13,9 +13,15 @@ from .base import CollectionResult, new_session
 from ..models import Permit
 
 
-NOTICE_RE = re.compile(
-    r"^(?P<month>\d{1,2})\.(?P<day>\d{1,2})\.(?P<year>\d{2,4})\s+"
-    r"Public\s+Hearing\s*-\s*(?P<title>.+)$",
+NOTICE_SCAN_RE = re.compile(
+    r"(?P<month>\d{1,2})[.\-/](?P<day>\d{1,3})[.\-/](?P<year>\d{2,4})\s+"
+    r"Public\s+Hearing\s*-\s*(?P<title>.+?)"
+    r"(?=(?:\d{1,2}[.\-/]\d{1,3}[.\-/]\d{2,4}\s+(?:Public\s+Hearing|Public\s+Notice))"
+    r"|(?:Development\s+Review\s+Committee\s+Notices\s*:)"
+    r"|(?:Planning\s+Commission\s+Notices\s*:)"
+    r"|(?:Board\s+of\s+Adjustment\s+Notices\s*:)"
+    r"|(?:Annexation\s+Notices\s*:)"
+    r"|$)",
     flags=re.I,
 )
 
@@ -171,15 +177,12 @@ class AmericanForkCollector:
     @classmethod
     def parse_notices_html(cls, html: str, source_url: str) -> list[Permit]:
         soup = BeautifulSoup(html, "html.parser")
+        body = re.sub(r"\s+", " ", " ".join(soup.stripped_strings)).strip()
         permits: list[Permit] = []
         seen: set[str] = set()
 
-        for raw_line in soup.get_text("\n").splitlines():
-            line = re.sub(r"\s+", " ", raw_line).strip()
-            match = NOTICE_RE.match(line)
-            if not match:
-                continue
-            title = re.sub(r"\s+", " ", match.group("title")).strip()
+        for match in NOTICE_SCAN_RE.finditer(body):
+            title = re.sub(r"\s+", " ", match.group("title")).strip(" -–—")
             lowered = title.lower()
             if not any(signal in lowered for signal in DEVELOPMENT_SIGNALS):
                 continue
@@ -187,11 +190,17 @@ class AmericanForkCollector:
             year = int(match.group("year"))
             if year < 100:
                 year += 2000
-            hearing_date = date(
-                year,
-                int(match.group("month")),
-                int(match.group("day")),
-            ).isoformat()
+            try:
+                hearing_date = date(
+                    year,
+                    int(match.group("month")),
+                    int(match.group("day")),
+                ).isoformat()
+            except ValueError:
+                # Fail closed on genuinely invalid City date labels while tolerating
+                # harmless zero-padding such as the City's observed "09.016.2026".
+                continue
+
             digest = hashlib.sha1(
                 f"{title}|{hearing_date}".lower().encode("utf-8")
             ).hexdigest()[:12].upper()
@@ -220,7 +229,7 @@ class AmericanForkCollector:
                 )
             )
 
-        return permits
+        return sorted(permits, key=lambda p: (p.issued_date, p.project_name or ""), reverse=True)
 
     @staticmethod
     def _clean_cell(value: str | None) -> str:
