@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:10:18+00:00",
+  "generated_at": "2026-09-15T02:14:56+00:00",
   "sources": [
     {
       "source": "Provo",
@@ -14,10 +14,10 @@
       "oldest_permit_date": "2024-09-16",
       "days_since_newest_permit": 5,
       "freshness_threshold_days": 10,
-      "previous_records_seen": null,
-      "record_count_change_pct": null,
-      "last_attempt_at": "2026-09-15T02:10:18+00:00",
-      "last_success_at": "2026-09-15T02:10:18+00:00",
+      "previous_records_seen": 3683,
+      "record_count_change_pct": 0.0,
+      "last_attempt_at": "2026-09-15T02:14:56+00:00",
+      "last_success_at": "2026-09-15T02:14:56+00:00",
       "cached_data_available": true,
       "source_url": "https://gispublicweb.provo.org/arcgis/rest/services/DevServ/CurrentProjects/MapServer/1",
       "note": "Official Provo Current Projects MapServer building-permit layer; rolling 730-day window; server-side date filter active"
@@ -37,8 +37,8 @@
       "freshness_threshold_days": 40,
       "previous_records_seen": 938,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T02:10:18+00:00",
-      "last_success_at": "2026-09-15T02:10:18+00:00",
+      "last_attempt_at": "2026-09-15T02:14:56+00:00",
+      "last_success_at": "2026-09-15T02:14:56+00:00",
       "cached_data_available": true,
       "source_url": "https://orem.gov/wp-content/uploads/2026/08/Building-Permits-2026-Web-Jan-July-Consecutive.pdf",
       "note": "Official City of Orem permit statistics PDF Newest permit is 46 days old; threshold is 40 days."
@@ -58,8 +58,8 @@
       "freshness_threshold_days": 21,
       "previous_records_seen": 995,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T02:10:18+00:00",
-      "last_success_at": "2026-09-15T02:10:18+00:00",
+      "last_attempt_at": "2026-09-15T02:14:56+00:00",
+      "last_success_at": "2026-09-15T02:14:56+00:00",
       "cached_data_available": true,
       "source_url": "https://www.summitcountyutah.gov/558/Issued-Building-Permits",
       "note": "Official Summit County issued-building-permits PDF Newest permit is 46 days old; threshold is 21 days."

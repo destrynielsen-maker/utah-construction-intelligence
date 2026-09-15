@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:10:18+00:00",
+  "generated_at": "2026-09-15T02:14:56+00:00",
   "permits": [
     {
       "state": "UT",
@@ -26,7 +26,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-09-04T16:22:26+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1788415200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601456",
@@ -66,7 +66,7 @@
       "qualifies": true,
       "score": 42,
       "first_seen_at": "2026-09-03T16:26:24+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1788328800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600074",
@@ -106,7 +106,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-09-01T16:41:11+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1788156000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601831",
@@ -146,7 +146,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-09-01T16:41:11+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1788156000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601818",
@@ -186,7 +186,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-27T22:16:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1787724000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600730",
@@ -226,7 +226,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-26T20:03:41+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1787637600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601552",
@@ -266,7 +266,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-25T18:57:32+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1787551200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601436",
@@ -306,7 +306,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1787292000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601732",
@@ -346,7 +346,7 @@
       "qualifies": true,
       "score": 55,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1787205600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601136",
@@ -386,7 +386,7 @@
       "qualifies": true,
       "score": 55,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1787205600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601135",
@@ -426,7 +426,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1787119200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601735",
@@ -466,7 +466,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1787032800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601592",
@@ -506,7 +506,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1786946400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601438",
@@ -546,7 +546,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1786428000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601618",
@@ -586,7 +586,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1785996000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601483",
@@ -626,7 +626,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1785823200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601656",
@@ -666,7 +666,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/30/2026",
         "permit_number": "26-1400",
@@ -702,7 +702,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1785304800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601426",
@@ -742,7 +742,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1785304800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601401",
@@ -782,7 +782,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/28/2026",
         "permit_number": "26-1471",
@@ -818,7 +818,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1785218400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601424",
@@ -858,7 +858,7 @@
       "qualifies": true,
       "score": 42,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1785132000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600386",
@@ -898,7 +898,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1785132000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601479",
@@ -938,7 +938,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/23/2026",
         "permit_number": "26-1515",
@@ -974,7 +974,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-18T01:51:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/23/2026",
         "permit_number": "26721",
@@ -1010,7 +1010,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-18T01:51:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/23/2026",
         "permit_number": "261088",
@@ -1046,7 +1046,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/21/2026",
         "permit_number": "26-1798",
@@ -1082,7 +1082,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1784613600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601397",
@@ -1122,7 +1122,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-18T01:51:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/21/2026",
         "permit_number": "26512",
@@ -1158,7 +1158,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-18T01:51:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/21/2026",
         "permit_number": "261258",
@@ -1194,7 +1194,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1784527200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601308",
@@ -1234,7 +1234,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-18T01:51:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/20/2026",
         "permit_number": "26955",
@@ -1270,7 +1270,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-18T01:51:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/20/2026",
         "permit_number": "26130",
@@ -1306,7 +1306,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1784181600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601311",
@@ -1346,7 +1346,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-18T01:51:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/15/2026",
         "permit_number": "261106",
@@ -1382,7 +1382,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1784008800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601269",
@@ -1422,7 +1422,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1783922400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601365",
@@ -1462,7 +1462,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1783922400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601297",
@@ -1502,7 +1502,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1783922400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601354",
@@ -1542,7 +1542,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1783922400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601347",
@@ -1582,7 +1582,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1783576800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600782",
@@ -1622,7 +1622,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1783490400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601194",
@@ -1662,7 +1662,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1783490400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601355",
@@ -1702,7 +1702,7 @@
       "qualifies": true,
       "score": 22,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1783404000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601132",
@@ -1742,7 +1742,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-18T01:51:31+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/2/2026",
         "permit_number": "26492",
@@ -1778,7 +1778,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "7/1/2026",
         "permit_number": "26-1469",
@@ -1814,7 +1814,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782799200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601263",
@@ -1854,7 +1854,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782799200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601260",
@@ -1894,7 +1894,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/30/2026",
         "permit_number": "26-1466",
@@ -1930,7 +1930,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/30/2026",
         "permit_number": "26684",
@@ -1966,7 +1966,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/30/2026",
         "permit_number": "26457",
@@ -2002,7 +2002,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782712800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601298",
@@ -2042,7 +2042,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782712800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601261",
@@ -2082,7 +2082,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782280800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601144",
@@ -2122,7 +2122,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782280800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502179",
@@ -2162,7 +2162,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782194400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601011",
@@ -2202,7 +2202,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782194400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601112",
@@ -2242,7 +2242,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/23/2026",
         "permit_number": "26298",
@@ -2278,7 +2278,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/22/2026",
         "permit_number": "26-1539",
@@ -2314,7 +2314,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782108000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601197",
@@ -2354,7 +2354,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1782108000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601175",
@@ -2394,7 +2394,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/18/2026",
         "permit_number": "26395",
@@ -2430,7 +2430,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/18/2026",
         "permit_number": "26391",
@@ -2466,7 +2466,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1781676000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601125",
@@ -2506,7 +2506,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1781676000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202601113",
@@ -2546,7 +2546,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/17/2026",
         "permit_number": "26940",
@@ -2582,7 +2582,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/17/2026",
         "permit_number": "26581",
@@ -2618,7 +2618,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1781676000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600955",
@@ -2658,7 +2658,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/16/2026",
         "permit_number": "26-1377",
@@ -2694,7 +2694,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/16/2026",
         "permit_number": "26-1202",
@@ -2730,7 +2730,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/15/2026",
         "permit_number": "26-1376",
@@ -2766,7 +2766,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/14/2026",
         "permit_number": "251623",
@@ -2802,7 +2802,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/11/2026",
         "permit_number": "26999",
@@ -2838,7 +2838,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/11/2026",
         "permit_number": "26844",
@@ -2874,7 +2874,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/11/2026",
         "permit_number": "26717",
@@ -2910,7 +2910,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/11/2026",
         "permit_number": "26716",
@@ -2946,7 +2946,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/11/2026",
         "permit_number": "261004",
@@ -2982,7 +2982,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/10/2026",
         "permit_number": "26260",
@@ -3018,7 +3018,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1780984800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600780",
@@ -3058,7 +3058,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1780898400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600783",
@@ -3098,7 +3098,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/8/2026",
         "permit_number": "26-2922",
@@ -3134,7 +3134,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/5/2026",
         "permit_number": "26685",
@@ -3170,7 +3170,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1780552800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600687",
@@ -3210,7 +3210,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1780552800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600501",
@@ -3250,7 +3250,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1780380000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600179",
@@ -3290,7 +3290,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/2/2026",
         "permit_number": "26-1225",
@@ -3326,7 +3326,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/2/2026",
         "permit_number": "26-1224",
@@ -3362,7 +3362,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "6/1/2026",
         "permit_number": "26-1026",
@@ -3398,7 +3398,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/29/2026",
         "permit_number": "251537",
@@ -3434,7 +3434,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779948000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600852",
@@ -3474,7 +3474,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779948000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600849",
@@ -3514,7 +3514,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779948000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600812",
@@ -3554,7 +3554,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779948000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600701",
@@ -3594,7 +3594,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/28/2026",
         "permit_number": "26710",
@@ -3630,7 +3630,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/28/2026",
         "permit_number": "26389",
@@ -3666,7 +3666,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779861600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600976",
@@ -3706,7 +3706,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/26/2026",
         "permit_number": "26-1675",
@@ -3742,7 +3742,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/26/2026",
         "permit_number": "26234",
@@ -3778,7 +3778,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/22/2026",
         "permit_number": "26674",
@@ -3814,7 +3814,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/22/2026",
         "permit_number": "26507",
@@ -3850,7 +3850,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/21/2026",
         "permit_number": "26355",
@@ -3886,7 +3886,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779256800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600304",
@@ -3926,7 +3926,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/20/2026",
         "permit_number": "26558",
@@ -3962,7 +3962,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600502",
@@ -4002,7 +4002,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600327",
@@ -4042,7 +4042,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600326",
@@ -4082,7 +4082,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600321",
@@ -4122,7 +4122,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600320",
@@ -4162,7 +4162,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600319",
@@ -4202,7 +4202,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600318",
@@ -4242,7 +4242,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600317",
@@ -4282,7 +4282,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600315",
@@ -4322,7 +4322,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600314",
@@ -4362,7 +4362,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600306",
@@ -4402,7 +4402,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600303",
@@ -4442,7 +4442,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600272",
@@ -4482,7 +4482,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600271",
@@ -4522,7 +4522,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600147",
@@ -4562,7 +4562,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600308",
@@ -4602,7 +4602,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779170400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600475",
@@ -4642,7 +4642,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779084000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600503",
@@ -4682,7 +4682,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1779084000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600781",
@@ -4722,7 +4722,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/18/2026",
         "permit_number": "251579",
@@ -4758,7 +4758,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/15/2026",
         "permit_number": "26-1170",
@@ -4794,7 +4794,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/15/2026",
         "permit_number": "25601",
@@ -4830,7 +4830,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/14/2026",
         "permit_number": "252110",
@@ -4866,7 +4866,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1778652000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501152",
@@ -4906,7 +4906,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/12/2026",
         "permit_number": "26245",
@@ -4942,7 +4942,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/12/2026",
         "permit_number": "26244",
@@ -4978,7 +4978,7 @@
       "qualifies": true,
       "score": 55,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1778479200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600060",
@@ -5018,7 +5018,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/11/2026",
         "permit_number": "26-1093",
@@ -5054,7 +5054,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/11/2026",
         "permit_number": "26589",
@@ -5090,7 +5090,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/11/2026",
         "permit_number": "26579",
@@ -5126,7 +5126,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/11/2026",
         "permit_number": "26474",
@@ -5162,7 +5162,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/11/2026",
         "permit_number": "26470",
@@ -5198,7 +5198,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/11/2026",
         "permit_number": "251995",
@@ -5234,7 +5234,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/8/2026",
         "permit_number": "26-0817",
@@ -5270,7 +5270,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/8/2026",
         "permit_number": "251629",
@@ -5306,7 +5306,7 @@
       "qualifies": true,
       "score": 22,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1778133600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502297",
@@ -5346,7 +5346,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1778133600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600101",
@@ -5386,7 +5386,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "5/4/2026",
         "permit_number": "26-1008",
@@ -5422,7 +5422,7 @@
       "qualifies": true,
       "score": 22,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1777874400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600628",
@@ -5462,7 +5462,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1777874400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600544",
@@ -5502,7 +5502,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/30/2026",
         "permit_number": "26-0071",
@@ -5538,7 +5538,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1777442400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600609",
@@ -5578,7 +5578,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1777356000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600497",
@@ -5618,7 +5618,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/28/2026",
         "permit_number": "251105",
@@ -5654,7 +5654,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1777269600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600535",
@@ -5694,7 +5694,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/27/2026",
         "permit_number": "251536",
@@ -5730,7 +5730,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/27/2026",
         "permit_number": "251403",
@@ -5766,7 +5766,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/24/2026",
         "permit_number": "26-0782",
@@ -5802,7 +5802,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/24/2026",
         "permit_number": "251795",
@@ -5838,7 +5838,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776924000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600313",
@@ -5878,7 +5878,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776924000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600312",
@@ -5918,7 +5918,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776924000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600311",
@@ -5958,7 +5958,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776924000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600310",
@@ -5998,7 +5998,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776924000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600307",
@@ -6038,7 +6038,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776924000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600265",
@@ -6078,7 +6078,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776837600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600631",
@@ -6118,7 +6118,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776751200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600476",
@@ -6158,7 +6158,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/21/2026",
         "permit_number": "26232",
@@ -6194,7 +6194,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/21/2026",
         "permit_number": "26218",
@@ -6230,7 +6230,7 @@
       "qualifies": true,
       "score": 42,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776664800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502528",
@@ -6270,7 +6270,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776664800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600717",
@@ -6310,7 +6310,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776664800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600702",
@@ -6350,7 +6350,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776664800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600486",
@@ -6390,7 +6390,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776664800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600444",
@@ -6430,7 +6430,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776664800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600647",
@@ -6470,7 +6470,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776664800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600632",
@@ -6510,7 +6510,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/20/2026",
         "permit_number": "26408",
@@ -6546,7 +6546,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/17/2026",
         "permit_number": "26204",
@@ -6582,7 +6582,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/17/2026",
         "permit_number": "25759",
@@ -6618,7 +6618,7 @@
       "qualifies": true,
       "score": 42,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776319200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600552",
@@ -6658,7 +6658,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776319200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600639",
@@ -6698,7 +6698,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/16/2026",
         "permit_number": "26359",
@@ -6734,7 +6734,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1776232800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600452",
@@ -6774,7 +6774,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/15/2026",
         "permit_number": "26080",
@@ -6810,7 +6810,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/14/2026",
         "permit_number": "25822",
@@ -6846,7 +6846,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/13/2026",
         "permit_number": "26-0642",
@@ -6882,7 +6882,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/10/2026",
         "permit_number": "26-0675",
@@ -6918,7 +6918,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/9/2026",
         "permit_number": "26-0347",
@@ -6954,7 +6954,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1775628000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600612",
@@ -6994,7 +6994,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1775628000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600565",
@@ -7034,7 +7034,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1775628000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600558",
@@ -7074,7 +7074,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/8/2026",
         "permit_number": "26315",
@@ -7110,7 +7110,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1775541600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600554",
@@ -7150,7 +7150,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/7/2026",
         "permit_number": "25680",
@@ -7186,7 +7186,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/6/2026",
         "permit_number": "251234",
@@ -7222,7 +7222,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "4/2/2026",
         "permit_number": "26-0500",
@@ -7258,7 +7258,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1775023200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600525",
@@ -7298,7 +7298,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1775023200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600511",
@@ -7338,7 +7338,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1775023200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600559",
@@ -7378,7 +7378,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1774936800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600482",
@@ -7418,7 +7418,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1774850400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600216",
@@ -7458,7 +7458,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1774850400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600215",
@@ -7498,7 +7498,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1774850400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600214",
@@ -7538,7 +7538,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1774850400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600213",
@@ -7578,7 +7578,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1774850400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600434",
@@ -7618,7 +7618,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1774850400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600411",
@@ -7658,7 +7658,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/30/2026",
         "permit_number": "26-0730",
@@ -7694,7 +7694,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/26/2026",
         "permit_number": "251556",
@@ -7730,7 +7730,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1774332000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600480",
@@ -7770,7 +7770,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/23/2026",
         "permit_number": "251193",
@@ -7806,7 +7806,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773813600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502711",
@@ -7846,7 +7846,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773813600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502710",
@@ -7886,7 +7886,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773813600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600454",
@@ -7926,7 +7926,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773813600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600453",
@@ -7966,7 +7966,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/17/2026",
         "permit_number": "26-0565",
@@ -8002,7 +8002,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773727200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600350",
@@ -8042,7 +8042,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/17/2026",
         "permit_number": "25819",
@@ -8078,7 +8078,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773640800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600153",
@@ -8118,7 +8118,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773640800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600154",
@@ -8158,7 +8158,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773640800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600152",
@@ -8198,7 +8198,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773640800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600151",
@@ -8238,7 +8238,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773640800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600259",
@@ -8278,7 +8278,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773295200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600355",
@@ -8318,7 +8318,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773208800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600367",
@@ -8358,7 +8358,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773208800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502457",
@@ -8398,7 +8398,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773208800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502458",
@@ -8438,7 +8438,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773122400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600239",
@@ -8478,7 +8478,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1773122400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600228",
@@ -8518,7 +8518,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/10/2026",
         "permit_number": "26272",
@@ -8554,7 +8554,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/10/2026",
         "permit_number": "251524",
@@ -8590,7 +8590,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/10/2026",
         "permit_number": "251314",
@@ -8626,7 +8626,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/6/2026",
         "permit_number": "26257",
@@ -8662,7 +8662,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/6/2026",
         "permit_number": "251997",
@@ -8698,7 +8698,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/6/2026",
         "permit_number": "241349",
@@ -8734,7 +8734,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/5/2026",
         "permit_number": "26-0414",
@@ -8770,7 +8770,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1772694000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600257",
@@ -8810,7 +8810,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1772694000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600248",
@@ -8850,7 +8850,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/4/2026",
         "permit_number": "26-0409",
@@ -8886,7 +8886,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1772607600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202600485",
@@ -8926,7 +8926,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/4/2026",
         "permit_number": "252173",
@@ -8962,7 +8962,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/4/2026",
         "permit_number": "26211",
@@ -8998,7 +8998,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1772521200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502493",
@@ -9038,7 +9038,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0310",
@@ -9074,7 +9074,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0410",
@@ -9110,7 +9110,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0019",
@@ -9146,7 +9146,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/25/2026",
         "permit_number": "26-0372",
@@ -9182,7 +9182,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/25/2026",
         "permit_number": "26-0198",
@@ -9218,7 +9218,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/24/2026",
         "permit_number": "26061",
@@ -9254,7 +9254,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/23/2026",
         "permit_number": "25008",
@@ -9290,7 +9290,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/23/2026",
         "permit_number": "26186",
@@ -9326,7 +9326,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1771311600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502626",
@@ -9366,7 +9366,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/13/2026",
         "permit_number": "26144",
@@ -9402,7 +9402,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/13/2026",
         "permit_number": "26136",
@@ -9438,7 +9438,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/13/2026",
         "permit_number": "26052",
@@ -9474,7 +9474,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/12/2026",
         "permit_number": "251960",
@@ -9510,7 +9510,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/6/2026",
         "permit_number": "252000",
@@ -9546,7 +9546,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/5/2026",
         "permit_number": "25627",
@@ -9582,7 +9582,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/2/2026",
         "permit_number": "25479",
@@ -9618,7 +9618,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/2/2026",
         "permit_number": "25478",
@@ -9654,7 +9654,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "2/2/2026",
         "permit_number": "25477",
@@ -9690,7 +9690,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/30/2026",
         "permit_number": "26049",
@@ -9726,7 +9726,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/28/2026",
         "permit_number": "26051",
@@ -9762,7 +9762,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/28/2026",
         "permit_number": "26050",
@@ -9798,7 +9798,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1769583600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502726",
@@ -9838,7 +9838,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/26/2026",
         "permit_number": "26-1882",
@@ -9874,7 +9874,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0030",
@@ -9910,7 +9910,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0028",
@@ -9946,7 +9946,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0027",
@@ -9982,7 +9982,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/21/2026",
         "permit_number": "251485",
@@ -10018,7 +10018,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/21/2026",
         "permit_number": "221284",
@@ -10054,7 +10054,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768892400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502724",
@@ -10094,7 +10094,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/16/2026",
         "permit_number": "25604",
@@ -10130,7 +10130,7 @@
       "qualifies": true,
       "score": 62,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768460400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501367",
@@ -10170,7 +10170,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768460400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501369",
@@ -10210,7 +10210,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768460400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501368",
@@ -10250,7 +10250,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768460400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501371",
@@ -10290,7 +10290,7 @@
       "qualifies": true,
       "score": 22,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768460400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501865",
@@ -10330,7 +10330,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768460400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502725",
@@ -10370,7 +10370,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768287600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502552",
@@ -10410,7 +10410,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768287600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502221",
@@ -10450,7 +10450,7 @@
       "qualifies": true,
       "score": 62,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768201200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501364",
@@ -10490,7 +10490,7 @@
       "qualifies": true,
       "score": 62,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1768201200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501363",
@@ -10530,7 +10530,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/12/2026",
         "permit_number": "251303",
@@ -10566,7 +10566,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/12/2026",
         "permit_number": "251644",
@@ -10602,7 +10602,7 @@
       "qualifies": true,
       "score": 55,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1767769200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500923",
@@ -10642,7 +10642,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1767769200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502578",
@@ -10682,7 +10682,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/6/2026",
         "permit_number": "26-4142",
@@ -10718,7 +10718,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1767596400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502634",
@@ -10758,7 +10758,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/2/2026",
         "permit_number": "26005",
@@ -10794,7 +10794,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/2/2026",
         "permit_number": "26003",
@@ -10830,7 +10830,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/2/2026",
         "permit_number": "26002",
@@ -10866,7 +10866,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/2/2026",
         "permit_number": "252144",
@@ -10902,7 +10902,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "date": "1/2/2026",
         "permit_number": "26-3539",
@@ -10938,7 +10938,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1767164400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502222",
@@ -10978,7 +10978,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1766041200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502560",
@@ -11018,7 +11018,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1766041200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502559",
@@ -11058,7 +11058,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1765954800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502513",
@@ -11098,7 +11098,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1765350000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500391",
@@ -11138,7 +11138,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764831600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502269",
@@ -11178,7 +11178,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764831600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502268",
@@ -11218,7 +11218,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764831600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502267",
@@ -11258,7 +11258,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764831600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502266",
@@ -11298,7 +11298,7 @@
       "qualifies": true,
       "score": 62,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764658800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501361",
@@ -11338,7 +11338,7 @@
       "qualifies": true,
       "score": 62,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764658800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501360",
@@ -11378,7 +11378,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764572400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502273",
@@ -11418,7 +11418,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764572400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502272",
@@ -11458,7 +11458,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764572400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502271",
@@ -11498,7 +11498,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764572400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502270",
@@ -11538,7 +11538,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1764572400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501960",
@@ -11578,7 +11578,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763967600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502309",
@@ -11618,7 +11618,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763449200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502015",
@@ -11658,7 +11658,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763449200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502014",
@@ -11698,7 +11698,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763449200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502013",
@@ -11738,7 +11738,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763449200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502012",
@@ -11778,7 +11778,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763362800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502020",
@@ -11818,7 +11818,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763362800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502019",
@@ -11858,7 +11858,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763362800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502018",
@@ -11898,7 +11898,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763362800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502017",
@@ -11938,7 +11938,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763017200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401076",
@@ -11978,7 +11978,7 @@
       "qualifies": true,
       "score": 42,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1763017200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501809",
@@ -12018,7 +12018,7 @@
       "qualifies": true,
       "score": 62,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1762844400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501362",
@@ -12058,7 +12058,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1762758000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501841",
@@ -12098,7 +12098,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1762412400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502341",
@@ -12138,7 +12138,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1762326000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501375",
@@ -12178,7 +12178,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1762326000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501175",
@@ -12218,7 +12218,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1761717600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502206",
@@ -12258,7 +12258,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1761544800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501227",
@@ -12298,7 +12298,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1761112800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502278",
@@ -12338,7 +12338,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1760940000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502081",
@@ -12378,7 +12378,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1760594400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501370",
@@ -12418,7 +12418,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1760594400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501730",
@@ -12458,7 +12458,7 @@
       "qualifies": true,
       "score": 32,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1760508000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500301",
@@ -12498,7 +12498,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1760421600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502047",
@@ -12538,7 +12538,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1760335200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502006",
@@ -12578,7 +12578,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759989600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501956",
@@ -12618,7 +12618,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401079",
@@ -12658,7 +12658,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501691",
@@ -12698,7 +12698,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501689",
@@ -12738,7 +12738,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501688",
@@ -12778,7 +12778,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501687",
@@ -12818,7 +12818,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501686",
@@ -12858,7 +12858,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501685",
@@ -12898,7 +12898,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501684",
@@ -12938,7 +12938,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501683",
@@ -12978,7 +12978,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501682",
@@ -13018,7 +13018,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501681",
@@ -13058,7 +13058,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501679",
@@ -13098,7 +13098,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501677",
@@ -13138,7 +13138,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759384800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401077",
@@ -13178,7 +13178,7 @@
       "qualifies": true,
       "score": 62,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759298400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501359",
@@ -13218,7 +13218,7 @@
       "qualifies": true,
       "score": 62,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759298400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501358",
@@ -13258,7 +13258,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1759298400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401073",
@@ -13298,7 +13298,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1758693600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501838",
@@ -13338,7 +13338,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1758693600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500295",
@@ -13378,7 +13378,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1758607200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401056",
@@ -13418,7 +13418,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1758520800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202502045",
@@ -13458,7 +13458,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1758175200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402479",
@@ -13498,7 +13498,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1758088800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501623",
@@ -13538,7 +13538,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1758088800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202400883",
@@ -13578,7 +13578,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1757052000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401054",
@@ -13618,7 +13618,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1756965600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501590",
@@ -13658,7 +13658,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1756879200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500257",
@@ -13698,7 +13698,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1756447200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401044",
@@ -13738,7 +13738,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1756447200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401069",
@@ -13778,7 +13778,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1756274400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402290",
@@ -13818,7 +13818,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1756188000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501451",
@@ -13858,7 +13858,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1756188000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501165",
@@ -13898,7 +13898,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1755496800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501559",
@@ -13938,7 +13938,7 @@
       "qualifies": true,
       "score": 47,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1755151200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500585",
@@ -13978,7 +13978,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1754892000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501164",
@@ -14018,7 +14018,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1754892000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501456",
@@ -14058,7 +14058,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1754373600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501342",
@@ -14098,7 +14098,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1753941600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401078",
@@ -14138,7 +14138,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1753941600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401062",
@@ -14178,7 +14178,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1753768800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501010",
@@ -14218,7 +14218,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1753768800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500998",
@@ -14258,7 +14258,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1751436000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202501043",
@@ -14298,7 +14298,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1751349600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401057",
@@ -14338,7 +14338,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1751263200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500760",
@@ -14378,7 +14378,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1750658400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500999",
@@ -14418,7 +14418,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1750226400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402233",
@@ -14458,7 +14458,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1749708000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500803",
@@ -14498,7 +14498,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1749535200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500994",
@@ -14538,7 +14538,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1749016800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500841",
@@ -14578,7 +14578,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1748930400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202202563",
@@ -14618,7 +14618,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1748498400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500710",
@@ -14658,7 +14658,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1748498400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500709",
@@ -14698,7 +14698,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1748498400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500705",
@@ -14738,7 +14738,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1748325600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401075",
@@ -14778,7 +14778,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1748325600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500837",
@@ -14818,7 +14818,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1748325600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202400154",
@@ -14858,7 +14858,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747893600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500294",
@@ -14898,7 +14898,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747634400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500725",
@@ -14938,7 +14938,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747375200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401055",
@@ -14978,7 +14978,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747288800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500687",
@@ -15018,7 +15018,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747288800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500636",
@@ -15058,7 +15058,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747288800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500635",
@@ -15098,7 +15098,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747288800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500634",
@@ -15138,7 +15138,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747288800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500570",
@@ -15178,7 +15178,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747116000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500817",
@@ -15218,7 +15218,7 @@
       "qualifies": true,
       "score": 55,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747029600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401675",
@@ -15258,7 +15258,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1747029600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500525",
@@ -15298,7 +15298,7 @@
       "qualifies": true,
       "score": 55,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1746424800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402564",
@@ -15338,7 +15338,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1746424800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500434",
@@ -15378,7 +15378,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1745992800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401049",
@@ -15418,7 +15418,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1745992800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500590",
@@ -15458,7 +15458,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1745820000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401074",
@@ -15498,7 +15498,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1745820000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500575",
@@ -15538,7 +15538,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1745301600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500589",
@@ -15578,7 +15578,7 @@
       "qualifies": true,
       "score": 42,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1745215200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402345",
@@ -15618,7 +15618,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744869600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500521",
@@ -15658,7 +15658,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744783200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401071",
@@ -15698,7 +15698,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744783200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401051",
@@ -15738,7 +15738,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744783200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500238",
@@ -15778,7 +15778,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744783200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500571",
@@ -15818,7 +15818,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744610400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500527",
@@ -15858,7 +15858,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744610400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500523",
@@ -15898,7 +15898,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744264800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401553",
@@ -15938,7 +15938,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744178400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500170",
@@ -15978,7 +15978,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744178400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401379",
@@ -16018,7 +16018,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1744005600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500002",
@@ -16058,7 +16058,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1743573600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500401",
@@ -16098,7 +16098,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1743573600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500386",
@@ -16138,7 +16138,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1743487200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500383",
@@ -16178,7 +16178,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1742968800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500384",
@@ -16218,7 +16218,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1742882400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402566",
@@ -16258,7 +16258,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1742882400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402565",
@@ -16298,7 +16298,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1742882400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402563",
@@ -16338,7 +16338,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1742882400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500370",
@@ -16378,7 +16378,7 @@
       "qualifies": true,
       "score": 42,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1742450400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500187",
@@ -16418,7 +16418,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1742450400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500254",
@@ -16458,7 +16458,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1742191200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202400566",
@@ -16498,7 +16498,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741845600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500138",
@@ -16538,7 +16538,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741759200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401058",
@@ -16578,7 +16578,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741759200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401063",
@@ -16618,7 +16618,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741759200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401053",
@@ -16658,7 +16658,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741759200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500253",
@@ -16698,7 +16698,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741586400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401066",
@@ -16738,7 +16738,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741586400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401061",
@@ -16778,7 +16778,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741586400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401045",
@@ -16818,7 +16818,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741244400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401065",
@@ -16858,7 +16858,7 @@
       "qualifies": true,
       "score": 47,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741158000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401839",
@@ -16898,7 +16898,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741158000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402523",
@@ -16938,7 +16938,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741158000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402522",
@@ -16978,7 +16978,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741158000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402521",
@@ -17018,7 +17018,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1741158000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402520",
@@ -17058,7 +17058,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1740553200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500126",
@@ -17098,7 +17098,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1740380400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500013",
@@ -17138,7 +17138,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1740121200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401829",
@@ -17178,7 +17178,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1740121200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401828",
@@ -17218,7 +17218,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1740121200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401826",
@@ -17258,7 +17258,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1740121200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401827",
@@ -17298,7 +17298,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1739948400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402379",
@@ -17338,7 +17338,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1739862000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500046",
@@ -17378,7 +17378,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1739430000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401513",
@@ -17418,7 +17418,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1739430000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401825",
@@ -17458,7 +17458,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1739170800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401824",
@@ -17498,7 +17498,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1739170800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402491",
@@ -17538,7 +17538,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738825200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401623",
@@ -17578,7 +17578,7 @@
       "qualifies": true,
       "score": 47,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738652400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402043",
@@ -17618,7 +17618,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738566000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402517",
@@ -17658,7 +17658,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738566000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402516",
@@ -17698,7 +17698,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738566000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402514",
@@ -17738,7 +17738,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738566000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402513",
@@ -17778,7 +17778,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738566000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402511",
@@ -17818,7 +17818,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738566000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500019",
@@ -17858,7 +17858,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738220400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402519",
@@ -17898,7 +17898,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738220400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402518",
@@ -17938,7 +17938,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738220400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402512",
@@ -17978,7 +17978,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738220400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402509",
@@ -18018,7 +18018,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738220400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402510",
@@ -18058,7 +18058,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1738134000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202500107",
@@ -18098,7 +18098,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1737961200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402234",
@@ -18138,7 +18138,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736924400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401420",
@@ -18178,7 +18178,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736838000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402454",
@@ -18218,7 +18218,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736406000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402304",
@@ -18258,7 +18258,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736406000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401794",
@@ -18298,7 +18298,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736406000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401460",
@@ -18338,7 +18338,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736319600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401712",
@@ -18378,7 +18378,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736146800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402307",
@@ -18418,7 +18418,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736146800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402306",
@@ -18458,7 +18458,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736146800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402305",
@@ -18498,7 +18498,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1736146800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402235",
@@ -18538,7 +18538,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1734937200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401431",
@@ -18578,7 +18578,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1733295600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401637",
@@ -18618,7 +18618,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1732690800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402086",
@@ -18658,7 +18658,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1732604400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402203",
@@ -18698,7 +18698,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1732518000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401793",
@@ -18738,7 +18738,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731999600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402087",
@@ -18778,7 +18778,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731999600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401104",
@@ -18818,7 +18818,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731999600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402142",
@@ -18858,7 +18858,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731913200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401048",
@@ -18898,7 +18898,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731913200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402044",
@@ -18938,7 +18938,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731913200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401948",
@@ -18978,7 +18978,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731567600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402085",
@@ -19018,7 +19018,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731567600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402084",
@@ -19058,7 +19058,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731394800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401949",
@@ -19098,7 +19098,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1731308400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401960",
@@ -19138,7 +19138,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1730962800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402090",
@@ -19178,7 +19178,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1730962800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402089",
@@ -19218,7 +19218,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1730876400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401753",
@@ -19258,7 +19258,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1730790000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402091",
@@ -19298,7 +19298,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1730790000000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402218",
@@ -19338,7 +19338,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1730703600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202402088",
@@ -19378,7 +19378,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1729663200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401796",
@@ -19418,7 +19418,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1729663200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401462",
@@ -19458,7 +19458,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1729663200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401461",
@@ -19498,7 +19498,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1729490400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401795",
@@ -19538,7 +19538,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1728453600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401064",
@@ -19578,7 +19578,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1728367200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401463",
@@ -19618,7 +19618,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727848800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202400650",
@@ -19658,7 +19658,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727848800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202400649",
@@ -19698,7 +19698,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727848800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202400648",
@@ -19738,7 +19738,7 @@
       "qualifies": true,
       "score": 57,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727848800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202400509",
@@ -19778,7 +19778,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727762400000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401256",
@@ -19818,7 +19818,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727157600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401068",
@@ -19858,7 +19858,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727157600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401309",
@@ -19898,7 +19898,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727157600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401307",
@@ -19938,7 +19938,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727071200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401310",
@@ -19978,7 +19978,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1727071200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401308",
@@ -20018,7 +20018,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1726725600000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202400918",
@@ -20058,7 +20058,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1726639200000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401042",
@@ -20098,7 +20098,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1726552800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401043",
@@ -20138,7 +20138,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1726552800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401208",
@@ -20178,7 +20178,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1726552800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401207",
@@ -20218,7 +20218,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1726552800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401206",
@@ -20258,7 +20258,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1726552800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401205",
@@ -20298,7 +20298,7 @@
       "qualifies": true,
       "score": 27,
       "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-09-15T02:10:18+00:00",
+      "last_seen_at": "2026-09-15T02:14:56+00:00",
       "raw": {
         "xxClient_BP_Applications_View_dateIssued": 1726552800000,
         "xxClient_BP_Applications_View_PermitNumber": "PRNT202401543",
