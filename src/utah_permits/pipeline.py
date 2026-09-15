@@ -6,6 +6,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .classify import classify_permit
+from .collectors.lehi import LehiCollector
 from .collectors.orem import OremCollector
 from .collectors.provo import ProvoCollector
 from .collectors.summit_county import SummitCountyCollector
@@ -15,12 +16,13 @@ from .models import Permit
 from .storage import load_permits, save_permits
 
 
-COLLECTORS = [ProvoCollector(), OremCollector(), SummitCountyCollector()]
+COLLECTORS = [ProvoCollector(), OremCollector(), SummitCountyCollector(), LehiCollector()]
 
 SOURCE_FRESHNESS_DAYS = {
     "Provo": 10,
     "Orem": 40,
     "Summit County": 21,
+    "Lehi": 21,
 }
 
 VOLUME_WARNING_DROP = 0.50
@@ -101,7 +103,6 @@ def _successful_source_status(
     freshness_status, age_days, threshold = _freshness(result.source, newest, as_of)
     scope_id = getattr(result, "scope_id", None)
     previous_scope = (previous or {}).get("scope_id")
-    # Do not compare record volume across materially different collector scopes.
     previous_count = (
         (previous or {}).get("records_seen")
         if previous is not None and previous_scope == scope_id
@@ -200,7 +201,11 @@ def _failed_source_status(
         "source_url": getattr(
             collector,
             "layer_url",
-            getattr(collector, "pdf_url", getattr(collector, "landing_url", "")),
+            getattr(
+                collector,
+                "pdf_url",
+                getattr(collector, "landing_url", getattr(collector, "notices_url", "")),
+            ),
         ),
         "note": note,
     }
