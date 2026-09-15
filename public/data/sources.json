@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:42:12+00:00",
+  "generated_at": "2026-09-15T17:56:44+00:00",
   "sources": [
     {
       "source": "Provo",
@@ -16,8 +16,8 @@
       "freshness_threshold_days": 10,
       "previous_records_seen": 3690,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T17:42:12+00:00",
-      "last_success_at": "2026-09-15T17:42:12+00:00",
+      "last_attempt_at": "2026-09-15T17:56:44+00:00",
+      "last_success_at": "2026-09-15T17:56:44+00:00",
       "cached_data_available": true,
       "source_url": "https://gispublicweb.provo.org/arcgis/rest/services/DevServ/CurrentProjects/MapServer/1",
       "note": "Official Provo Current Projects MapServer building-permit layer; rolling 730-day window; server-side date filter active"
@@ -37,11 +37,11 @@
       "freshness_threshold_days": 40,
       "previous_records_seen": 949,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T17:42:12+00:00",
-      "last_success_at": "2026-09-15T17:42:12+00:00",
+      "last_attempt_at": "2026-09-15T17:56:44+00:00",
+      "last_success_at": "2026-09-15T17:56:44+00:00",
       "cached_data_available": true,
       "source_url": "https://orem.gov/apb/",
-      "note": "current-year permit report: 938 rows through 2026-07-31; active-projects sheet: 11 explicit new-build leads; snapshot 2026-08-19; DRC agenda unavailable (HTTPError: 404 Client Error: Not Found for url: https://orem.gov/09-14-2026-development-review-committee-agenda/)"
+      "note": "current-year permit report: 938 rows through 2026-07-31; active-projects sheet: 11 explicit new-build leads; snapshot 2026-08-19; DRC agenda unavailable (RuntimeError: Could not discover latest Orem DRC agenda)"
     },
     {
       "source": "Summit County",
@@ -58,8 +58,8 @@
       "freshness_threshold_days": 21,
       "previous_records_seen": 999,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T17:42:12+00:00",
-      "last_success_at": "2026-09-15T17:42:12+00:00",
+      "last_attempt_at": "2026-09-15T17:56:44+00:00",
+      "last_success_at": "2026-09-15T17:56:44+00:00",
       "cached_data_available": true,
       "source_url": "https://www.summitcountyutah.gov/DocumentCenter/View/27530",
       "note": "issued-permit report: 995 rows through 2026-07-31; current planning agendas: 2 agenda(s), 4 project item(s), latest 2026-09-08"
@@ -79,8 +79,8 @@
       "freshness_threshold_days": 21,
       "previous_records_seen": 27,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T17:42:12+00:00",
-      "last_success_at": "2026-09-15T17:42:12+00:00",
+      "last_attempt_at": "2026-09-15T17:56:44+00:00",
+      "last_success_at": "2026-09-15T17:56:44+00:00",
       "cached_data_available": true,
       "source_url": "https://www.lehi-ut.gov/news/posts/planning-commission-public-hearing-items-for-september-24-2026/",
       "note": "Official Lehi Planning Commission public-hearing notices; 6 notice(s), 27 development item(s), latest hearing 2026-09-24; building portal is public lookup-only"
@@ -100,8 +100,8 @@
       "freshness_threshold_days": 45,
       "previous_records_seen": 57,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-09-15T17:42:12+00:00",
-      "last_success_at": "2026-09-15T17:42:12+00:00",
+      "last_attempt_at": "2026-09-15T17:56:44+00:00",
+      "last_success_at": "2026-09-15T17:56:44+00:00",
       "cached_data_available": true,
       "source_url": "https://www.saratogasprings-ut.gov/229/Applications-Pending-Recently-Approved",
       "note": "Official Saratoga Springs Applications Pending & Recently Approved page; 57 pending development application(s), newest update 2026-09-01; planning-stage intelligence only"
@@ -119,13 +119,34 @@
       "oldest_permit_date": "2026-09-22",
       "days_since_newest_permit": -7,
       "freshness_threshold_days": 30,
-      "previous_records_seen": null,
+      "previous_records_seen": 2,
       "record_count_change_pct": null,
-      "last_attempt_at": "2026-09-15T17:42:12+00:00",
-      "last_success_at": "2026-09-15T17:42:12+00:00",
+      "last_attempt_at": "2026-09-15T17:56:44+00:00",
+      "last_success_at": "2026-09-15T17:56:44+00:00",
       "cached_data_available": true,
       "source_url": "https://eaglemountain.gov/government/city-recorder/",
       "note": "Official Eagle Mountain Recorder current public notices; 2 development hearing item(s), latest hearing 2026-09-22; planning-stage intelligence only; OpenGov is treated as a submission portal, not a bulk feed"
+    },
+    {
+      "source": "American Fork",
+      "scope_id": "active-projects+public-notices-v1",
+      "status": "stale",
+      "technical_status": "ok",
+      "freshness_status": "stale",
+      "volume_status": "normal",
+      "records_seen": 70,
+      "qualifying_records": 29,
+      "newest_permit_date": "2026-06-30",
+      "oldest_permit_date": "2025-03-03",
+      "days_since_newest_permit": 77,
+      "freshness_threshold_days": 30,
+      "previous_records_seen": null,
+      "record_count_change_pct": null,
+      "last_attempt_at": "2026-09-15T17:56:44+00:00",
+      "last_success_at": "2026-09-15T17:56:44+00:00",
+      "cached_data_available": true,
+      "source_url": "https://www.americanfork.gov/1128/Public-Meetings-Notices",
+      "note": "Official American Fork Community Development active/pending project report plus public development notices; 70 active permit/project row(s), 0 planning notice(s), newest activity 2026-06-30. Only under-construction new/multifamily/commercial-new rows qualify as construction leads. Newest permit is 77 days old; threshold is 30 days."
     }
   ]
 }
