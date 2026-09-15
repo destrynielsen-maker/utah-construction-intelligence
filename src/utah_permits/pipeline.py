@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import os
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .classify import classify_permit
@@ -99,7 +99,14 @@ def _successful_source_status(
     newest = max(dates) if dates else None
     oldest = min(dates) if dates else None
     freshness_status, age_days, threshold = _freshness(result.source, newest, as_of)
-    previous_count = None if not previous else previous.get("records_seen")
+    scope_id = getattr(result, "scope_id", None)
+    previous_scope = (previous or {}).get("scope_id")
+    # Do not compare record volume across materially different collector scopes.
+    previous_count = (
+        (previous or {}).get("records_seen")
+        if previous is not None and previous_scope == scope_id
+        else None
+    )
     volume_status, change_pct = _volume_health(records_seen, previous_count)
 
     if records_seen == 0:
@@ -123,6 +130,7 @@ def _successful_source_status(
 
     return {
         "source": result.source,
+        "scope_id": scope_id,
         "status": status,
         "technical_status": "ok",
         "freshness_status": freshness_status,
@@ -171,6 +179,7 @@ def _failed_source_status(
 
     return {
         "source": collector.name,
+        "scope_id": getattr(collector, "SCOPE_ID", (previous or {}).get("scope_id")),
         "status": status,
         "technical_status": "error",
         "freshness_status": freshness_status,
@@ -197,6 +206,21 @@ def _failed_source_status(
     }
 
 
+def _prune_provo_history(existing: dict[str, Permit], as_of: date) -> tuple[dict[str, Permit], int]:
+    cutoff = (as_of - timedelta(days=ProvoCollector.LOOKBACK_DAYS)).isoformat()
+    kept: dict[str, Permit] = {}
+    removed = 0
+    for key, permit in existing.items():
+        if permit.jurisdiction != "Provo":
+            kept[key] = permit
+            continue
+        if permit.issued_date and permit.issued_date >= cutoff:
+            kept[key] = permit
+        else:
+            removed += 1
+    return kept, removed
+
+
 def run(root: Path) -> dict:
     now = datetime.now(timezone.utc).replace(microsecond=0)
     generated_at = now.isoformat()
@@ -205,6 +229,7 @@ def run(root: Path) -> dict:
     public_dir = root / "public"
     previous_sources = _load_previous_sources(public_dir / "data" / "sources.json")
     existing = load_permits(store_path)
+    existing, pruned_provo_history = _prune_provo_history(existing, as_of)
     source_status: list[dict] = []
     total_collected = 0
 
@@ -243,5 +268,6 @@ def run(root: Path) -> dict:
         "total_collected_this_run": total_collected,
         "total_stored": len(permits),
         "qualifying_stored": sum(p.qualifies for p in permits),
+        "pruned_provo_history": pruned_provo_history,
         "sources": source_status,
     }
