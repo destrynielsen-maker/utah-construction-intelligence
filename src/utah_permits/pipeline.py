@@ -14,6 +14,7 @@ from .collectors.orem import OremCollector
 from .collectors.payson import PaysonCollector
 from .collectors.pleasant_grove import PleasantGroveCollector
 from .collectors.provo import ProvoCollector
+from .collectors.salem import SalemCollector
 from .collectors.saratoga_springs import SaratogaSpringsCollector
 from .collectors.spanish_fork import SpanishForkCollector
 from .collectors.springville import SpringvilleCollector
@@ -39,6 +40,7 @@ COLLECTORS = [
     VineyardCollector(),
     PaysonCollector(),
     MapletonCollector(),
+    SalemCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -55,6 +57,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Vineyard": 30,
     "Payson": 30,
     "Mapleton": 45,
+    "Salem": 45,
 }
 
 VOLUME_WARNING_DROP = 0.50
