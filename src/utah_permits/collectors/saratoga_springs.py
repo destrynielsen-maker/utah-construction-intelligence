@@ -104,8 +104,19 @@ class SaratogaSpringsCollector:
 
     @staticmethod
     def _month_number(value: str) -> int:
-        lookup = {name.lower(): number for number, name in enumerate(calendar.month_name) if name}
-        month = lookup.get(value.strip().lower())
+        token = value.strip().lower()
+        full = {name.lower(): number for number, name in enumerate(calendar.month_name) if name}
+        if token in full:
+            return full[token]
+
+        # CivicPlus source content occasionally carries harmless month typos such
+        # as "Augusts". Match the canonical three-letter month prefix rather than
+        # failing the whole collector over a trailing character.
+        prefix = token[:3]
+        abbreviated = {
+            name.lower(): number for number, name in enumerate(calendar.month_abbr) if name
+        }
+        month = abbreviated.get(prefix)
         if not month:
             raise ValueError(f"Unknown month: {value}")
         return month
