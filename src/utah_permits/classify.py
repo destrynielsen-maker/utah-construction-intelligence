@@ -25,6 +25,21 @@ def _source_specific_classification(p: Permit) -> tuple[str, bool, str] | None:
         # project words such as "commercial" or "new" to inflate issued-permit totals.
         return "OTHER", False, "HIGH"
 
+    if source == "american fork":
+        stage = _norm(str(p.raw.get("lead_stage") or ""))
+        # American Fork mixes application review, ready-to-issue and construction
+        # rows in the same city report. Only work explicitly marked under
+        # construction may enter the construction-lead totals.
+        if stage != "construction":
+            return "OTHER", False, "HIGH"
+        if any(term in permit_type for term in ("multifamily", "apartments", "townhomes", "townhome")):
+            return "MULTIFAMILY", True, "HIGH"
+        if "new residential" in permit_type:
+            return "SINGLE_FAMILY", True, "HIGH"
+        if "commercial" in permit_type and "new" in permit_type:
+            return "COMMERCIAL", True, "HIGH"
+        return "OTHER", False, "HIGH"
+
     if source == "orem":
         if permit_type == "single family dwelling":
             return "SINGLE_FAMILY", True, "HIGH"
