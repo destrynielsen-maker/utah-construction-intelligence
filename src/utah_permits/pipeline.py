@@ -9,6 +9,7 @@ from .classify import classify_permit
 from .collectors.alpine import AlpineCollector
 from .collectors.american_fork import AmericanForkCollector
 from .collectors.cedar_hills import CedarHillsCollector
+from .collectors.draper import DraperCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.highland import HighlandCollector
 from .collectors.lehi import LehiCollector
@@ -51,6 +52,7 @@ COLLECTORS = [
     AlpineCollector(),
     CedarHillsCollector(),
     LindonCollector(),
+    DraperCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -73,6 +75,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Alpine": 30,
     "Cedar Hills": 45,
     "Lindon": 30,
+    "Draper": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
