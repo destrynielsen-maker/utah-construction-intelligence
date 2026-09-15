@@ -6,6 +6,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .classify import classify_permit
+from .collectors.american_fork import AmericanForkCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.lehi import LehiCollector
 from .collectors.orem import OremCollector
@@ -25,6 +26,7 @@ COLLECTORS = [
     LehiCollector(),
     SaratogaSpringsCollector(),
     EagleMountainCollector(),
+    AmericanForkCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -34,6 +36,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Lehi": 21,
     "Saratoga Springs": 45,
     "Eagle Mountain": 30,
+    "American Fork": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
