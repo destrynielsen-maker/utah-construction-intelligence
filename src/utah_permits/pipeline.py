@@ -13,6 +13,7 @@ from .collectors.orem import OremCollector
 from .collectors.provo import ProvoCollector
 from .collectors.saratoga_springs import SaratogaSpringsCollector
 from .collectors.spanish_fork import SpanishForkCollector
+from .collectors.springville import SpringvilleCollector
 from .collectors.summit_county import SummitCountyCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
@@ -29,6 +30,7 @@ COLLECTORS = [
     EagleMountainCollector(),
     AmericanForkCollector(),
     SpanishForkCollector(),
+    SpringvilleCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -40,6 +42,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Eagle Mountain": 30,
     "American Fork": 30,
     "Spanish Fork": 14,
+    "Springville": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
