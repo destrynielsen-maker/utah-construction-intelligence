@@ -34,6 +34,15 @@ class SaratogaSpringsPlanningTests(unittest.TestCase):
         self.assertTrue(permits[0].source_url.endswith("/DocumentCenter/View/1"))
         self.assertEqual("Commercial", permits[1].raw["application_category"])
 
+    def test_city_month_typo_is_tolerated(self) -> None:
+        html = """
+        <html><body><ol>
+          <li>Lake Mountain Project, Planner: A. Roy (updated Augusts 2026)</li>
+        </ol></body></html>
+        """
+        permit = SaratogaSpringsCollector.parse_page(html, "https://example.test/source")[0]
+        self.assertEqual("2026-08-01", permit.issued_date)
+
     def test_planning_records_never_qualify_as_issued_permits(self) -> None:
         html = """
         <html><body><ol>
