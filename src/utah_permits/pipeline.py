@@ -6,6 +6,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .classify import classify_permit
+from .collectors.alpine import AlpineCollector
 from .collectors.american_fork import AmericanForkCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.highland import HighlandCollector
@@ -45,6 +46,7 @@ COLLECTORS = [
     SalemCollector(),
     SantaquinCollector(),
     HighlandCollector(),
+    AlpineCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -64,6 +66,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Salem": 45,
     "Santaquin": 30,
     "Highland": 45,
+    "Alpine": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
