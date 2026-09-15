@@ -9,7 +9,7 @@ from utah_permits.collectors.orem import OremCollector
 class OremCurrentSourceTests(unittest.TestCase):
     def test_active_projects_keeps_only_explicit_ground_up_noncompleted_rows(self):
         csv_text = "\n".join([
-            "Name of Project,Address,Description | Late Update:,August 19, 2026",
+            'Name of Project,Address,Description | Late Update:,"August 19, 2026"',
             "Apollo Burger,452 N State Street,New Commercial Building,Under Construction",
             "Alpine Credit Union,1510 N State Street,Remodel,Near Completion",
             "RWB Warehouse,1126 N 1300 West,New Commercial Building,Completed",
@@ -46,7 +46,7 @@ class OremCurrentSourceTests(unittest.TestCase):
 
     def test_synthetic_active_project_key_is_stable(self):
         csv_text = "\n".join([
-            "Name of Project,Address,Description | Late Update:,August 19, 2026",
+            'Name of Project,Address,Description | Late Update:,"August 19, 2026"',
             "Apollo Burger,452 N State Street,New Commercial Building,Under Construction",
         ])
         first = OremCollector.parse_active_projects_csv(csv_text, "https://orem.gov/apb/")[0]
