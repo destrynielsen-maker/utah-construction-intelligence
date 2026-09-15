@@ -9,6 +9,7 @@ from .classify import classify_permit
 from .collectors.american_fork import AmericanForkCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.lehi import LehiCollector
+from .collectors.mapleton import MapletonCollector
 from .collectors.orem import OremCollector
 from .collectors.payson import PaysonCollector
 from .collectors.pleasant_grove import PleasantGroveCollector
@@ -37,6 +38,7 @@ COLLECTORS = [
     PleasantGroveCollector(),
     VineyardCollector(),
     PaysonCollector(),
+    MapletonCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -52,6 +54,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Pleasant Grove": 30,
     "Vineyard": 30,
     "Payson": 30,
+    "Mapleton": 45,
 }
 
 VOLUME_WARNING_DROP = 0.50
