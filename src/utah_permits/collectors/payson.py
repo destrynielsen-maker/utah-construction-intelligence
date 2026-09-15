@@ -93,27 +93,34 @@ class PaysonCollector:
 
             notice_title = cls._clean_text(" ".join(notice_anchor.stripped_strings))
             notice_url = urljoin(source_url, notice_anchor.get("href", ""))
-            candidates: list[tuple[str, str]] = [(notice_title, "notice_title")]
+            title_is_specific = cls._is_project_specific(notice_title)
+            candidates: list[tuple[str, str]] = []
+            if title_is_specific:
+                candidates.append((notice_title, "notice_title"))
 
-            for anchor in row.find_all("a", href=True):
-                attachment = cls._clean_text(" ".join(anchor.stripped_strings))
-                if not attachment.lower().endswith(".pdf"):
-                    continue
-                cleaned = cls._clean_attachment_title(attachment)
-                if cleaned:
-                    candidates.append((cleaned, "attachment_title"))
+            # When the PMN notice title is generic, its public-information PDF name
+            # often carries the actual project, e.g. "Hiatt Creek B3 Zone Change".
+            if not title_is_specific:
+                for anchor in row.find_all("a", href=True):
+                    attachment = cls._clean_text(" ".join(anchor.stripped_strings))
+                    if not attachment.lower().endswith(".pdf"):
+                        continue
+                    cleaned = cls._clean_attachment_title(attachment)
+                    if cleaned:
+                        candidates.append((cleaned, "attachment_title"))
 
             for candidate, origin in candidates:
                 if not cls._is_project_specific(candidate):
                     continue
-                permit = cls._permit_from_candidate(
-                    candidate=candidate,
-                    event_date=event_date,
-                    notice_title=notice_title,
-                    notice_url=notice_url,
-                    origin=origin,
+                permits.append(
+                    cls._permit_from_candidate(
+                        candidate=candidate,
+                        event_date=event_date,
+                        notice_title=notice_title,
+                        notice_url=notice_url,
+                        origin=origin,
+                    )
                 )
-                permits.append(permit)
 
         by_key: dict[str, Permit] = {}
         for permit in permits:
@@ -168,8 +175,6 @@ class PaysonCollector:
         text = re.sub(r"^PC\s+PH\s+", "", text, flags=re.I)
         text = re.sub(r"^\d{1,2}-\d{1,2}-\d{4}\s+", "", text)
         text = re.sub(r"^\d{1,2}-\d{1,2}-\d{2}\s+", "", text)
-        text = re.sub(r"^\d{1,2}-\d{1,2}-\d{4}\s+PC\s+", "", text, flags=re.I)
-        text = re.sub(r"^\d{1,2}-\d{1,2}-\d{2}\s+PC\s+", "", text, flags=re.I)
         text = re.sub(r"^PC\s+", "", text, flags=re.I)
         return cls._clean_text(text)
 
@@ -190,14 +195,6 @@ class PaysonCollector:
             return False
         if normalized in GENERIC_TITLES:
             return False
-        if normalized.startswith("payson city planning commission"):
-            suffix = re.sub(
-                r"^payson city planning commission (?:public hearing|meeting)\s*-?\s*",
-                "",
-                normalized,
-            ).strip()
-            if not suffix or suffix in GENERIC_TITLES:
-                return False
         return True
 
     @classmethod
