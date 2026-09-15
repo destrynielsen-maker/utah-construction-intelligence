@@ -20,6 +20,7 @@ from .collectors.payson import PaysonCollector
 from .collectors.pleasant_grove import PleasantGroveCollector
 from .collectors.provo import ProvoCollector
 from .collectors.salem import SalemCollector
+from .collectors.sandy import SandyCollector
 from .collectors.santaquin import SantaquinCollector
 from .collectors.saratoga_springs import SaratogaSpringsCollector
 from .collectors.spanish_fork import SpanishForkCollector
@@ -53,6 +54,7 @@ COLLECTORS = [
     CedarHillsCollector(),
     LindonCollector(),
     DraperCollector(),
+    SandyCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -76,6 +78,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Cedar Hills": 45,
     "Lindon": 30,
     "Draper": 30,
+    "Sandy": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
