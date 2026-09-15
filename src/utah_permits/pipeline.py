@@ -9,6 +9,7 @@ from .classify import classify_permit
 from .collectors.lehi import LehiCollector
 from .collectors.orem import OremCollector
 from .collectors.provo import ProvoCollector
+from .collectors.saratoga_springs import SaratogaSpringsCollector
 from .collectors.summit_county import SummitCountyCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
@@ -16,13 +17,20 @@ from .models import Permit
 from .storage import load_permits, save_permits
 
 
-COLLECTORS = [ProvoCollector(), OremCollector(), SummitCountyCollector(), LehiCollector()]
+COLLECTORS = [
+    ProvoCollector(),
+    OremCollector(),
+    SummitCountyCollector(),
+    LehiCollector(),
+    SaratogaSpringsCollector(),
+]
 
 SOURCE_FRESHNESS_DAYS = {
     "Provo": 10,
     "Orem": 40,
     "Summit County": 21,
     "Lehi": 21,
+    "Saratoga Springs": 45,
 }
 
 VOLUME_WARNING_DROP = 0.50
@@ -204,7 +212,11 @@ def _failed_source_status(
             getattr(
                 collector,
                 "pdf_url",
-                getattr(collector, "landing_url", getattr(collector, "notices_url", "")),
+                getattr(
+                    collector,
+                    "landing_url",
+                    getattr(collector, "notices_url", getattr(collector, "applications_url", "")),
+                ),
             ),
         ),
         "note": note,
