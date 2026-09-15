@@ -12,6 +12,7 @@ from .collectors.cedar_hills import CedarHillsCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.highland import HighlandCollector
 from .collectors.lehi import LehiCollector
+from .collectors.lindon import LindonCollector
 from .collectors.mapleton import MapletonCollector
 from .collectors.orem import OremCollector
 from .collectors.payson import PaysonCollector
@@ -49,6 +50,7 @@ COLLECTORS = [
     HighlandCollector(),
     AlpineCollector(),
     CedarHillsCollector(),
+    LindonCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -70,6 +72,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Highland": 45,
     "Alpine": 30,
     "Cedar Hills": 45,
+    "Lindon": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
