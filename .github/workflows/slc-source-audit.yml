@@ -1,0 +1,58 @@
+name: Salt Lake City source audit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/slc-source-audit.yml'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests==2.32.5
+      - name: Inspect SLC active permits and planning petitions
+        shell: python
+        run: |
+          from collections import Counter
+          from datetime import datetime, timezone
+          import requests
+
+          BASE='https://maps.slc.gov/server/rest/services/Accela/Accela_Permits_v2/MapServer'
+          s=requests.Session(); s.headers['User-Agent']='UtahConstructionIntelligence/0.4 public-source-audit'
+
+          def query(layer, fields, order):
+              r=s.get(f'{BASE}/{layer}/query',params={
+                  'where':'1=1','outFields':','.join(fields),'returnGeometry':'false',
+                  'resultRecordCount':2000,'orderByFields':order,'f':'json'
+              },timeout=45)
+              print('layer',layer,'status',r.status_code,'url',r.url)
+              r.raise_for_status(); p=r.json();
+              if 'error' in p: raise RuntimeError(p['error'])
+              rows=[f.get('attributes',{}) for f in p.get('features',[])]
+              print('count',len(rows),'exceeded',p.get('exceededTransferLimit'))
+              return rows
+
+          bfields=['PermitNumber','PermitType','RecordType','OpenedDate','FULL_','ProjectName','WorkDescription','ApplicationStatus','TypeOfWork','ConstructionType','TotalSqFt','NumberOfStories','NumberOfResidentialUnits','JobValue','Applicant','Owner','ApplicationType','ApplicationSubType','AppliedDate','PermitIssuance']
+          b=query(1,bfields,'AppliedDate DESC')
+          for field in ['PermitType','RecordType','ApplicationStatus','TypeOfWork','ConstructionType','ApplicationType','ApplicationSubType']:
+              c=Counter(str(x.get(field) or '').strip() for x in b)
+              print('\nBUILDING',field)
+              for k,v in c.most_common(30): print(v,repr(k))
+          print('\nBUILDING recent samples')
+          for x in b[:25]:
+              print({k:x.get(k) for k in ['PermitNumber','PermitType','RecordType','ProjectName','ApplicationStatus','TypeOfWork','ConstructionType','NumberOfResidentialUnits','JobValue','ApplicationType','ApplicationSubType','AppliedDate','PermitIssuance']})
+
+          pfields=['freshFromSQL_PermitNum','freshFromSQL_ApplicationType','freshFromSQL_ApplicationSubType','freshFromSQL_ProjectName','freshFromSQL_AppliedDate','freshFromSQL_IssuedDate','freshFromSQL_Description','freshFromSQL_WorkType','freshFromSQL_ApplicationStatus','freshFromSQL_ApplicantName','freshFromSQL_Location','freshFromSQL_parcelNumber','freshFromSQL_link']
+          p=query(3,pfields,'freshFromSQL_AppliedDate DESC')
+          for field in ['freshFromSQL_ApplicationType','freshFromSQL_ApplicationSubType','freshFromSQL_WorkType','freshFromSQL_ApplicationStatus']:
+              c=Counter(str(x.get(field) or '').strip() for x in p)
+              print('\nPLANNING',field)
+              for k,v in c.most_common(30): print(v,repr(k))
+          print('\nPLANNING recent samples')
+          for x in p[:25]: print(x)
