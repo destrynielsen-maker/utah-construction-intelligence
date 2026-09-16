@@ -45,6 +45,7 @@ from .collectors.west_jordan import WestJordanCollector
 from .collectors.woods_cross import WoodsCrossCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
+from .history import archive_provo_qualifying_history, load_history, write_history
 from .models import Permit
 from .storage import load_permits, save_permits
 
@@ -319,10 +320,10 @@ def _failed_source_status(
     }
 
 
-def _prune_provo_history(existing: dict[str, Permit], as_of: date) -> tuple[dict[str, Permit], int]:
+def _prune_provo_history(existing: dict[str, Permit], as_of: date) -> tuple[dict[str, Permit], list[Permit]]:
     cutoff = (as_of - timedelta(days=ProvoCollector.LOOKBACK_DAYS)).isoformat()
     kept: dict[str, Permit] = {}
-    removed = 0
+    removed: list[Permit] = []
     for key, permit in existing.items():
         if permit.jurisdiction != "Provo":
             kept[key] = permit
@@ -330,7 +331,7 @@ def _prune_provo_history(existing: dict[str, Permit], as_of: date) -> tuple[dict
         if permit.issued_date and permit.issued_date >= cutoff:
             kept[key] = permit
         else:
-            removed += 1
+            removed.append(permit)
     return kept, removed
 
 
@@ -339,10 +340,18 @@ def run(root: Path) -> dict:
     generated_at = now.isoformat()
     as_of = now.date()
     store_path = root / "data" / "permits.json"
+    history_path = root / "data" / "historical-summary.json"
     public_dir = root / "public"
+    public_history_path = public_dir / "data" / "historical-summary.json"
     previous_sources = _load_previous_sources(public_dir / "data" / "sources.json")
     existing = load_permits(store_path)
+    history = load_history(history_path)
     existing, pruned_provo_history = _prune_provo_history(existing, as_of)
+    archived_provo_qualifying = archive_provo_qualifying_history(
+        history,
+        pruned_provo_history,
+        generated_at,
+    )
     source_status: list[dict] = []
     total_collected = 0
 
@@ -374,6 +383,7 @@ def run(root: Path) -> dict:
 
     save_permits(store_path, permits, generated_at)
     write_public_data(public_dir, permits, source_status, generated_at)
+    write_history(history, history_path, public_history_path, generated_at)
     write_all_feeds(public_dir / "feeds", permits, _site_base_url())
 
     return {
@@ -381,6 +391,9 @@ def run(root: Path) -> dict:
         "total_collected_this_run": total_collected,
         "total_stored": len(permits),
         "qualifying_stored": sum(p.qualifies for p in permits),
-        "pruned_provo_history": pruned_provo_history,
+        "pruned_provo_history": len(pruned_provo_history),
+        "archived_provo_qualifying": archived_provo_qualifying,
+        "archived_provo_total_qualifying": history["sources"]["Provo"]["archived_qualifying_records"],
+        "archived_provo_known_valuation": history["sources"]["Provo"]["known_valuation"],
         "sources": source_status,
     }
