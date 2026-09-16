@@ -44,7 +44,6 @@ POLICY_ONLY_SIGNALS = (
 LOW_VALUE_SIGNALS = (
     "home occupation",
     "waiver of strict compliance for landscaping",
-    "landscaping waiver",
     "sign permit",
     "temporary use",
 )
