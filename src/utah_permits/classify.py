@@ -19,7 +19,7 @@ def _source_specific_classification(p: Permit) -> tuple[str, bool, str] | None:
     permit_type = _norm(p.permit_type)
     building_use = (p.building_use or "").strip().upper()
 
-    if source in {"lehi", "saratoga springs", "eagle mountain", "spanish fork", "springville", "pleasant grove", "vineyard", "payson", "mapleton", "salem", "santaquin", "highland", "alpine", "cedar hills", "lindon", "draper", "sandy", "south jordan", "herriman", "riverton", "west jordan", "salt lake city", "layton"}:
+    if source in {"lehi", "saratoga springs", "eagle mountain", "spanish fork", "springville", "pleasant grove", "vineyard", "payson", "mapleton", "salem", "santaquin", "highland", "alpine", "cedar hills", "lindon", "draper", "sandy", "south jordan", "herriman", "riverton", "west jordan", "salt lake city", "layton", "farmington"}:
         # These jurisdictions are currently early-stage planning/development sources only.
         # Keep observations useful in storage/source health without allowing
         # project words such as "commercial" or "new" to inflate issued-permit totals.
