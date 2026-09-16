@@ -11,6 +11,7 @@ from .collectors.american_fork import AmericanForkCollector
 from .collectors.cedar_hills import CedarHillsCollector
 from .collectors.draper import DraperCollector
 from .collectors.eagle_mountain import EagleMountainCollector
+from .collectors.herriman import HerrimanCollector
 from .collectors.highland import HighlandCollector
 from .collectors.lehi import LehiCollector
 from .collectors.lindon import LindonCollector
@@ -57,6 +58,7 @@ COLLECTORS = [
     DraperCollector(),
     SandyCollector(),
     SouthJordanCollector(),
+    HerrimanCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -82,6 +84,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Draper": 30,
     "Sandy": 30,
     "South Jordan": 30,
+    "Herriman": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
