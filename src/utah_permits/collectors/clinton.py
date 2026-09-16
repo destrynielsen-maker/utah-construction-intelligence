@@ -187,7 +187,7 @@ class ClintonCollector:
         numbered = [
             cls._clean(match.group(1))
             for match in re.finditer(
-                r"(?:^|\s)\d{1,2}[.)]\s*(.*?)(?=\s+\d{1,2}[.)]\s*|\s+(?:Other Business|Adjourn(?:ment)?)\b|$)",
+                r"(?:^|\s)\d{1,2}[.)]\s+(.*?)(?=\s+\d{1,2}[.)]\s+|\s+(?:Other Business|Adjourn(?:ment)?)\b|$)",
                 body,
                 flags=re.I,
             )
