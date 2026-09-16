@@ -21,6 +21,7 @@ from .collectors.layton import LaytonCollector
 from .collectors.lehi import LehiCollector
 from .collectors.lindon import LindonCollector
 from .collectors.mapleton import MapletonCollector
+from .collectors.north_salt_lake import NorthSaltLakeCollector
 from .collectors.orem import OremCollector
 from .collectors.payson import PaysonCollector
 from .collectors.pleasant_grove import PleasantGroveCollector
@@ -77,6 +78,7 @@ COLLECTORS = [
     CentervilleCollector(),
     BountifulCollector(),
     WoodsCrossCollector(),
+    NorthSaltLakeCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -112,6 +114,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Centerville": 90,
     "Bountiful": 120,
     "Woods Cross": 45,
+    "North Salt Lake": 60,
 }
 
 VOLUME_WARNING_DROP = 0.50
