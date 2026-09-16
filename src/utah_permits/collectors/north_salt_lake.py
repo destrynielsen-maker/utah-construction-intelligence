@@ -234,7 +234,7 @@ class NorthSaltLakeCollector:
             match = re.search(pattern, item, flags=re.I)
             if match:
                 value = cls._clean(match.group(1))
-                value = re.sub(r"^(?:a|an|the)\s+", "", value, flags=re.I)
+                value = re.sub(r"^(?:a|an)\s+", "", value, flags=re.I)
                 if value:
                     return value[:180]
         label = permit_type.removeprefix("Planning ")
