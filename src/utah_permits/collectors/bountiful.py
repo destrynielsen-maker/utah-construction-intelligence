@@ -137,21 +137,41 @@ class BountifulCollector:
         found: list[str] = []
         seen: set[str] = set()
 
-        # RSS feeds expose direct links as element text.
-        for link in soup.find_all("link"):
-            value = cls._clean(link.get_text(" ", strip=True))
-            if "/AgendaCenter/ViewFile/Agenda/" in value:
-                url = urljoin(source_url, value)
-                if url not in seen:
-                    seen.add(url)
-                    found.append(url)
-
-        # Agenda Center fallback: restrict discovery to the Planning Commission section.
         heading = soup.find(
             lambda tag: tag.name in {"h2", "h3"}
             and cls._clean(tag.get_text(" ", strip=True)).lower() == "planning commission"
         )
-        if heading is not None:
+
+        if heading is None:
+            # RSS XML can be parsed imperfectly by html.parser, so also scan raw content.
+            for value in re.findall(
+                r"https?://[^<\s\"']+/AgendaCenter/ViewFile/Agenda/[^<\s\"']+",
+                content,
+                flags=re.I,
+            ):
+                url = value.replace("&amp;", "&")
+                if url not in seen:
+                    seen.add(url)
+                    found.append(url)
+
+            for link in soup.find_all("link"):
+                value = cls._clean(link.get_text(" ", strip=True))
+                if "/AgendaCenter/ViewFile/Agenda/" in value:
+                    url = urljoin(source_url, value)
+                    if url not in seen:
+                        seen.add(url)
+                        found.append(url)
+
+            for anchor in soup.find_all("a", href=True):
+                href = anchor.get("href", "")
+                if "/AgendaCenter/ViewFile/Agenda/" not in href:
+                    continue
+                url = urljoin(source_url, href)
+                if url not in seen:
+                    seen.add(url)
+                    found.append(url)
+        else:
+            # Agenda Center HTML must stay inside the Planning Commission section.
             for element in heading.find_all_next():
                 if element is not heading and element.name in {"h2", "h3"}:
                     break
@@ -164,16 +184,6 @@ class BountifulCollector:
                 if url not in seen:
                     seen.add(url)
                     found.append(url)
-
-        # Some CivicPlus RSS renderers put the URL in an anchor instead of link text.
-        for anchor in soup.find_all("a", href=True):
-            href = anchor.get("href", "")
-            if "/AgendaCenter/ViewFile/Agenda/" not in href:
-                continue
-            url = urljoin(source_url, href)
-            if url not in seen:
-                seen.add(url)
-                found.append(url)
 
         return sorted(found, key=lambda url: cls._date_from_url(url) or "", reverse=True)
 
