@@ -13,6 +13,7 @@ from .collectors.draper import DraperCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.herriman import HerrimanCollector
 from .collectors.highland import HighlandCollector
+from .collectors.layton import LaytonCollector
 from .collectors.lehi import LehiCollector
 from .collectors.lindon import LindonCollector
 from .collectors.mapleton import MapletonCollector
@@ -65,6 +66,7 @@ COLLECTORS = [
     RivertonCollector(),
     WestJordanCollector(),
     SaltLakeCityCollector(),
+    LaytonCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -94,6 +96,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Riverton": 30,
     "West Jordan": 30,
     "Salt Lake City": 30,
+    "Layton": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
