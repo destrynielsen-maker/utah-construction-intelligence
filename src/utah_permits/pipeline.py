@@ -22,6 +22,7 @@ from .collectors.pleasant_grove import PleasantGroveCollector
 from .collectors.provo import ProvoCollector
 from .collectors.riverton import RivertonCollector
 from .collectors.salem import SalemCollector
+from .collectors.salt_lake_city import SaltLakeCityCollector
 from .collectors.sandy import SandyCollector
 from .collectors.santaquin import SantaquinCollector
 from .collectors.saratoga_springs import SaratogaSpringsCollector
@@ -63,6 +64,7 @@ COLLECTORS = [
     HerrimanCollector(),
     RivertonCollector(),
     WestJordanCollector(),
+    SaltLakeCityCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -91,6 +93,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Herriman": 30,
     "Riverton": 30,
     "West Jordan": 30,
+    "Salt Lake City": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
