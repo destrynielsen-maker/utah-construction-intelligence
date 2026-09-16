@@ -37,6 +37,7 @@ from .collectors.spanish_fork import SpanishForkCollector
 from .collectors.springville import SpringvilleCollector
 from .collectors.summit_county import SummitCountyCollector
 from .collectors.vineyard import VineyardCollector
+from .collectors.west_bountiful import WestBountifulCollector
 from .collectors.west_jordan import WestJordanCollector
 from .collectors.woods_cross import WoodsCrossCollector
 from .dashboard import write_public_data
@@ -79,6 +80,7 @@ COLLECTORS = [
     BountifulCollector(),
     WoodsCrossCollector(),
     NorthSaltLakeCollector(),
+    WestBountifulCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -115,6 +117,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Bountiful": 120,
     "Woods Cross": 45,
     "North Salt Lake": 60,
+    "West Bountiful": 60,
 }
 
 VOLUME_WARNING_DROP = 0.50
