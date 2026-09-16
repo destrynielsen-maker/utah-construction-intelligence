@@ -8,6 +8,7 @@ from pathlib import Path
 from .classify import classify_permit
 from .collectors.alpine import AlpineCollector
 from .collectors.american_fork import AmericanForkCollector
+from .collectors.bountiful import BountifulCollector
 from .collectors.cedar_hills import CedarHillsCollector
 from .collectors.centerville import CentervilleCollector
 from .collectors.draper import DraperCollector
@@ -73,6 +74,7 @@ COLLECTORS = [
     FarmingtonCollector(),
     KaysvilleCollector(),
     CentervilleCollector(),
+    BountifulCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -106,6 +108,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Farmington": 30,
     "Kaysville": 45,
     "Centerville": 90,
+    "Bountiful": 120,
 }
 
 VOLUME_WARNING_DROP = 0.50
