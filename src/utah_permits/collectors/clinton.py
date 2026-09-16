@@ -253,7 +253,7 @@ class ClintonCollector:
     @classmethod
     def _address(cls, item: str) -> str:
         match = re.search(
-            r"\b(\d{1,6}\s+(?:North|South|East|West|N|S|E|W)\.?\s+\d{1,6}\s+(?:North|South|East|West|N|S|E|W)\.?)\b",
+            r"(\d{1,6}\s+(?:North|South|East|West|N|S|E|W)\.?\s+\d{1,6}\s+(?:North|South|East|West|N|S|E|W)\.?)",
             item,
             flags=re.I,
         )
