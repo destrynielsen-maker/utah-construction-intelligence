@@ -14,6 +14,7 @@ from .collectors.centerville import CentervilleCollector
 from .collectors.draper import DraperCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.farmington import FarmingtonCollector
+from .collectors.fruit_heights import FruitHeightsCollector
 from .collectors.herriman import HerrimanCollector
 from .collectors.highland import HighlandCollector
 from .collectors.kaysville import KaysvilleCollector
@@ -76,6 +77,7 @@ COLLECTORS = [
     LaytonCollector(),
     FarmingtonCollector(),
     KaysvilleCollector(),
+    FruitHeightsCollector(),
     CentervilleCollector(),
     BountifulCollector(),
     WoodsCrossCollector(),
@@ -113,6 +115,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Layton": 30,
     "Farmington": 30,
     "Kaysville": 45,
+    "Fruit Heights": 60,
     "Centerville": 90,
     "Bountiful": 120,
     "Woods Cross": 45,
