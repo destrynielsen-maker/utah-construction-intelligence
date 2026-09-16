@@ -9,6 +9,7 @@ from .classify import classify_permit
 from .collectors.alpine import AlpineCollector
 from .collectors.american_fork import AmericanForkCollector
 from .collectors.cedar_hills import CedarHillsCollector
+from .collectors.centerville import CentervilleCollector
 from .collectors.draper import DraperCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.farmington import FarmingtonCollector
@@ -71,6 +72,7 @@ COLLECTORS = [
     LaytonCollector(),
     FarmingtonCollector(),
     KaysvilleCollector(),
+    CentervilleCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -103,6 +105,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Layton": 30,
     "Farmington": 30,
     "Kaysville": 45,
+    "Centerville": 90,
 }
 
 VOLUME_WARNING_DROP = 0.50
