@@ -45,7 +45,7 @@ class CentervilleCollectorTests(unittest.TestCase):
         permit = permits[0]
         self.assertEqual("Pastures Phase Three", permit.project_name)
         self.assertEqual("1265 West 1275 North", permit.address)
-        self.assertEqual("Planning Site Plan Amendment", permit.permit_type)
+        self.assertEqual("Planning Final Site Plan Amendment", permit.permit_type)
 
     def test_march_agenda_filters_home_occupation_and_code_only_items(self):
         html = """
