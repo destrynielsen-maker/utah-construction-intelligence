@@ -1,3 +1,4 @@
+from datetime import date
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
@@ -9,13 +10,22 @@ from utah_permits.history import (
     write_history,
 )
 from utah_permits.models import Permit
+from utah_permits.pipeline import _prune_provo_history
 
 
 class ProvoHistoryTests(unittest.TestCase):
-    def permit(self, number: str, issued: str, use: str, valuation: float, permit_type: str = "New Construction") -> Permit:
+    def permit(
+        self,
+        number: str,
+        issued: str,
+        use: str,
+        valuation: float,
+        permit_type: str = "New Construction",
+        jurisdiction: str = "Provo",
+    ) -> Permit:
         return Permit(
             state="UT",
-            jurisdiction="Provo",
+            jurisdiction=jurisdiction,
             permit_number=number,
             issued_date=issued,
             permit_type=permit_type,
@@ -34,6 +44,19 @@ class ProvoHistoryTests(unittest.TestCase):
         self.assertEqual(source["commercial"], 1650)
         self.assertAlmostEqual(source["known_valuation"], 4949094085.51, places=2)
         self.assertEqual(source["newest_issued_date"], "2024-09-12")
+
+    def test_prune_returns_removed_rows_for_archiving(self):
+        recent = self.permit("A", "2024-09-17", "SFR", 500000)
+        old = self.permit("B", "2024-09-15", "COM", 2000000)
+        orem = self.permit("C", "2020-01-01", "SFR", 100000, jurisdiction="Orem")
+        kept, removed = _prune_provo_history(
+            {recent.key: recent, old.key: old, orem.key: orem},
+            date(2026, 9, 16),
+        )
+        self.assertIn(recent.key, kept)
+        self.assertIn(orem.key, kept)
+        self.assertNotIn(old.key, kept)
+        self.assertEqual([permit.key for permit in removed], [old.key])
 
     def test_archive_adds_only_newer_qualifying_provo_rows(self):
         history = seed_history()
@@ -63,7 +86,12 @@ class ProvoHistoryTests(unittest.TestCase):
         with TemporaryDirectory() as tmp:
             root = Path(tmp)
             history = seed_history()
-            write_history(history, root / "data" / "history.json", root / "public" / "data" / "history.json", "stamp")
+            write_history(
+                history,
+                root / "data" / "history.json",
+                root / "public" / "data" / "history.json",
+                "stamp",
+            )
             loaded = load_history(root / "data" / "history.json")
             self.assertEqual(loaded["generated_at"], "stamp")
             self.assertEqual(loaded["sources"]["Provo"]["archived_qualifying_records"], 15482)
@@ -71,8 +99,7 @@ class ProvoHistoryTests(unittest.TestCase):
 
     def test_archive_rejects_non_provo_rows(self):
         history = seed_history()
-        permit = self.permit("X", "2024-09-17", "SFR", 1)
-        permit.jurisdiction = "Orem"
+        permit = self.permit("X", "2024-09-17", "SFR", 1, jurisdiction="Orem")
         with self.assertRaises(ValueError):
             archive_provo_qualifying_history(history, [permit], "stamp")
 
