@@ -38,6 +38,7 @@ from .collectors.south_jordan import SouthJordanCollector
 from .collectors.spanish_fork import SpanishForkCollector
 from .collectors.springville import SpringvilleCollector
 from .collectors.summit_county import SummitCountyCollector
+from .collectors.syracuse import SyracuseCollector
 from .collectors.vineyard import VineyardCollector
 from .collectors.west_bountiful import WestBountifulCollector
 from .collectors.west_jordan import WestJordanCollector
@@ -80,6 +81,7 @@ COLLECTORS = [
     KaysvilleCollector(),
     FruitHeightsCollector(),
     ClintonCollector(),
+    SyracuseCollector(),
     CentervilleCollector(),
     BountifulCollector(),
     WoodsCrossCollector(),
@@ -119,6 +121,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Kaysville": 45,
     "Fruit Heights": 60,
     "Clinton": 60,
+    "Syracuse": 60,
     "Centerville": 90,
     "Bountiful": 120,
     "Woods Cross": 45,
