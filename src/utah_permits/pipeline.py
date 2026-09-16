@@ -30,6 +30,7 @@ from .collectors.spanish_fork import SpanishForkCollector
 from .collectors.springville import SpringvilleCollector
 from .collectors.summit_county import SummitCountyCollector
 from .collectors.vineyard import VineyardCollector
+from .collectors.west_jordan import WestJordanCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
 from .models import Permit
@@ -61,6 +62,7 @@ COLLECTORS = [
     SouthJordanCollector(),
     HerrimanCollector(),
     RivertonCollector(),
+    WestJordanCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -88,6 +90,7 @@ SOURCE_FRESHNESS_DAYS = {
     "South Jordan": 30,
     "Herriman": 30,
     "Riverton": 30,
+    "West Jordan": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
