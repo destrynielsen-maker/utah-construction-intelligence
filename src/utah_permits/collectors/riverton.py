@@ -237,7 +237,27 @@ class RivertonCollector:
             match = re.search(pattern, item, flags=re.I)
             if match:
                 return int(match.group(1))
-        return None
+
+        word_values = {
+            "one": 1,
+            "two": 2,
+            "three": 3,
+            "four": 4,
+            "five": 5,
+            "six": 6,
+            "seven": 7,
+            "eight": 8,
+            "nine": 9,
+            "ten": 10,
+            "eleven": 11,
+            "twelve": 12,
+        }
+        match = re.search(
+            r"(?:up to\s+)?(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\s+(?:residential\s+)?lots\b",
+            item,
+            flags=re.I,
+        )
+        return word_values.get(match.group(1).lower()) if match else None
 
     @staticmethod
     def _acreage(item: str) -> float | None:
