@@ -11,6 +11,7 @@ from .collectors.american_fork import AmericanForkCollector
 from .collectors.bountiful import BountifulCollector
 from .collectors.cedar_hills import CedarHillsCollector
 from .collectors.centerville import CentervilleCollector
+from .collectors.clinton import ClintonCollector
 from .collectors.draper import DraperCollector
 from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.farmington import FarmingtonCollector
@@ -78,6 +79,7 @@ COLLECTORS = [
     FarmingtonCollector(),
     KaysvilleCollector(),
     FruitHeightsCollector(),
+    ClintonCollector(),
     CentervilleCollector(),
     BountifulCollector(),
     WoodsCrossCollector(),
@@ -116,6 +118,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Farmington": 30,
     "Kaysville": 45,
     "Fruit Heights": 60,
+    "Clinton": 60,
     "Centerville": 90,
     "Bountiful": 120,
     "Woods Cross": 45,
