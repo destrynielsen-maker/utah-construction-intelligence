@@ -37,6 +37,7 @@ from .collectors.springville import SpringvilleCollector
 from .collectors.summit_county import SummitCountyCollector
 from .collectors.vineyard import VineyardCollector
 from .collectors.west_jordan import WestJordanCollector
+from .collectors.woods_cross import WoodsCrossCollector
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
 from .models import Permit
@@ -75,6 +76,7 @@ COLLECTORS = [
     KaysvilleCollector(),
     CentervilleCollector(),
     BountifulCollector(),
+    WoodsCrossCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -109,6 +111,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Kaysville": 45,
     "Centerville": 90,
     "Bountiful": 120,
+    "Woods Cross": 45,
 }
 
 VOLUME_WARNING_DROP = 0.50
