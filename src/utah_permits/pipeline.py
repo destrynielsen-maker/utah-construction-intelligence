@@ -14,6 +14,7 @@ from .collectors.eagle_mountain import EagleMountainCollector
 from .collectors.farmington import FarmingtonCollector
 from .collectors.herriman import HerrimanCollector
 from .collectors.highland import HighlandCollector
+from .collectors.kaysville import KaysvilleCollector
 from .collectors.layton import LaytonCollector
 from .collectors.lehi import LehiCollector
 from .collectors.lindon import LindonCollector
@@ -69,6 +70,7 @@ COLLECTORS = [
     SaltLakeCityCollector(),
     LaytonCollector(),
     FarmingtonCollector(),
+    KaysvilleCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -100,6 +102,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Salt Lake City": 30,
     "Layton": 30,
     "Farmington": 30,
+    "Kaysville": 45,
 }
 
 VOLUME_WARNING_DROP = 0.50
