@@ -132,9 +132,10 @@ class NorthSaltLakeCollector:
     def parse_notice_page(cls, html: str, source_url: str) -> list[Permit]:
         soup = BeautifulSoup(html, "html.parser")
         text = cls._clean(soup.get_text(" ", strip=True))
-        if "city of north salt lake" not in text.lower() or "planning commission" not in text.lower():
+        lowered = text.lower()
+        if "city of north salt lake" not in lowered or "planning commission" not in lowered:
             return []
-        if "canceled" in text.lower() or "cancelled" in text.lower():
+        if "canceled" in lowered or "cancelled" in lowered:
             return []
 
         event_date = cls._event_date(text)
@@ -221,8 +222,13 @@ class NorthSaltLakeCollector:
     @classmethod
     def _project_name(cls, item: str, address: str, permit_type: str) -> str:
         patterns = (
-            r"(?:for|of)\s+(?:the\s+)?(.+?)\s+(?:at|located at)\s+\d",
-            r"(?:request to amend the\s+)?General Development Plan for\s+(.+?),\s+located at\s+\d",
+            r"General Development Plan for\s+(.+?),\s+located at\s+\d",
+            r"Preliminary Plat for\s+(.+?)\s+at\s+\d",
+            r"Final Plat for\s+(.+?)\s+at\s+\d",
+            r"Site Plan(?: Review)? for\s+(.+?)\s+at\s+\d",
+            r"Development Agreement for\s+(.+?)\s+(?:at|located at)\s+\d",
+            r"(?:Zone Change|Rezone|Zoning Map Amendment) for\s+(.+?)\s+(?:at|located at)\s+\d",
+            r"Conditional Use Permit for\s+(.+?)\s+at\s+\d",
         )
         for pattern in patterns:
             match = re.search(pattern, item, flags=re.I)
