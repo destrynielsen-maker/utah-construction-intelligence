@@ -23,6 +23,7 @@ from .collectors.salem import SalemCollector
 from .collectors.sandy import SandyCollector
 from .collectors.santaquin import SantaquinCollector
 from .collectors.saratoga_springs import SaratogaSpringsCollector
+from .collectors.south_jordan import SouthJordanCollector
 from .collectors.spanish_fork import SpanishForkCollector
 from .collectors.springville import SpringvilleCollector
 from .collectors.summit_county import SummitCountyCollector
@@ -55,6 +56,7 @@ COLLECTORS = [
     LindonCollector(),
     DraperCollector(),
     SandyCollector(),
+    SouthJordanCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -79,6 +81,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Lindon": 30,
     "Draper": 30,
     "Sandy": 30,
+    "South Jordan": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
