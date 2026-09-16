@@ -11,6 +11,7 @@ from .collectors.american_fork import AmericanForkCollector
 from .collectors.cedar_hills import CedarHillsCollector
 from .collectors.draper import DraperCollector
 from .collectors.eagle_mountain import EagleMountainCollector
+from .collectors.farmington import FarmingtonCollector
 from .collectors.herriman import HerrimanCollector
 from .collectors.highland import HighlandCollector
 from .collectors.layton import LaytonCollector
@@ -67,6 +68,7 @@ COLLECTORS = [
     WestJordanCollector(),
     SaltLakeCityCollector(),
     LaytonCollector(),
+    FarmingtonCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -97,6 +99,7 @@ SOURCE_FRESHNESS_DAYS = {
     "West Jordan": 30,
     "Salt Lake City": 30,
     "Layton": 30,
+    "Farmington": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
