@@ -68,7 +68,7 @@ class BountifulCollector:
     notices_url = agenda_center_url
     MAX_AGENDAS = 6
     MAX_PDF_PAGES = 2
-    MAX_AGENDA_BYTES = 25_000_000
+    MAX_AGENDA_BYTES = 32_000_000
 
     def collect(self, session: requests.Session | None = None) -> CollectionResult:
         session = session or new_session()
@@ -91,6 +91,7 @@ class BountifulCollector:
                 errors.append(f"agenda center: {type(exc).__name__}: {exc}")
 
         permits: list[Permit] = []
+        errors_by_agenda: list[str] = []
         agendas_read = 0
         for agenda_url in agenda_urls[: self.MAX_AGENDAS]:
             event_date = self._date_from_url(agenda_url)
@@ -105,8 +106,9 @@ class BountifulCollector:
                 permits.extend(self.parse_agenda_text(text, agenda.url, event_date))
                 agendas_read += 1
             except Exception as exc:
-                errors.append(f"agenda {event_date}: {type(exc).__name__}: {exc}")
+                errors_by_agenda.append(f"agenda {event_date}: {type(exc).__name__}: {exc}")
 
+        errors.extend(errors_by_agenda)
         permits = self._dedupe(permits)
         if not permits:
             detail = "; ".join(errors) if errors else "no project-specific planning items parsed"
@@ -136,54 +138,39 @@ class BountifulCollector:
         soup = BeautifulSoup(content, "html.parser")
         found: list[str] = []
         seen: set[str] = set()
+        is_rss = "rssfeed" in source_url.lower() or "<rss" in content.lower()
 
-        heading = soup.find(
-            lambda tag: tag.name in {"h2", "h3"}
-            and cls._clean(tag.get_text(" ", strip=True)).lower() == "planning commission"
-        )
+        def add(href: str) -> None:
+            href = (href or "").replace("&amp;", "&").strip()
+            if "/AgendaCenter/ViewFile/Agenda/" not in href:
+                return
+            url = urljoin(source_url, href)
+            if url not in seen:
+                seen.add(url)
+                found.append(url)
 
-        if heading is None:
-            # RSS XML can be parsed imperfectly by html.parser, so also scan raw content.
+        if is_rss:
+            # The RSS feed is already category-scoped to Planning Commission.
+            # CivicPlus may emit either absolute or relative document links.
             for value in re.findall(
-                r"https?://[^<\s\"']+/AgendaCenter/ViewFile/Agenda/[^<\s\"']+",
+                r"(?:https?://[^<\s\"']+)?/AgendaCenter/ViewFile/Agenda/_[0-9]{8}-[0-9]+",
                 content,
                 flags=re.I,
             ):
-                url = value.replace("&amp;", "&")
-                if url not in seen:
-                    seen.add(url)
-                    found.append(url)
-
+                add(value)
             for link in soup.find_all("link"):
-                value = cls._clean(link.get_text(" ", strip=True))
-                if "/AgendaCenter/ViewFile/Agenda/" in value:
-                    url = urljoin(source_url, value)
-                    if url not in seen:
-                        seen.add(url)
-                        found.append(url)
-
+                add(cls._clean(link.get_text(" ", strip=True)))
+            for anchor in soup.find_all("a", href=True):
+                add(anchor.get("href", ""))
+        else:
+            # Agenda Center HTML contains every city board. Select only links whose
+            # visible meeting title identifies them as Planning Commission records.
             for anchor in soup.find_all("a", href=True):
                 href = anchor.get("href", "")
-                if "/AgendaCenter/ViewFile/Agenda/" not in href:
+                text = cls._clean(anchor.get_text(" ", strip=True)).lower()
+                if "planning commission" not in text:
                     continue
-                url = urljoin(source_url, href)
-                if url not in seen:
-                    seen.add(url)
-                    found.append(url)
-        else:
-            # Agenda Center HTML must stay inside the Planning Commission section.
-            for element in heading.find_all_next():
-                if element is not heading and element.name in {"h2", "h3"}:
-                    break
-                if element.name != "a" or not element.get("href"):
-                    continue
-                href = element.get("href", "")
-                if "/AgendaCenter/ViewFile/Agenda/" not in href:
-                    continue
-                url = urljoin(source_url, href)
-                if url not in seen:
-                    seen.add(url)
-                    found.append(url)
+                add(href)
 
         return sorted(found, key=lambda url: cls._date_from_url(url) or "", reverse=True)
 
