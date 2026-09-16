@@ -20,6 +20,7 @@ from .collectors.orem import OremCollector
 from .collectors.payson import PaysonCollector
 from .collectors.pleasant_grove import PleasantGroveCollector
 from .collectors.provo import ProvoCollector
+from .collectors.riverton import RivertonCollector
 from .collectors.salem import SalemCollector
 from .collectors.sandy import SandyCollector
 from .collectors.santaquin import SantaquinCollector
@@ -59,6 +60,7 @@ COLLECTORS = [
     SandyCollector(),
     SouthJordanCollector(),
     HerrimanCollector(),
+    RivertonCollector(),
 ]
 
 SOURCE_FRESHNESS_DAYS = {
@@ -85,6 +87,7 @@ SOURCE_FRESHNESS_DAYS = {
     "Sandy": 30,
     "South Jordan": 30,
     "Herriman": 30,
+    "Riverton": 30,
 }
 
 VOLUME_WARNING_DROP = 0.50
