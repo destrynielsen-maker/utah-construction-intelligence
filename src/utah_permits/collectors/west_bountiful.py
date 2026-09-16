@@ -218,6 +218,7 @@ class WestBountifulCollector:
     def _project_name(cls, item: str, address: str, permit_type: str) -> str:
         patterns = (
             r"Conditional Use Permit\s*-\s*(.+?)\s*-\s*\d",
+            r"Conditional Use Permit\s*-\s*(.+?)$",
             r"^(.+?)\s+Conditional Use Permit(?:\s+Revision)?\s*-\s*\d",
             r"Preliminary Plat for\s+(.+?)(?:\.|\s*-\s*\d|$)",
             r"Final Plat for\s+(.+?)(?:\.|\s*-\s*\d|$)",
@@ -238,8 +239,8 @@ class WestBountifulCollector:
     @classmethod
     def _address(cls, item: str) -> str:
         patterns = (
-            r"(?:-|\bat\s+)(\d{1,6}\s+(?:North|South|East|West|N|S|E|W)\s+\d{1,6}\s+(?:North|South|East|West|N|S|E|W))\b",
-            r"(?:-|\bat\s+)(\d{1,6}\s+(?:North|South|East|West|N|S|E|W)\s+[A-Za-z0-9 .'-]+?(?:Road|Street|Drive|Avenue|Lane|Way|Boulevard|Court))\b",
+            r"(?:-\s*|\bat\s+)(\d{1,6}\s+(?:North|South|East|West|N|S|E|W)\s+\d{1,6}\s+(?:North|South|East|West|N|S|E|W))\b",
+            r"(?:-\s*|\bat\s+)(\d{1,6}\s+(?:North|South|East|West|N|S|E|W)\s+[A-Za-z0-9 .'-]+?(?:Road|Street|Drive|Avenue|Lane|Way|Boulevard|Court))\b",
         )
         for pattern in patterns:
             match = re.search(pattern, item, flags=re.I)
