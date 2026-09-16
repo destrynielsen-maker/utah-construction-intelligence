@@ -8,13 +8,10 @@ class BountifulCollectorTests(unittest.TestCase):
     def test_agenda_center_discovery_is_planning_only_and_newest_first(self):
         html = """
         <html><body>
-        <h2>City Council</h2>
-        <a href="/AgendaCenter/ViewFile/Agenda/_09082026-970">City Council Agenda</a>
-        <h2>Planning Commission</h2>
-        <a href="/AgendaCenter/ViewFile/Agenda/_09012026-966">Planning Agenda</a>
-        <a href="/AgendaCenter/ViewFile/Agenda/_09152026-968">Planning Agenda</a>
-        <h2>Power Commission</h2>
-        <a href="/AgendaCenter/ViewFile/Agenda/_08182026-962">Power Agenda</a>
+        <a href="/AgendaCenter/ViewFile/Agenda/_09082026-970">City Council Regular Meeting Material</a>
+        <a href="/AgendaCenter/ViewFile/Agenda/_09012026-966">Planning Commission Regular Meeting Material</a>
+        <a href="/AgendaCenter/ViewFile/Agenda/_09152026-968">Planning Commission Regular Meeting Material</a>
+        <a href="/AgendaCenter/ViewFile/Agenda/_08182026-962">Power Commission Regular Meeting Agenda</a>
         </body></html>
         """
         urls = BountifulCollector.discover_agenda_urls(html, "https://www.bountiful.gov/agendacenter")
@@ -22,6 +19,25 @@ class BountifulCollectorTests(unittest.TestCase):
             [
                 "https://www.bountiful.gov/AgendaCenter/ViewFile/Agenda/_09152026-968",
                 "https://www.bountiful.gov/AgendaCenter/ViewFile/Agenda/_09012026-966",
+            ],
+            urls,
+        )
+
+    def test_rss_discovery_accepts_relative_agenda_links(self):
+        rss = """
+        <rss><channel>
+          <item><link>/AgendaCenter/ViewFile/Agenda/_06162026-862</link></item>
+          <item><link>https://www.bountiful.gov/AgendaCenter/ViewFile/Agenda/_07212026-863</link></item>
+        </channel></rss>
+        """
+        urls = BountifulCollector.discover_agenda_urls(
+            rss,
+            "https://www.bountiful.gov/RSSFeed.aspx?CID=Planning-Commission-6&ModID=65",
+        )
+        self.assertEqual(
+            [
+                "https://www.bountiful.gov/AgendaCenter/ViewFile/Agenda/_07212026-863",
+                "https://www.bountiful.gov/AgendaCenter/ViewFile/Agenda/_06162026-862",
             ],
             urls,
         )
