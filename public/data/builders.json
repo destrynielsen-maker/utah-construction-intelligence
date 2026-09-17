@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:42:49+00:00",
+  "generated_at": "2026-09-17T17:00:41+00:00",
   "builders": [
     {
       "contractor": "IVORY HOMES",
@@ -36,6 +36,18 @@
         "Provo"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "Jacobsen Construction Company, Inc.",
+      "permits_90d": 3,
+      "single_family": 0,
+      "multifamily": 3,
+      "commercial": 0,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 55
     },
     {
       "contractor": "Okland Construction - Chris Blackham",
@@ -180,6 +192,18 @@
         "Orem"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "Butterfield Construction LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 526161.0,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 50
     },
     {
       "contractor": "Jon Davis Construction Inc",
