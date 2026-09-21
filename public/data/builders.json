@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-09-20T20:50:08+00:00",
+  "generated_at": "2026-09-21T04:57:09+00:00",
   "builders": [
-    {
-      "contractor": "IVORY HOMES",
-      "permits_90d": 9,
-      "single_family": 9,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 3751643.12,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 25
-    },
     {
       "contractor": "Alpine Homes LLC",
       "permits_90d": 7,
@@ -32,6 +20,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 3186707.6,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "IVORY HOMES",
+      "permits_90d": 7,
+      "single_family": 7,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2853538.38,
       "jurisdictions": [
         "Provo"
       ],
@@ -152,18 +152,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 821242.95,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "Tri Pointe Homes Holdings Inc",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 764757.96,
       "jurisdictions": [
         "Orem"
       ],
