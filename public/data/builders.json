@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T21:59:26+00:00",
+  "generated_at": "2026-09-22T04:57:41+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -27,11 +27,11 @@
     },
     {
       "contractor": "IVORY HOMES",
-      "permits_90d": 7,
-      "single_family": 7,
+      "permits_90d": 6,
+      "single_family": 6,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 2853538.38,
+      "combined_valuation": 2245877.78,
       "jurisdictions": [
         "Provo"
       ],
@@ -60,18 +60,6 @@
         "Provo"
       ],
       "top_score": 55
-    },
-    {
-      "contractor": "Keystone Construction, LLC",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 996294.16,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 25
     },
     {
       "contractor": "RICHMOND AMERICAN HOMES OF UTAH INC",
@@ -192,6 +180,18 @@
         "Provo"
       ],
       "top_score": 50
+    },
+    {
+      "contractor": "Keystone Construction, LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 505265.4,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 25
     },
     {
       "contractor": "Jon Davis Construction Inc",
