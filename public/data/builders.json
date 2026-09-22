@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-22T11:39:52+00:00",
+  "generated_at": "2026-09-22T16:58:10+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
-      "permits_90d": 7,
-      "single_family": 7,
+      "permits_90d": 8,
+      "single_family": 8,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 4749486.98,
+      "combined_valuation": 5402893.25,
       "jurisdictions": [
         "Provo"
       ],
