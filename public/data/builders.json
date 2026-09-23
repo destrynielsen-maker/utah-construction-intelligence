@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:19:59+00:00",
+  "generated_at": "2026-09-23T04:46:16+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -236,18 +236,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 308575.0,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "Scott Hatch Homes, LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 280117.72,
       "jurisdictions": [
         "Provo"
       ],
