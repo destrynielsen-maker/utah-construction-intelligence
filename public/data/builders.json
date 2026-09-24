@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:12:26+00:00",
+  "generated_at": "2026-09-24T21:31:42+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -242,7 +242,7 @@
       "top_score": 20
     },
     {
-      "contractor": "JAG Construction",
+      "contractor": "Mountain View Homes Design Build, LLC",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
@@ -254,7 +254,7 @@
       "top_score": 20
     },
     {
-      "contractor": "Mountain View Homes Design Build, LLC",
+      "contractor": "JAG Construction",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
