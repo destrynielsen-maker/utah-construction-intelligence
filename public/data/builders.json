@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T21:21:37+00:00",
+  "generated_at": "2026-09-28T05:25:15+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -15,11 +15,11 @@
     },
     {
       "contractor": "Lennar Homes of Utah, LLC",
-      "permits_90d": 7,
-      "single_family": 7,
+      "permits_90d": 6,
+      "single_family": 6,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 3186707.6,
+      "combined_valuation": 2755804.44,
       "jurisdictions": [
         "Provo"
       ],
@@ -27,11 +27,11 @@
     },
     {
       "contractor": "IVORY HOMES",
-      "permits_90d": 6,
-      "single_family": 6,
+      "permits_90d": 5,
+      "single_family": 5,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 2245877.78,
+      "combined_valuation": 1916370.12,
       "jurisdictions": [
         "Provo"
       ],
