@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T23:17:19+00:00",
+  "generated_at": "2026-09-29T05:45:09+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -8,18 +8,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 5402893.25,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "Lennar Homes of Utah, LLC",
-      "permits_90d": 6,
-      "single_family": 6,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2755804.44,
       "jurisdictions": [
         "Provo"
       ],
@@ -36,6 +24,18 @@
         "Provo"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "Lennar Homes of Utah, LLC",
+      "permits_90d": 4,
+      "single_family": 4,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1747102.24,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "Jacobsen Construction Company, Inc.",
@@ -176,18 +176,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 643008.17,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "Patterson Homes",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 603739.14,
       "jurisdictions": [
         "Orem"
       ],
