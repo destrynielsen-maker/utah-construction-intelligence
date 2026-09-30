@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:16:05+00:00",
+  "generated_at": "2026-09-30T05:33:46+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -140,18 +140,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 850000.0,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "Tri Pointe Homes",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 821242.95,
       "jurisdictions": [
         "Orem"
       ],
