@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T18:23:02+00:00",
+  "generated_at": "2026-10-07T06:01:47+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
-      "permits_90d": 8,
-      "single_family": 8,
+      "permits_90d": 7,
+      "single_family": 7,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 5402893.25,
+      "combined_valuation": 4608940.37,
       "jurisdictions": [
         "Provo"
       ],
@@ -38,6 +38,54 @@
       "top_score": 20
     },
     {
+      "contractor": "Tri Pointe Homes Holdings",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2189613.01,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Arive Homes",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2009607.1,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Tri Pointe Homes",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2000737.0499999998,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Pinnacle Builders",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1567866.2,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
       "contractor": "Jacobsen Construction Company, Inc.",
       "permits_90d": 3,
       "single_family": 0,
@@ -60,30 +108,6 @@
         "Provo"
       ],
       "top_score": 55
-    },
-    {
-      "contractor": "Tri Pointe Homes Holdings",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1541585.27,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "RICHMOND AMERICAN HOMES OF UTAH INC",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 966795.3600000001,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
     },
     {
       "contractor": "Miller General Contractors",
@@ -146,6 +170,18 @@
       "top_score": 25
     },
     {
+      "contractor": "Datwyler Construction LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 684132.65,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
       "contractor": "Kevin Jimenez",
       "permits_90d": 1,
       "single_family": 1,
@@ -182,6 +218,18 @@
       "top_score": 50
     },
     {
+      "contractor": "Whitehaven Builders LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 525329.82,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
       "contractor": "Ivory Homes",
       "permits_90d": 1,
       "single_family": 1,
@@ -204,6 +252,18 @@
         "Provo"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "RICHMOND AMERICAN HOMES OF UTAH INC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 497869.08,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "Jon Davis Construction Inc",
@@ -278,18 +338,6 @@
       "top_score": 20
     },
     {
-      "contractor": "Pinnacle Builders",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 20
-    },
-    {
       "contractor": "Grove Homes LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -312,6 +360,18 @@
         "Orem"
       ],
       "top_score": 20
+    },
+    {
+      "contractor": "Hughes General Contractors",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 35
     }
   ]
 }
