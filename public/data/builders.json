@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:01:47+00:00",
+  "generated_at": "2026-10-07T13:25:42+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -338,6 +338,18 @@
       "top_score": 20
     },
     {
+      "contractor": "Hughes General Contractors",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 35
+    },
+    {
       "contractor": "Grove Homes LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -360,18 +372,6 @@
         "Orem"
       ],
       "top_score": 20
-    },
-    {
-      "contractor": "Hughes General Contractors",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 35
     }
   ]
 }
