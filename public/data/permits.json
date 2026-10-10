@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T22:39:12+00:00",
+  "generated_at": "2026-10-10T05:53:59+00:00",
   "permits": [
     {
       "state": "UT",
@@ -26,7 +26,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Ace Auto",
         "address": "1135 N State Street",
@@ -63,7 +63,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Home Built",
         "address": "1950 N State Street",
@@ -100,7 +100,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Valor Homes Office Building New!",
         "address": "1301 W 400 South",
@@ -137,7 +137,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Home Depot",
         "address": "655 East Park Avenue",
@@ -174,7 +174,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Orem Well House & Booster Pump Station",
         "address": "425 W 400 South",
@@ -211,7 +211,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-30T22:17:01+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Center For Women and Children in Crisis",
         "address": "866 N 400 West",
@@ -248,7 +248,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Apollo Burger",
         "address": "452 N State Street",
@@ -285,7 +285,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Costco Fuel Facility",
         "address": "648 E 800 South",
@@ -322,7 +322,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Orem City Hall",
         "address": "56 N State Street",
@@ -359,7 +359,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T02:16:51+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "project_name": "Raising Cane's Chicken Fingers",
         "address": "11 W Center St",
@@ -396,7 +396,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/29/2026",
         "permit_number": "26-2389",
@@ -434,7 +434,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/25/2026",
         "permit_number": "26-2438",
@@ -552,7 +552,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/22/2026",
         "permit_number": "26-2008",
@@ -670,7 +670,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/17/2026",
         "permit_number": "26-2435",
@@ -708,7 +708,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/17/2026",
         "permit_number": "26-2132",
@@ -906,7 +906,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/16/2026",
         "permit_number": "26-1651",
@@ -944,7 +944,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/16/2026",
         "permit_number": "26-2246",
@@ -1022,7 +1022,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/15/2026",
         "permit_number": "26-2257",
@@ -1060,7 +1060,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/10/2026",
         "permit_number": "26-1999",
@@ -1178,7 +1178,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/1/2026",
         "permit_number": "26-2210",
@@ -1216,7 +1216,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/1/2026",
         "permit_number": "26-2176",
@@ -1254,7 +1254,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-10-07T06:01:47+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "9/1/2026",
         "permit_number": "26-1593",
@@ -1486,7 +1486,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-09-25T17:12:32+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "8/27/2026",
         "permit_number": "26-1885",
@@ -1524,7 +1524,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-09-25T17:12:32+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "8/27/2026",
         "permit_number": "26-1785",
@@ -1756,7 +1756,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-09-25T17:12:32+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "8/25/2026",
         "permit_number": "26-2263",
@@ -1874,7 +1874,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-09-25T17:12:32+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "8/21/2026",
         "permit_number": "26-1749",
@@ -2180,7 +2180,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-09-25T17:12:32+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "8/19/2026",
         "permit_number": "26-1775",
@@ -2760,7 +2760,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-09-25T17:12:32+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "8/4/2026",
         "permit_number": "26-1639",
@@ -2876,7 +2876,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "7/30/2026",
         "permit_number": "26-1400",
@@ -2994,7 +2994,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "7/28/2026",
         "permit_number": "26-1471",
@@ -3152,7 +3152,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "7/23/2026",
         "permit_number": "26-1515",
@@ -3266,7 +3266,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "7/21/2026",
         "permit_number": "26-1798",
@@ -4012,7 +4012,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "7/1/2026",
         "permit_number": "26-1469",
@@ -4130,7 +4130,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/30/2026",
         "permit_number": "26-1466",
@@ -4522,7 +4522,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/22/2026",
         "permit_number": "26-1539",
@@ -4912,7 +4912,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/16/2026",
         "permit_number": "26-1377",
@@ -4950,7 +4950,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/16/2026",
         "permit_number": "26-1202",
@@ -4988,7 +4988,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -5022,7 +5022,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/15/2026",
         "permit_number": "26-1376",
@@ -5060,7 +5060,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -5440,7 +5440,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/8/2026",
         "permit_number": "26-2922",
@@ -5636,7 +5636,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/2/2026",
         "permit_number": "26-1225",
@@ -5674,7 +5674,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/2/2026",
         "permit_number": "26-1224",
@@ -5712,7 +5712,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "6/1/2026",
         "permit_number": "26-1026",
@@ -5788,7 +5788,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -6098,7 +6098,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "5/26/2026",
         "permit_number": "26-1675",
@@ -7164,7 +7164,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "5/15/2026",
         "permit_number": "26-1170",
@@ -7318,7 +7318,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -7468,7 +7468,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "5/11/2026",
         "permit_number": "26-1093",
@@ -7696,7 +7696,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -7730,7 +7730,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "5/8/2026",
         "permit_number": "26-0817",
@@ -7886,7 +7886,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "5/4/2026",
         "permit_number": "26-1008",
@@ -8004,7 +8004,7 @@
       "qualifies": true,
       "score": 35,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "4/30/2026",
         "permit_number": "26-0071",
@@ -8082,7 +8082,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -8116,7 +8116,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -8150,7 +8150,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -8184,7 +8184,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -8218,7 +8218,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -8446,7 +8446,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "4/24/2026",
         "permit_number": "26-0782",
@@ -8762,7 +8762,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -8796,7 +8796,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -8870,7 +8870,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -8904,7 +8904,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -9054,7 +9054,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -9716,7 +9716,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "4/13/2026",
         "permit_number": "26-0642",
@@ -9754,7 +9754,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "4/10/2026",
         "permit_number": "26-0675",
@@ -9792,7 +9792,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "4/9/2026",
         "permit_number": "26-0347",
@@ -10104,7 +10104,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "4/2/2026",
         "permit_number": "26-0500",
@@ -10462,7 +10462,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -10576,7 +10576,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "3/30/2026",
         "permit_number": "26-0730",
@@ -10614,7 +10614,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -10686,7 +10686,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -10958,7 +10958,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -10992,7 +10992,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -11026,7 +11026,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "3/17/2026",
         "permit_number": "26-0565",
@@ -11382,7 +11382,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -11730,7 +11730,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -11764,7 +11764,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -11912,7 +11912,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "3/5/2026",
         "permit_number": "26-0414",
@@ -12030,7 +12030,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "3/4/2026",
         "permit_number": "26-0409",
@@ -12184,7 +12184,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -12258,7 +12258,7 @@
       "qualifies": true,
       "score": 45,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0310",
@@ -12296,7 +12296,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0410",
@@ -12334,7 +12334,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "3/2/2026",
         "permit_number": "26-0019",
@@ -12372,7 +12372,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -12406,7 +12406,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "2/25/2026",
         "permit_number": "26-0372",
@@ -12444,7 +12444,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "2/25/2026",
         "permit_number": "26-0198",
@@ -12520,7 +12520,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -12898,7 +12898,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -12932,7 +12932,7 @@
       "qualifies": true,
       "score": 40,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -13234,7 +13234,7 @@
       "qualifies": true,
       "score": 50,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "1/26/2026",
         "permit_number": "26-1882",
@@ -13272,7 +13272,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0030",
@@ -13310,7 +13310,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0028",
@@ -13348,7 +13348,7 @@
       "qualifies": true,
       "score": 20,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "1/22/2026",
         "permit_number": "26-0027",
@@ -14096,7 +14096,7 @@
       "qualifies": true,
       "score": 25,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "1/6/2026",
         "permit_number": "26-4142",
@@ -14326,7 +14326,7 @@
       "qualifies": true,
       "score": 15,
       "first_seen_at": "2026-08-12T18:49:23+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "date": "1/2/2026",
         "permit_number": "26-3539",
@@ -17604,7 +17604,7 @@
       "qualifies": true,
       "score": 30,
       "first_seen_at": "2026-09-15T17:56:44+00:00",
-      "last_seen_at": "2026-10-09T22:39:12+00:00",
+      "last_seen_at": "2026-10-10T05:53:59+00:00",
       "raw": {
         "lead_stage": "CONSTRUCTION",
         "date_semantics": "construction_status_date",
@@ -22972,46 +22972,6 @@
         "xxClient_BP_Applications_View_Status": "Closed"
       },
       "key": "UT:PROVO:PRNT202401795"
-    },
-    {
-      "state": "UT",
-      "jurisdiction": "Provo",
-      "permit_number": "PRNT202401064",
-      "issued_date": "2024-10-09",
-      "permit_type": "New Construction",
-      "address": "5594 N 250 W, Provo, UT 84604",
-      "source_name": "Provo City Building Permits ArcGIS",
-      "source_url": "https://gispublicweb.provo.org/arcgis/rest/services/DevServ/CurrentProjects/MapServer/1",
-      "project_name": "River District Building 22 Type 4B",
-      "building_use": "COT",
-      "units": 4,
-      "valuation": 0.0,
-      "contractor": "Bird Homes",
-      "owner": null,
-      "developer": null,
-      "architect": null,
-      "apn": null,
-      "area": null,
-      "status": "Closed",
-      "classification": "MULTIFAMILY",
-      "new_construction_confidence": "HIGH",
-      "qualifies": true,
-      "score": 45,
-      "first_seen_at": "2026-08-24T17:48:42+00:00",
-      "last_seen_at": "2026-10-02T12:36:41+00:00",
-      "raw": {
-        "xxClient_BP_Applications_View_dateIssued": 1728453600000,
-        "xxClient_BP_Applications_View_PermitNumber": "PRNT202401064",
-        "xxClient_BP_Applications_View_PAName": "River District Building 22 Type 4B",
-        "xxClient_BP_Applications_View_Type": "New Construction",
-        "xxClient_BP_Applications_View_BuildingUse": "COT",
-        "xxClient_BP_Applications_View_streetAddress": "5594 N 250 W, Provo, UT 84604",
-        "xxClient_BP_Applications_View_NumberUnits": 4,
-        "xxClient_BP_Applications_View_TotalValuation": 0,
-        "xxClient_BP_Applications_View_ContractorName": "Bird Homes",
-        "xxClient_BP_Applications_View_Status": "Closed"
-      },
-      "key": "UT:PROVO:PRNT202401064"
     }
   ]
 }
