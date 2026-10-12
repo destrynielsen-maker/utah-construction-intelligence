@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:58:48+00:00",
+  "generated_at": "2026-10-12T05:59:34+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -15,23 +15,11 @@
     },
     {
       "contractor": "IVORY HOMES",
-      "permits_90d": 5,
-      "single_family": 5,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1916370.12,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "Lennar Homes of Utah, LLC",
       "permits_90d": 4,
       "single_family": 4,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 1747102.24,
+      "combined_valuation": 1413117.5,
       "jurisdictions": [
         "Provo"
       ],
@@ -84,6 +72,18 @@
         "Orem"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "Lennar Homes of Utah, LLC",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1355139.68,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "Jacobsen Construction Company, Inc.",
@@ -240,30 +240,6 @@
         "Orem"
       ],
       "top_score": 25
-    },
-    {
-      "contractor": "Keystone Construction, LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 505265.4,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "RICHMOND AMERICAN HOMES OF UTAH INC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 497869.08,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
     },
     {
       "contractor": "Jon Davis Construction Inc",
