@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:21:51+00:00",
+  "generated_at": "2026-10-20T04:52:06+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -12,18 +12,6 @@
         "Provo"
       ],
       "top_score": 25
-    },
-    {
-      "contractor": "IVORY HOMES",
-      "permits_90d": 4,
-      "single_family": 4,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1413117.5,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
     },
     {
       "contractor": "Tri Pointe Homes Holdings",
@@ -80,6 +68,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 1355139.68,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "IVORY HOMES",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1026077.22,
       "jurisdictions": [
         "Provo"
       ],
@@ -144,18 +144,6 @@
         "Provo"
       ],
       "top_score": 57
-    },
-    {
-      "contractor": "Searle construction",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 922888.9,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 50
     },
     {
       "contractor": "Brenda Morrison",
