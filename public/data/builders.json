@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:43:29+00:00",
+  "generated_at": "2026-10-22T04:48:21+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -144,18 +144,6 @@
         "Provo"
       ],
       "top_score": 57
-    },
-    {
-      "contractor": "Brenda Morrison",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 850000.0,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
     },
     {
       "contractor": "Datwyler Construction LLC",
