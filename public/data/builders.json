@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:52:00+00:00",
+  "generated_at": "2026-10-26T04:48:35+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -108,18 +108,6 @@
         "Provo"
       ],
       "top_score": 55
-    },
-    {
-      "contractor": "Miller General Contractors",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 4448901.5,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 42
     },
     {
       "contractor": "TOBEDETERMINED",
@@ -236,18 +224,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 477449.08,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "RICHMOND AMERICAN HOMES OF UTAH, INC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 364672.28,
       "jurisdictions": [
         "Provo"
       ],
