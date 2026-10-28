@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:14:53+00:00",
+  "generated_at": "2026-10-28T05:43:47+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -50,18 +50,6 @@
       "top_score": 25
     },
     {
-      "contractor": "IVORY HOMES",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1026077.22,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
-    },
-    {
       "contractor": "Jacobsen Construction Company, Inc.",
       "permits_90d": 3,
       "single_family": 0,
@@ -98,12 +86,12 @@
       "top_score": 25
     },
     {
-      "contractor": "Lennar Homes of Utah, LLC",
+      "contractor": "IVORY HOMES",
       "permits_90d": 2,
       "single_family": 2,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 911709.08,
+      "combined_valuation": 698524.6599999999,
       "jurisdictions": [
         "Provo"
       ],
@@ -224,6 +212,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 477449.08,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "Lennar Homes of Utah, LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 430903.16,
       "jurisdictions": [
         "Provo"
       ],
