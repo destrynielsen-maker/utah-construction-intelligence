@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:36:06+00:00",
+  "generated_at": "2026-10-29T05:49:36+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -192,18 +192,6 @@
         "Orem"
       ],
       "top_score": 25
-    },
-    {
-      "contractor": "Jon Davis Construction Inc",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 495241.26,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 20
     },
     {
       "contractor": "Keystone Construction LLC",
