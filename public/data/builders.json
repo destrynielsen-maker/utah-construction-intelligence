@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:55:31+00:00",
+  "generated_at": "2026-11-03T00:58:28+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -267,18 +267,6 @@
     },
     {
       "contractor": "Grove Homes LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "Built Construction",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
