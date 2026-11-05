@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:45:54+00:00",
+  "generated_at": "2026-11-05T06:47:50+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -200,18 +200,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 477449.08,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "Lennar Homes of Utah, LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 430903.16,
       "jurisdictions": [
         "Provo"
       ],
