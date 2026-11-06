@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:57:57+00:00",
+  "generated_at": "2026-11-06T06:48:00+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -12,6 +12,18 @@
         "Provo"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "Pinnacle Builders",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2666365.7,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 27
     },
     {
       "contractor": "Arive Homes",
@@ -32,18 +44,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 2000737.0499999998,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "Pinnacle Builders",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1567866.2,
       "jurisdictions": [
         "Orem"
       ],
@@ -86,6 +86,18 @@
       "top_score": 25
     },
     {
+      "contractor": "Whitehaven Builders LLC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1022546.82,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
       "contractor": "IVORY HOMES",
       "permits_90d": 2,
       "single_family": 2,
@@ -96,6 +108,18 @@
         "Provo"
       ],
       "top_score": 20
+    },
+    {
+      "contractor": "Hughes General Contractors",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 5131504.67,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 45
     },
     {
       "contractor": "TOBEDETERMINED",
@@ -110,6 +134,18 @@
       "top_score": 42
     },
     {
+      "contractor": "Grove Homes LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2327433.87,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 27
+    },
+    {
       "contractor": "TERRY EUGENE CIRAC",
       "permits_90d": 1,
       "single_family": 0,
@@ -120,6 +156,18 @@
         "Provo"
       ],
       "top_score": 57
+    },
+    {
+      "contractor": "Torchlight LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 763316.78,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
     },
     {
       "contractor": "Datwyler Construction LLC",
@@ -158,6 +206,18 @@
       "top_score": 25
     },
     {
+      "contractor": "Whitehaven Builders",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 606285.23,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
+    },
+    {
       "contractor": "Butterfield Construction LLC",
       "permits_90d": 1,
       "single_family": 0,
@@ -168,18 +228,6 @@
         "Provo"
       ],
       "top_score": 50
-    },
-    {
-      "contractor": "Whitehaven Builders LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 525329.82,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
     },
     {
       "contractor": "Ivory Homes",
@@ -238,30 +286,6 @@
       "combined_valuation": 5925.0,
       "jurisdictions": [
         "Provo"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "Hughes General Contractors",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 35
-    },
-    {
-      "contractor": "Grove Homes LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Orem"
       ],
       "top_score": 20
     }
