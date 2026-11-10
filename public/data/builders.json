@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:22:42+00:00",
+  "generated_at": "2026-11-10T07:19:24+00:00",
   "builders": [
     {
       "contractor": "Alpine Homes LLC",
@@ -240,18 +240,6 @@
         "Orem"
       ],
       "top_score": 25
-    },
-    {
-      "contractor": "Keystone Construction LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 477449.08,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
     },
     {
       "contractor": "Home Sweet Home by Mitch",
