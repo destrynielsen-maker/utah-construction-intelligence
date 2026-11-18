@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:56:02+00:00",
+  "generated_at": "2026-11-18T00:40:38+00:00",
   "builders": [
     {
       "contractor": "Pinnacle Builders",
@@ -98,18 +98,6 @@
       "top_score": 25
     },
     {
-      "contractor": "IVORY HOMES",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 698524.6599999999,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
-    },
-    {
       "contractor": "Hughes General Contractors",
       "permits_90d": 1,
       "single_family": 0,
@@ -194,18 +182,6 @@
       "top_score": 25
     },
     {
-      "contractor": "Tri Pointe Homes Holdings, Inc.",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 643008.17,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 25
-    },
-    {
       "contractor": "Whitehaven Builders",
       "permits_90d": 1,
       "single_family": 1,
@@ -240,6 +216,18 @@
         "Orem"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "IVORY HOMES",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 356991.22,
+      "jurisdictions": [
+        "Provo"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "Home Sweet Home by Mitch",
