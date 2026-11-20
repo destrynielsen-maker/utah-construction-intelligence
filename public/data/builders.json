@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:23:42+00:00",
+  "generated_at": "2026-11-20T00:38:12+00:00",
   "builders": [
     {
       "contractor": "Pinnacle Builders",
@@ -110,18 +110,6 @@
       "top_score": 42
     },
     {
-      "contractor": "Grove Homes LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2327433.87,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 27
-    },
-    {
       "contractor": "TERRY EUGENE CIRAC",
       "permits_90d": 1,
       "single_family": 0,
@@ -204,18 +192,6 @@
         "Orem"
       ],
       "top_score": 25
-    },
-    {
-      "contractor": "IVORY HOMES",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 356991.22,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 20
     },
     {
       "contractor": "Home Sweet Home by Mitch",
