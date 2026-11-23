@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T18:21:18+00:00",
+  "generated_at": "2026-11-23T00:43:31+00:00",
   "builders": [
     {
       "contractor": "Pinnacle Builders",
@@ -58,18 +58,6 @@
       "combined_valuation": 1537897.85,
       "jurisdictions": [
         "Orem"
-      ],
-      "top_score": 25
-    },
-    {
-      "contractor": "Alpine Homes LLC",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1407475.23,
-      "jurisdictions": [
-        "Provo"
       ],
       "top_score": 25
     },
@@ -142,6 +130,18 @@
       "combined_valuation": 684132.65,
       "jurisdictions": [
         "Orem"
+      ],
+      "top_score": 25
+    },
+    {
+      "contractor": "Alpine Homes LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 653406.27,
+      "jurisdictions": [
+        "Provo"
       ],
       "top_score": 25
     },
