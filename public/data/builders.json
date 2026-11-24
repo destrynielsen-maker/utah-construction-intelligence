@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-23T18:22:05+00:00",
+  "generated_at": "2026-11-24T00:36:57+00:00",
   "builders": [
-    {
-      "contractor": "Pinnacle Builders",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2666365.7,
-      "jurisdictions": [
-        "Orem"
-      ],
-      "top_score": 27
-    },
     {
       "contractor": "Arive Homes",
       "permits_90d": 3,
@@ -48,6 +36,18 @@
         "Provo"
       ],
       "top_score": 55
+    },
+    {
+      "contractor": "Pinnacle Builders",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1567866.2,
+      "jurisdictions": [
+        "Orem"
+      ],
+      "top_score": 25
     },
     {
       "contractor": "Tri Pointe Homes Holdings",
