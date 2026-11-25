@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T18:22:08+00:00",
+  "generated_at": "2026-11-25T00:40:27+00:00",
   "builders": [
     {
       "contractor": "Arive Homes",
@@ -96,18 +96,6 @@
         "Provo"
       ],
       "top_score": 42
-    },
-    {
-      "contractor": "TERRY EUGENE CIRAC",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 1303974.88,
-      "jurisdictions": [
-        "Provo"
-      ],
-      "top_score": 57
     },
     {
       "contractor": "Torchlight LLC",
